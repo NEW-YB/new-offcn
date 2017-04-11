@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			header {
+				padding: 30px;
+			}
+			section {
+				padding: 30px;
+			}
+		</style>
+		<script src="./vue.js"></script>
+	</head>
+
+	<body>
+		<div id="box">
+			<custom-num></custom-num>
+			<custom-num></custom-num>
+			<custom-num></custom-num>
+			<custom-num></custom-num>
+		</div>
+		<script>
+			var nums = {
+					num:0
+				};
+
+			//组件中的data一定是函数，在函数中return一个对象
+
+			Vue.component("custom-num",{
+				template:`
+					<div>
+						<p>{{num}}</p>
+						<input type="button" value="改变数据" @click="change" />
+					</div>
+				`,
+				data:function (){
+					return {
+						num:0
+					}
+				},
+				methods:{
+					change(){
+						this.num++;
+					}
+				}
+			});
+
+
+
+			new Vue({
+				el:"#box",
+				data:{
+					num:0
+				}
+			})
+
+
+		</script>
+	</body>
+</html>

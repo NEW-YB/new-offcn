@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			p{
+				margin:0;
+			}
+			.dialog {
+				width: 300px;
+				border:1px solid #ccc;
+			}
+			.dialog-top {
+				padding: 0px 10px;
+				overflow: hidden;
+			}
+			.dialog-top p{
+				float: left;
+			}
+			.dialog-top span{
+				float: right;
+			}
+			.dialog-content {
+				padding: 30px 0;
+			}
+		</style>
+		<script src="./vue.js"></script>
+	</head>
+
+	<body>
+		<div id="box">
+			
+			<input type="button" value="弹框" @click="display=true" />
+			<custom-dialog v-show="display">
+				<!--父组件提供的模板-->
+				<h1>这是父组件的模板，{{message}}</h1>
+				<div class="dialog-footer">
+					<span>确定</span>
+				</div>
+			</custom-dialog>
+		</div>
+		<script>
+
+			Vue.component("custom-dialog",{
+				template:`
+					<div class="dialog">
+						<div class="dialog-top">
+							<slot><p>这是一个弹框</p></slot>
+							
+							<span>X</span>
+						</div>
+						<div class="dialog-content">
+							我是内容
+						</div>
+						<div class="dialog-footer">
+							<button>确定</button>
+							<button>取消</button>
+						</div>
+					</div>
+				`,
+				data(){
+					return {
+						message:"hello，children;"
+					}
+				}
+			});
+
+
+			var list = [1,2,3,4];
+
+			var vm = new Vue({
+				el:"#box",
+				data:{
+					display:false,
+					message:"hello，parent"
+				}
+			});
+
+
+		</script>
+	</body>
+</html>

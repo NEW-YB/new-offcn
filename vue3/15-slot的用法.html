@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			.defaults {
+				width: 300px;
+				height: 30px;
+				border: 1px solid #000;
+			}
+			.green{
+				background: green;
+			}
+			.red{
+				background: red;
+			}
+		</style>
+		<script src="./vue.js"></script>
+	</head>
+
+	<body>
+		<div id="box">
+			
+			<input type="button" value="弹框" />
+			<p>默认提醒状态</p>
+			<custom-tip></custom-tip>
+			<p>成功状态</p>
+			<custom-tip>
+				<p class="green">
+					<span>这是默认的提醒</span>
+					<span>X</span>
+				</p>
+			</custom-tip>
+			<p>失败状态</p>
+			<custom-tip>
+				<p class="red">
+					<span>这是默认的提醒</span>
+				</p>
+			</custom-tip>
+		</div>
+		<script>
+
+			Vue.component("custom-tip",{
+				template:`
+					<div>
+						<slot>
+							<p class="defaults">
+								这是默认的提醒
+							</p>
+						</slot>
+
+					</div>
+				`
+			});
+
+
+			var list = [1,2,3,4];
+
+			var vm = new Vue({
+				el:"#box",
+				data:{
+					display:false,
+					display2:false,
+					message:"hello，parent"
+				}
+			});
+
+
+		</script>
+	</body>
+</html>

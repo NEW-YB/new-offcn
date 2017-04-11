@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>todos</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="../vue.js"></script>
+</head>
+
+<body>
+    <section class="todoapp">
+        <div>
+            <todo-header @addtodo="addTodo"></todo-header>
+            <todo-content v-show="list.length" @removetodo="removeTodo" :list="list"></todo-content>
+            <todo-footer  v-show="list.length"></todo-footer>
+        </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+
+</html>

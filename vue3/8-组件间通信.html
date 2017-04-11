@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			header {
+				padding: 30px;
+			}
+			section {
+				padding: 30px;
+			}
+		</style>
+		<script src="./vue.js"></script>
+	</head>
+
+	<body>
+		<div id="box">
+			<h1>{{message}}</h1>
+			<ul>
+				<li v-for="value in list">{{value}}</li>
+			</ul>
+			<h2>第一个列表</h2>
+			<custom-message  :list="list" :message="message"></custom-message>
+			<h2>第二个列表</h2>
+			<custom-message  :list="list" :message="message"></custom-message>
+		</div>
+		<script>
+
+			Vue.component("custom-message",{
+				template:`
+					<div>
+						<p>{{message}}</p>
+						<input type="button" value="改变数据" @click="change" />
+						<ul>
+							<li v-for="value in list">{{value}}</li>
+						</ul>
+						<input type="button" value="添加数据" @click="addItem" />
+
+					</div>
+				`,
+				props:["message","list"],
+				methods:{
+					change(){
+						this.message = "改了吧！";
+					},
+					addItem(){
+						this.list.push(123);
+					}
+				}
+			})
+
+			var list = [1,2,3,4];
+
+			new Vue({
+				el:"#box",
+				data:{
+					message:"我被渲染了",
+					list:list
+				}
+			})
+
+
+		</script>
+	</body>
+</html>

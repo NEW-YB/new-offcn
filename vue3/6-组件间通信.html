@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			header {
+				padding: 30px;
+			}
+			section {
+				padding: 30px;
+			}
+		</style>
+		<script src="./vue.js"></script>
+	</head>
+
+	<body>
+		<div id="box">
+				
+			<custom-list a="我是自定义属性，不是动态的" :list="list"></custom-list>
+
+		</div>
+		<script>
+			
+			//每个组件的根元素(root element)只能有一个
+			//组件也可以有自己的数据
+
+			Vue.component("custom-list",{
+				template:`
+						<div>
+							<h1>{{a}}</h1>
+							<input type="button" value="改变a的值" @click="changeA" />
+							<ul>
+								<li v-for="value,index in list">{{value}} 
+								<input @click="removeItem(index)" type="button" value="删除" /></li>
+							</ul>
+						</div>`,
+				props:["a","list"],
+				methods:{
+					removeItem(index){
+						this.list.splice(index,1);
+					},
+					changeA(){
+						this.a = "我被改变了"
+					}
+				}
+			});
+
+			var list = [1,2,3,4];
+
+			new Vue({
+				el:"#box",
+				data:{
+					message:"我被渲染了",
+					list:list
+				}
+			})
+
+
+		</script>
+	</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			header {
+				padding: 30px;
+			}
+			section {
+				padding: 30px;
+			}
+		</style>
+		<script src="./vue.js"></script>
+	</head>
+
+	<body>
+		<div id="box">
+			<div class="left">
+				<custom-list></custom-list>
+			</div>
+			<div class="right">
+				<custom-list></custom-list>
+			</div>
+		</div>
+		<script>
+			//组件在vue中就是自定义标签  使用之前先注册
+			//全局注册
+			Vue.component("custom-list",{
+				template:`<ul>
+					<li>22222</li>
+					<li>333333333</li>
+					<li>4444444444</li>
+					<li>5555555555</li>
+				</ul>`
+			});
+
+			new Vue({
+				el:"#box"
+			})
+
+
+		</script>
+	</body>
+</html>

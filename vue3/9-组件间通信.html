@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+		<style>
+			header {
+				padding: 30px;
+			}
+			section {
+				padding: 30px;
+			}
+		</style>
+		<script src="./vue.js"></script>
+	</head>
+
+	<body>
+		<div id="box">
+			<h1>{{message}}</h1>
+			<custom-message  
+				:list="list" 
+				:message="message"
+				@changemessage="changeHandle"
+			></custom-message>
+		</div>
+		<script>
+
+			Vue.component("custom-message",{
+				template:`
+					<div>
+						<p>{{message}}</p>
+						<input type="button" value="改变数据" @click="change" />
+						
+					</div>
+				`,
+				props:["message"],
+				methods:{
+					change(){
+						//this.message = "改了吧！";
+
+						//通知父组件改传过来的值
+
+						this.$emit("changemessage","改了吧！");
+
+					}
+				}
+			})
+
+			var list = [1,2,3,4];
+
+			new Vue({
+				el:"#box",
+				data:{
+					message:"我被渲染了",
+					list:list
+				},
+				methods:{
+					changeHandle(val){
+						console.log("我触发了");
+						console.log( this );
+						this.message = val;
+					}
+				}
+			})
+
+
+		</script>
+	</body>
+</html>
