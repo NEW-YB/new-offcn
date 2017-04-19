@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=no">
+    <title>OCC后台制作</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/daterangepicker-bs3.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/bootstrapValidator.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container-fluid">
+           <!--  <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div> -->
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- <li class="active"><a class="icon-bar logo" href="#">OFFCN</a></li> -->
+                    <li><a class="icon-bar logo" href="#">OFFCN</a></li>
+                    <li><a href="#">OCC管理后台</a></li>
+                    <li><a href="#">题库管理后台</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">常用操作</a></li>
+                    <li><a>张三(超级管理员▪北京)</a></li>
+                    <li><a href="#">退出登录</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid"> 
+        <div class="row">
+            <div class="col-sm-1 side">
+                <div>
+                    <p><a href="#" class="list-item item-title">首页<span class="glyphicon glyphicon-plus"></span></a></p>
+                    <ul>
+                        <li><a href="#" class="list-item">· 首页</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p><a href="#" class="list-item item-title">课程管理<span class="glyphicon glyphicon-plus"></span></a></p>
+                    <ul>
+                        <li><a href="classControl.html" class="list-item">· 课程管理</a></li>
+                        <li><a href="addClass.html" class="list-item">· 课程添加</a></li>
+                        <li><a href="#" class="list-item">· 视频管理</a></li>
+                        <li><a href="#" class="list-item">· 视频添加</a></li>
+                        <li><a href="#" class="list-item">· 直播管理</a></li>
+                        <li><a href="#" class="list-item">· 直播添加</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="page-content"> 
+               
+                <h2>课程添加</h2>
+
+                <form class="form-horizontal" id="defaultForm">
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-1 control-label"><span style="color:red;">* </span>课程标题</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="inputEmail3" name="classTitle">
+                            <span class='help-block'>字数限制100字</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-1 control-label">课程副标题</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="inputPassword3">
+                            <span class='help-block'>字数限制100字</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-1 control-label"><span style="color:red;">* </span>原价</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="inputEmail3" name="price">
+                            <span class='help-block'>原价只是展示用。格式：数字，保留两位小数</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-1 control-label"><span style="color:red;">* </span>优惠价</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="inputEmail3" name="preferential">
+                            <span class='help-block'>优惠价是展示用。格式：数字，保留两位小数</span>
+                            <span class='help-block'>由于苹果公司的规定，在iOS App内的课程售卖必须分成30%给苹果公司（PC，Android，H5不受影响）</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-1 control-label">课时</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="inputEmail3">
+                            <span class='help-block'>字数限制10字。尽量使用数字来准确的表示学习量</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-1 control-label"><span style="color:red;">* </span>有效期类型</label>
+                        <div class="col-sm-6">
+                            <select class="form-control">
+                                <option>上架</option>
+                                <option>下架</option>
+                            </select>
+                            <span class='help-block'>字数限制10字。尽量使用数字来准确的表示学习量</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-1 control-label">开班日期</label>
+                        <!-- <div class="col-sm-6">
+                            <input type="text" class="form-control calendar" id="inputEmail3">
+                        </div> -->
+                        <div class="controls col-sm-6">
+                            <div class="input-prepend input-group">
+                                <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span>
+                            <input type="text" style="width: 400px" name="reservation" class="form-control datetime" value="04/11/2017 1:00 PM - 04/12/2017 1:30 PM">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-1 control-label">关班日期</label>
+                        <!-- <div class="col-sm-6">
+                            <input type="text" class="form-control calendar" id="inputEmail3">
+                        </div> -->
+                        <div class="controls col-sm-6">
+                            <div class="input-prepend input-group">
+                                <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span>
+                            <input type="text" style="width: 400px" name="reservation" class="form-control datetime" value="04/11/2017 1:00 PM - 04/12/2017 1:30 PM">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-1 control-label">学习天数</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="inputEmail3">
+                            <span class='help-block'>格式：大于0的整数</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-1 control-label"><span style="color:red;">*</span>课程封面</label>
+                        <div class="col-sm-6 col-xs-12 detail-logo">
+                            <input type="text" class="form-control" id="inputEmail3">
+                            <a href="#" target='_blank' style="display:block;width: 330px;height: 180px;">
+                                <img src="" style="width:330px;height:180px;border:5px solid #ccc;padding:1px;margin:10px 0;" />
+                            </a>
+                            <span class="help-block">建议尺寸: 640 * 640 ，或正方型图片 </span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-1 control-label">课程简介</label>
+                        <div class="col-sm-6">
+                            <textarea class="form-control" rows="3"></textarea>
+                            <span class='help-block'>课程简介将在一些特殊的场合使用，例如，分享到新浪微博、微信、腾讯空间等地。请根据课程内容进行剪短的概括</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-1 control-label">学习目标</label>
+                        <div class="col-sm-6">
+                            <textarea class="form-control" rows="3"></textarea>
+                            <span class='help-block'>如有多条内容请换行</span>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-1 control-label">详情页大图:</label>
+                        <div class="col-sm-6">
+                        	<input type="text" class="form-control" rows="3" style="width: 80%;display: inline-block;"></input>
+                        	<button type="button" class="btn btn-primary">选择图片</button>
+                         <span class='help-block'>图片大小710*400</span>   
+                           
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-1 control-label">适合人群</label>
+                        <div class="col-sm-6">
+                            <textarea class="form-control" rows="3"></textarea>
+                            <span class='help-block'>如有多条内容请换行</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-1 control-label"><span style="color:red;">* </span>详细介绍</label>
+                        <div class="col-sm-6">
+                            <textarea class="form-control" rows="3" name="detailed"></textarea>
+                            <span class='help-block'>使用“<a href="#">网络编辑超级工具箱</a>”格式化内容</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-1 control-label"><span style="color:red;">* </span>课程隐藏</label>
+                        <div class="col-sm-6">
+                            <select class="form-control">
+                                <option>正常</option>
+                                <option>非正常</option>
+                            </select>
+                            <span class='help-block'>字数限制10字。尽量使用数字来准确的表示学习量</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-1 control-label"><span style="color:red;">* </span>状态</label>
+                        <div class="col-sm-6">
+                            <select class="form-control">
+                                <option>上架</option>
+                                <option>下架</option>
+                            </select>
+                            <span class='help-block'>字数限制10字。尽量使用数字来准确的表示学习量</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+						<label class="col-sm-1 control-label">Static Control</label>
+						<div class="col-sm-6">
+							<p class="form-control-static">
+								 email@example.com
+							</p>
+						</div>
+					</div>
+                    <div class="form-group">
+						<label class="col-sm-1 control-label">Disabled</label>
+						<div class="col-sm-6">
+							<input type="password" class="form-control" placeholder="Disabled" disabled="">
+						</div>
+					</div>
+                    <div class="form-group">
+						<label class="col-sm-1 control-label">Readonly</label>
+						<div class="col-sm-6">
+							<input type="password" class="form-control" placeholder="Readonly" readonly="">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-1 control-label">Dropdown</label>
+						<div class="col-sm-6">
+							<select class="form-control">
+								<option>Option 1</option>
+								<option>Option 2</option>
+								<option>Option 3</option>
+								<option>Option 4</option>
+								<option>Option 5</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-1 control-label">Multiple Select</label>
+						<div class="col-sm-6">
+							<select multiple="" class="form-control">
+								<option>Option 1</option>
+								<option>Option 2</option>
+								<option>Option 3</option>
+								<option>Option 4</option>
+								<option>Option 5</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-1 control-label">Textarea</label>
+						<div class="col-sm-6">
+							<textarea class="form-control" rows="3"></textarea>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="exampleInputFile" class="col-sm-1 control-label">File input</label>
+						<div class="col-sm-6">
+							<input type="file" id="exampleInputFile">
+							<p class="help-block">
+								 some help text here.
+							</p>
+						</div>
+					</div>
+					<!--<div class="form-group">
+						<label class="col-sm-1 control-label">Checkboxes</label>
+						<div class="col-sm-6">
+							<div class="checkbox-list">
+								<label>
+								<div class="checker"><span><input type="checkbox"></span></div> Checkbox 1 </label>
+								<label>
+								<div class="checker"><span><input type="checkbox"></span></div> Checkbox 1 </label>
+								<label>
+								<div class="checker disabled"><span><input type="checkbox" disabled=""></span></div> Disabled </label>
+							</div>
+						</div>
+					</div>-->
+					
+					<div class="form-group">
+						<label class="col-sm-1 control-label">Inline Checkboxes</label>
+						<div class="col-sm-6">
+							<div class="checkbox-list">
+								<label class="checkbox-inline" style="width: 100%;">
+								<div class="checker" id="uniform-inlineCheckbox21"><span><input type="checkbox" id="inlineCheckbox21" value="option1" name="programs[]"></span></div> Checkbox 1 </label>
+								<label class="checkbox-inline" style="width: 100%;margin-left: 0px;">
+								<div class="checker" id="uniform-inlineCheckbox22"><span><input type="checkbox" id="inlineCheckbox22" value="option2" name="programs[]"></span></div> Checkbox 2 </label>
+								<label class="checkbox-inline" style="width: 100%;margin-left: 0px;">
+								<div class="checker disabled" id="uniform-inlineCheckbox23"><span><input type="checkbox" id="inlineCheckbox23" value="option3" disabled=""></span></div> Disabled </label>
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-1 control-label">Inline Radio</label>
+						<div class="col-sm-6">
+							<div class="radio-list setRadio">
+								<label class="radio-inline">
+								<div class="radio" id="uniform-optionsRadios25"><span><input type="radio" name="optionsRadios" id="optionsRadios25" value="option1" checked=""> Option 1 </span></div></label>
+								<label class="radio-inline">
+								<div class="radio" id="uniform-optionsRadios26"><span class="checked"><input type="radio" name="optionsRadios" id="optionsRadios26" value="option2" checked="">Option 2</span></div> </label>
+								<label class="radio-inline">
+								<div class="radio disabled" id="uniform-optionsRadios27"><span><input type="radio" name="optionsRadios" id="optionsRadios27" value="option3" disabled="">Disabled</span></div></label>
+							</div>
+						</div>
+					</div>
+									
+						
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-1 col-sm-5">
+                            <button type="submit" class="btn btn-primary">提交</button>
+                            <button type="reset" class="btn btn-primary">返回</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrapValidator.js"></script>
+<script src="js/moment.js"></script>
+<script src="js/daterangepicker.js"></script>
+<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/addClass.js"></script>
+</html>

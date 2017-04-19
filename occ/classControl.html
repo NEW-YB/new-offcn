@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=no">
+    <title>OCC后台制作</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/daterangepicker-bs3.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container-fluid">
+           <!--  <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div> -->
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- <li class="active"><a class="icon-bar logo" href="#">OFFCN</a></li> -->
+                    <li><a class="icon-bar logo" href="#">OFFCN</a></li>
+                    <li><a href="#">OCC管理后台</a></li>
+                    <li><a href="#">题库管理后台</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">常用操作</a></li>
+                    <li><a>张三(超级管理员▪北京)</a></li>
+                    <li><a href="#">退出登录</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid"> 
+        <div class="row">
+            <div class="col-sm-1 side">
+                <div>
+                    <p><a href="#" class="list-item item-title">首页<span class="glyphicon glyphicon-plus"></span></a></p>
+                    <ul>
+                        <li><a href="#" class="list-item">· 首页</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p><a href="#" class="list-item item-title">课程管理<span class="glyphicon glyphicon-plus"></span></a></p>
+                    <ul>
+                        <li><a href="index.html" class="list-item">· 课程管理</a></li>
+                        <li><a href="addClass.html" class="list-item">· 课程添加</a></li>
+                        <li><a href="#" class="list-item">· 视频管理</a></li>
+                        <li><a href="#" class="list-item">· 视频添加</a></li>
+                        <li><a href="#" class="list-item">· 直播管理</a></li>
+                        <li><a href="#" class="list-item">· 直播添加</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="page-content">
+                <h2>课程管理</h2>				
+				<ul class="nav nav-tabs">
+					<li class="">
+						<a href="#tab_0" data-toggle="tab">第零列</a>
+					</li>
+					<li class="">
+						<a href="#tab_1" data-toggle="tab">第一列</a>
+					</li>
+					<li class="active">
+						<a href="#tab_2" data-toggle="tab">第二列</a>
+					</li>
+					<li>
+						<a href="#tab_3" data-toggle="tab">第三列</a>
+					</li>
+					<li>
+						<a href="#tab_4" data-toggle="tab">第四列</a>
+					</li>
+					<li>
+						<a href="#tab_5" data-toggle="tab">第五列</a>
+					</li>
+					<li>
+						<a href="#tab_6" data-toggle="tab">第六列</a>
+					</li>
+					<li>
+						<a href="#tab_7" data-toggle="tab">第七列</a>
+					</li>
+				</ul>
+				
+				<div class="form">
+					<form action="#" class="form-horizontal">
+						<div class="form-body">
+							<h3 class="form-section">搜索</h3>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label class="control-label col-md-3">First Name</label>
+										<div class="col-md-9">
+											<input type="text" class="form-control" placeholder="Chee Kin">
+											<span class="help-block">
+											This is inline help </span>
+										</div>
+									</div>
+								</div>
+								<!--/span-->
+								<div class="col-md-6">
+									<div class="form-group">
+										<label class="control-label col-md-3">Gender</label>
+										<div class="col-md-9">
+											<select class="form-control">
+												<option value="">Male</option>
+												<option value="">Female</option>
+											</select>
+											<span class="help-block">
+											Select your gender. </span>
+										</div>
+									</div>
+								</div>
+								<!--/span-->
+							</div>
+							<!--/row-->
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label class="control-label col-md-3">Gender</label>
+										<div class="col-md-9">
+											<select class="form-control">
+												<option value="">Male</option>
+												<option value="">Female</option>
+											</select>
+											<span class="help-block">
+											Select your gender. </span>
+										</div>
+									</div>
+								</div>
+								<!--/span-->
+								<div class="col-md-6">
+									<div class="form-group">
+										<label class="control-label col-md-3">Date of Birth</label>
+										<div class="col-md-9">
+											<input type="text" class="form-control" placeholder="dd/mm/yyyy">
+										</div>
+									</div>
+								</div>
+								<!--/span-->
+							</div>
+							<!--/row-->
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label class="control-label col-md-3">Gender</label>
+										<div class="col-md-9">
+											<select class="form-control">
+												<option value="">Male</option>
+												<option value="">Female</option>
+											</select>
+											<span class="help-block">
+											Select your gender. </span>
+										</div>
+									</div>
+								</div>
+								<!--/span-->
+								<div class="col-md-6">
+									<div class="form-group">
+										<label class="control-label col-md-3">Membership</label>
+										<div class="col-md-9">
+											<div class="radio-list">
+												<label class="radio-inline">
+												<div class="radio"><span><input type="radio" name="optionsRadios2" value="option1">Free</span></div></label>
+												<label class="radio-inline">
+												<div class="radio"><span class="checked"><input type="radio" name="optionsRadios2" value="option2" checked="">Professional</span></div></label>
+												<label class="radio-inline">
+												<div class="radio"><span><input type="radio" name="optionsRadios2" value="option1">Free</span></div></label>
+												<label class="radio-inline">
+												<div class="radio"><span class="checked"><input type="radio" name="optionsRadios2" value="option2" checked="">Professional</span></div></label><label class="radio-inline">
+												<div class="radio"><span><input type="radio" name="optionsRadios2" value="option1">Free</span></div></label>
+												<label class="radio-inline">
+												<div class="radio"><span class="checked"><input type="radio" name="optionsRadios2" value="option2" checked="">Professional</span></div></label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!--/span-->
+							</div>
+							<h3 class="form-section">Address</h3>
+							<!--/row-->
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label class="control-label col-md-3">Address 1</label>
+										<div class="col-md-9">
+											<input type="text" class="form-control">
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label class="control-label col-md-3">Address 2</label>
+										<div class="col-md-9">
+											<input type="text" class="form-control">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label class="control-label col-md-3">City</label>
+										<div class="col-md-9">
+											<input type="text" class="form-control">
+										</div>
+									</div>
+								</div>
+								<!--/span-->
+								<div class="col-md-6">
+									<div class="form-group">
+										<label class="control-label col-md-3">State</label>
+										<div class="col-md-9">
+											<input type="text" class="form-control">
+										</div>
+									</div>
+								</div>
+								<!--/span-->
+							</div>
+							<!--/row-->
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label class="control-label col-md-3">Post Code</label>
+										<div class="col-md-9">
+											<input type="text" class="form-control">
+										</div>
+									</div>
+								</div>
+								<!--/span-->
+								<div class="col-md-6">
+									<div class="form-group">
+										<label class="control-label col-md-3">Country</label>
+										<div class="col-md-9">
+											<select class="form-control">
+												<option>Country 1</option>
+												<option>Country 2</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<!--/span-->
+							</div>
+							<!--/row-->
+						</div>
+						<div class="form-actions">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="row">
+										<div class="col-md-offset-3 col-md-9">
+											<button type="submit" class="btn green">提交</button>
+											<button type="button" class="btn default">取消</button>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+                
+                
+                
+                
+                <!--列表展示-->
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered">
+                        <thead>
+                        	<div class="addList">
+                        		<input class="btn green" type="button" value="删除">
+                        		<input class="btn green" type="button" value="添加">
+                        	</div>
+                            <tr>
+                                <th><input type="checkbox" /></th>
+                                <th>id</th>
+                                <th>名称</th>
+                                <th>分类</th>
+                                <th>有效期</th>
+                                <th>课件数量</th>
+                                <th>状态</th>
+                                <th width="290">操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="align-center">
+                                    <input type="checkbox" id="inlineCheckbox3" value="option3">
+                                </td>
+                                <td class="align-center">123456</td>
+                                <td>
+                                    <p>标题标标题标题标题标题标题标题标题标题</p>
+                                    <p class="sub-title">
+                                        <span>原价￥2000</span><span>优惠价￥1000</span><span>课时100</span><span>单课</span><span>2017年</span>
+                                    </p>
+                                </td>
+                                <td>一级分类标题-二级分类标题</td>
+                                <td>
+                                    2017-03-16开始<br>
+                                    2017-03-16结束
+                                </td>
+                                <td class="align-center">100</td>
+                                <td class="align-center"><span class="label label-success">上架</span></td>
+                                <td class="align-center">
+                                    <a href="" class="table-btn">编辑</a>
+                                    <a href="" class="table-btn">设置课件</a>
+                                    <a href="" class="table-btn">学习进度</a>
+                                    <a href="" class="table-btn">更多</a>
+                                    
+                                </td>
+                            </tr>
+                           
+                            <tr>
+                                <td class="align-center">
+                                    <input type="checkbox" id="inlineCheckbox3" value="option3">
+                                </td>
+                                <td class="align-center">123456</td>
+                                <td>
+                                    <p>标题标标题标题标题标题标题标题标题标题</p>
+                                    <p class="sub-title">
+                                        <span>原价￥2000</span><span>优惠价￥1000</span><span>课时100</span><span>单课</span><span>2017年</span>
+                                    </p>
+                                </td>
+                                <td>一级分类标题-二级分类标题</td>
+                                <td>
+                                    2017-03-16开始<br>
+                                    2017-03-16结束
+                                </td>
+                                <td class="align-center">100</td>
+                                <td class="align-center"><span class="label label-warning">下架</span></td>
+                                <td class="align-center">
+                                    <a href="" class="table-btn">编辑</a>
+                                    <a href="" class="table-btn">设置课件</a>
+                                    <a href="" class="table-btn">学习进度</a>
+                                    <a href="" class="table-btn">更多</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-center">
+                                    <input type="checkbox" id="inlineCheckbox3" value="option3">
+                                </td>
+                                <td class="align-center">123456</td>
+                                <td>
+                                    <p>标题标标题标题标题标题标题标题标题标题</p>
+                                    <p class="sub-title">
+                                        <span>原价￥2000</span><span>优惠价￥1000</span><span>课时100</span><span>单课</span><span>2017年</span>
+                                    </p>
+                                </td>
+                                <td>一级分类标题-二级分类标题</td>
+                                <td>
+                                    2017-03-16开始<br>
+                                    2017-03-16结束
+                                </td>
+                                <td class="align-center">100</td>
+                                <td class="align-center"><span class="label label-warning">下架</span></td>
+                                <td class="align-center">
+                                    <a href="" class="table-btn">编辑</a>
+                                    <a href="" class="table-btn">设置课件</a>
+                                    <a href="" class="table-btn">学习进度</a>
+                                    <a href="" class="table-btn">更多</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="panel-body">
+                    <div class="select-all">
+                        <label class="checkbox-inline selectAll">
+                            <input type="checkbox" id="inlineCheckbox3" value="option3"> 全选/取消
+                        </label>
+                        <!--<a class="btn btn-default mar_l10" href="#" role="button">批量下架</a>
+                        
+                        <a class="btn btn-default mar_l10" href="#" role="button">批量上架</a>-->
+                        <button type="button" class="btn default">批量下架</button>
+                        <button type="button" class="btn default">批量上架</button>
+                    </div>
+                    
+                    <div class="dropup btn-group btnMaLeft">
+					  <button class="btn btn-default dropdown-toggle default" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    更多
+					    <span class="caret"></span>
+					  </button>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+						    <li><a href="#">列表一</a></li>
+						    <li><a href="#">列表二</a></li>
+						    <li><a href="#">列表三</a></li>
+						    <li class="divider"></li>
+						    <li><a href="#">列表四</a></li>
+						  </ul>
+					</div>
+					
+                    <div style="float: right;">
+                    	共<span>3</span>条记录，
+                    	<div class="dropup btn-group">
+						  <button class="btn btn-default dropdown-toggle page" type="button" id="dropdownMenu2" data-toggle="dropdown">
+						    每页10条
+						    <span class="caret"></span>
+						  </button>
+							  <ul class="dropdown-menu pagenum">
+							    <li><a href="javascript:;">5</a></li>
+							    <li><a href="javascript:;">10</a></li>
+							    <li><a href="javascript:;">15</a></li>
+							  </ul>
+						</div>
+						<span>1/1</span>
+						<span class="glyphicon glyphicon-step-backward"></span>
+						<span class="glyphicon glyphicon-menu-left"></span>
+						<span class="glyphicon glyphicon-menu-right"></span>
+						<span class="glyphicon glyphicon-step-forward"></span>
+                    </div>
+                    
+                </div>
+                <!-- 提示 -->
+                <div class="alert alert-warning alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <strong>温馨提示</strong>
+                    <p>1、温馨提示温馨提示</p>
+                    <p>1、温馨提示温馨提示</p>
+                    <p>1、温馨提示温馨提示</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/moment.js"></script>
+<script src="js/daterangepicker.js"></script>
+<script src="js/index.js"></script>
+<script>
+	var tab=document.getElementsByClassName("table")[0];
+	var selAll=tab.tHead.rows[0].cells[0].getElementsByTagName("input")[0];
+	var checks=tab.tBodies[0].getElementsByTagName("input");
+	var selectAll=document.querySelector(".select-all .selectAll input");
+	
+//	selAll.onclick=selectAll.onclick=function(){
+//		for (var i = 0; i < checks.length; i++) {
+//			if(this.checked){
+//				checks[i].checked=true;
+//				selectAll.checked=true;
+//				selAll.checked=true;
+//			}else{
+//				checks[i].checked=false;
+//				selectAll.checked=false;
+//				selAll.checked=false;
+//			}
+//		}
+//	}
+//	for (var i = 0; i < checks.length; i++) {
+//		checks[i].onclick=function(){
+//			check();
+//		}
+//	}
+//	function check(){
+//		for (var i = 0; i < checks.length; i++) {
+//			if(checks[i].checked == false){
+//				selectAll.checked = false;
+//				selAll.checked=false;
+//				return;
+//			}
+//		}
+//		selectAll.checked = true;
+//		selAll.checked=true;
+//	}
+	
+	selAll.onclick=selectAll.onclick=function(){
+		selAll.checked=this.checked;
+		selectAll.checked=this.checked;
+		Array.from(checks).forEach(function(item){
+			item.checked=this.checked;
+		},this)
+	}
+	Array.from(checks).forEach(function (item){
+		item.onclick = function (){
+			var bl = Array.from(checks).every(function (value){
+				return value.checked;
+			});	
+			selectAll.checked = bl;
+			selAll.checked = bl;
+		};	
+	})
+	
+	var tableHtml=`<tr>
+                    <td class="align-center">
+                        <input type="checkbox" id="inlineCheckbox3" value="option3">
+                    </td>
+                    <td class="align-center">123456</td>
+                    <td>
+                        <p>标题标标题标题标题标题标题标题标题标题</p>
+                        <p class="sub-title">
+                            <span>原价￥2000</span><span>优惠价￥1000</span><span>课时100</span><span>单课</span><span>2017年</span>
+                        </p>
+                    </td>
+                    <td>一级分类标题-二级分类标题</td>
+                    <td>
+                        2017-03-16开始<br>
+                        2017-03-16结束
+                    </td>
+                    <td class="align-center">100</td>
+                    <td class="align-center"><span class="label label-warning">下架</span></td>
+                    <td class="align-center">
+                        <a href="" class="table-btn">编辑</a>
+                        <a href="" class="table-btn">设置课件</a>
+                        <a href="" class="table-btn">学习进度</a>
+                        <a href="" class="table-btn">更多</a>
+                    </td>
+                </tr>`;
+    $(".pagenum li").on("click",function(){
+		$(".page").html("每页"+($(this).index()+1)*5+"条 <span class='caret'></span>");
+		console.log()
+		for (var i = 0; i < ($(this).index()+1)*5; i++) {
+			tableHtml+=`<tr>
+                    <td class="align-center">
+                        <input type="checkbox" id="inlineCheckbox3" value="option3">
+                    </td>
+                    <td class="align-center">123456</td>
+                    <td>
+                        <p>标题标标题标题标题标题标题标题标题标题</p>
+                        <p class="sub-title">
+                            <span>原价￥2000</span><span>优惠价￥1000</span><span>课时100</span><span>单课</span><span>2017年</span>
+                        </p>
+                    </td>
+                    <td>一级分类标题-二级分类标题</td>
+                    <td>
+                        2017-03-16开始<br>
+                        2017-03-16结束
+                    </td>
+                    <td class="align-center">100</td>
+                    <td class="align-center"><span class="label label-warning">下架</span></td>
+                    <td class="align-center">
+                        <a href="" class="table-btn">编辑</a>
+                        <a href="" class="table-btn">设置课件</a>
+                        <a href="" class="table-btn">学习进度</a>
+                        <a href="" class="table-btn">更多</a>
+                    </td>
+                </tr>`;
+		}
+		tab.tBodies[0].innerHTML=tableHtml;
+		tableHtml="";
+	})
+</script>
+</html>
