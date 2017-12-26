@@ -1,0 +1,96 @@
+
+.title{
+	font-size: 40px;
+	line-height: 52px;
+	padding-top: 45px;
+	background: url(../images/title_bg.png) no-repeat 426px top;
+	text-align: center;
+	color: #333333;
+}
+.title span {
+    color: #0c66cd;
+}
+.wangxiao_list{
+	margin-top: 56px;
+	padding-left: 5px;
+	background: url(../images/wx_tabbg.png) no-repeat left bottom;
+	/*height: 72px;*/
+	padding-bottom: 12px;
+}
+.wangxiao_list li{
+	min-width: 184px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 48px;
+	border: 1px solid #333333;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+	float: left;
+	position: relative;
+	background: white;
+}
+.wangxiao_list li.active{
+	background: #0c66cd;
+	color: white;
+	font-weight: bold;
+	border: 1px solid #0c66cd;
+}
+.wangxiao_list li span{
+	position: absolute;
+	width: 18px;
+	height: 13px;
+	background: url(../images/zb_jian_14.png) no-repeat;
+	left: 50%;
+	margin-left: -9px;
+	bottom: -13px;
+	display: none;
+}
+.wangxiao_list li.active span{
+	display: block;
+}
+table{
+	width: 100%;
+	border: 1px solid #0c66cd;
+	border-top: none;
+}
+th{
+	border-right: 1px solid #ffffff;
+	font-size: 18px;
+	line-height: 44px;
+	height: 44px;
+	background: #0c66cd;
+	color: white;
+}
+td{
+	border: 1px solid #0c66cd;
+	font-size: 16px;
+	text-align: center;
+	line-height: 28px;
+	padding:16px 9px;
+}
+td strong{
+	color: #de3333;
+}
+td a{
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	width: 55px;
+	height: 24px;
+	text-align: center;
+	color: white;
+	border-radius: 4px;
+	background: #333333;
+	line-height: 24px;
+	
+}
+td a.buy{
+	background: #de3333;
+}
+td p{
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	text-align: left;
+}
