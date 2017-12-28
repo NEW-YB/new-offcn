@@ -1,0 +1,732 @@
+@charset "gb2312";
+.new_wrapper{
+	background: #FFFFFF;
+}
+/*考试资讯 start*/
+.zg_contions{
+	  width: 100%;
+	  box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	  background-color: #fff;
+	  padding: 0 0.25rem;
+	  position: relative;
+	  z-index: 8;
+	  border-bottom: 0.01rem solid #e4e4e4;
+}
+.zg_contions .sel_type, .zg_contions .sel_classify, .zg_contions .sel_city{
+	  text-align: center;
+}
+.zg_contions .sel_type{
+	  width: 1.74rem;
+}
+.zg_contions .sel_type.stair{
+	  margin-left: 0.7rem;
+}
+.zg_contions .sel_classify{
+	  width: 2.93rem;
+}
+.zg_contions .sel_classify.stair{
+	  margin-right: 0.5rem;
+}
+.zg_contions .sel_city{
+    width: 1.93rem;
+}
+.zg_contions .sel_type span, .zg_contions .sel_classify span, .zg_contions .sel_city span{
+	  display: inline-block;
+	  height: 0.9rem;
+	  line-height: 0.9rem;
+	  padding-right: 0.28rem;
+	  font-size: 0.3rem;
+	  color: #333;
+	  background-image: url(../images/filt_tri.png);
+	  background-position: right center;
+	  background-repeat: no-repeat;
+	  background-size: 0.16rem 0.09rem;
+}
+.zg_contions .sel_type.act span, .zg_contions .sel_classify.act span, .zg_contions .sel_city.act span{
+	  color: #009dd9;
+	  background-image: url(../images/filt_tri_act.png);
+	  background-size: 0.16rem 0.09rem;
+}
+.zg_contions .suspend{
+	  width: 100%;
+	  position: absolute;
+	  top: 0.91rem;
+	  left: 0;
+	  font-size: 0.28rem;
+	  z-index: 8;
+    padding-bottom: 0.3rem;
+	  box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	  background-color: #fff;
+}
+.zg_contions .suspend ul{
+  height: 5rem; 
+  overflow-y: scroll;
+}
+.zg_contions .type_hover li, .zg_contions .classify_hover li{
+	  height: 0.9rem;
+	  line-height: 0.9rem;
+	  padding: 0 0.25rem;
+	  border-bottom: 0.01rem solid #e6e6e6;
+}
+.zg_contions .type_hover li a, .zg_contions .classify_hover li a, .zg_contions .city_hover li a{
+	  display: block;
+	  color: #333;
+}
+.zg_contions .type_hover li.act a, .zg_contions .classify_hover li.act a, .zg_contions .city_hover li.act a{
+	  color: #009dd9;
+}
+.zg_contions .city_hover{
+	  padding: 0.4rem 0.25rem 0.2rem;
+}
+.zg_contions .city_hover li{
+	  float: left;
+	  width: 1.98rem;
+	  height: 0.68rem;
+	  line-height: 0.68rem;
+	  text-align: center;
+	  margin: 0 0.29rem 0.3rem 0;
+	  border: 0.01rem solid #e6e6e6;
+}
+.zg_contions .city_hover li.last{
+	  margin-right: 0;
+}
+.tuijian_list{
+	background: #FFFFFF;
+}
+.zg_stick{
+	  height: 1.06rem;
+	  line-height: 1.06rem;
+	  /*padding: 0 0.25rem;*/
+	  margin: 0 0.25rem;
+	  border-bottom: 1px solid #eeeeee;
+	  background-color: #fff;
+}
+.zg_stick .fl{
+	  padding-left: 1.12rem;
+	  font-size: 0.28rem;
+	  background: url(../images/stick.png) left center no-repeat;
+	  background-size: 0.92rem 0.34rem;
+}
+.zg_stick .diqu{
+		padding-left: 0.47rem;
+		background: url(../images/diqu.png) left center no-repeat;
+	  background-size: 0.29rem 0.37rem;
+	  line-height: 1.06rem;
+}
+.zg_stick .fr{
+	  height: 0.46rem;
+	  line-height: 0.46rem;
+	  display: inline-block;
+	  color: #ec3744;
+	  font-size: 0.28rem;
+	  padding: 0 0.18rem;
+	  border: 0.02rem solid #ec3744;
+	  margin-top: 0.29rem;
+	  border-radius: 0.3rem;
+}
+.zg_stick .sheng{
+		width: 1.86rem;
+		height: 0.4rem;
+		border: 1px solid #d9d9d9;
+	  line-height: 0.4rem;
+	  display: inline-block;
+	  color: #999999;
+	  font-size: 0.28rem;
+	  padding: 0 0 0 0.12rem ;
+	  margin-top: 0.3rem;
+	  border-radius: 0rem;
+	  background: url(../images/shengxia.png) no-repeat 1.72rem 0.18rem;
+	  background-size: 0.16rem 0.09rem;
+}
+.zg_news_wrap{
+	  padding: 0 0.25rem 0.4rem;
+	  background-color: #fff;
+}
+.zg_news_wrap li{
+	  height: 0.99rem;
+	  line-height: 0.99rem;
+	  padding-left: 0.36rem;
+	  font-size: 0.28rem;
+	  border-bottom: 1px solid #eeeeee;
+	  background: url(../images/circle.png) left center no-repeat;
+	  background-size: 0.15rem 0.15rem;
+}
+.zg_news_wrap li a{
+	  color: #555;
+	  display: block;
+	  background: url(../images/arrow_right.png) right center no-repeat;
+	  background-size: 0.17rem 0.32rem;
+}
+.zg_news_wrap .more_news{
+	  display: block;
+	  height: 0.64rem;
+	  line-height: 0.64rem;
+	  text-align: center;
+	  color: #999;
+	  font-size: 0.24rem;
+	  /*margin-top: 0.4rem;*/
+    margin: 0.4rem 0;
+	  background-color: #f8f8f8;
+}
+.zg_recommend{
+	  height: 0.9rem;
+	  /*padding: 0 0.25rem;*/
+	  font-size: 0.3rem;
+	  /*padding: 0 0.25rem 0 2.1rem;*/
+	  padding-left: 2.1rem;
+	  border-bottom: 1px solid #e4e4e4;
+	  line-height: 0.9rem;
+	  position: relative;
+	  background-color: #fff;
+}
+.zg_recommend.spec{
+	  padding: 0 0.25rem;
+}
+.zg_recommend .praise{
+	  position: absolute;
+	  top: 0;
+	  left: 0.25rem;
+	  height: 0.9rem;
+	  line-height: 0.9rem;
+	  color: #333333;
+}
+.zg_recommend .praise span{
+	  display: inline-block;
+	  width: 0.52rem;
+	  height: 0.52rem;
+	  border-radius: 50%;
+	  margin: 0.2rem 0.2rem 0 0;
+	  background: url(../images/hand.png) center no-repeat #faa745;
+	  background-size: 0.26rem 0.29rem;
+}
+.zg_recommend .list{
+	  height: 100%;
+}
+.zg_recommend .list li{
+	  float: left;
+	  height: 100%;
+	  position: relative;
+	  /*margin-right: 0.38rem;*/
+}
+.zg_recommend .list li a{
+	width: 100%;
+	text-align: center;
+	  color: #888888;
+	  display: inline-block;
+	  height: 100%;
+	  position: relative;
+	bottom: -0.01rem;
+	box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+	border-bottom: 0.02rem solid transparent;
+}
+.zg_recommend .list li.act a{
+	color: #ec3744;
+	border-bottom: 0.02rem solid #ec3744;
+}
+/*考试资讯 end*/
+/*内容页 start*/
+.zg_essay h2{
+  	width: 100%;
+  	color: #333;
+  	margin-top: 0.45rem;
+  	font-size: 0.36rem;
+  	font-weight: normal;
+  	line-height: 0.63rem;
+  	padding-left: 0.25rem;
+  	padding-right: 0.44rem;
+  	box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.zg_essay .source{
+  	color: #969696;
+    height: 0.42rem;
+    font-size: 0.24rem;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+    margin-top: 0.3rem;
+}
+.zg_essay .source .source_detail{
+    margin-right: 0.14rem;
+}
+.zg_essay .source .zg{
+  	color: #ec3744;
+}
+/*.zg_essay .source .zgjy{
+	margin-right: 0.38rem;
+}*/
+.zg_essay .source .source_detail{
+  	margin-right: 0.16rem;
+}
+.zg_essay .source img{
+  	width: 0.42rem;
+  	height: 0.42rem;
+}
+.zg_essay .most_data{
+  	/*margin-top: 0.35rem;*/
+    margin-top: 0.55rem;
+  	width: 100%;
+  	height: 0.26rem;
+  	line-height: 0.26rem;
+  	padding-left: 0.24rem;
+  	padding-right: 0.24rem;
+  	box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  	font-size: 0.28rem;
+  	text-align: center;
+  	color: #ec3744;
+  	position: relative;
+}
+.zg_essay .most_data span{
+	  display: inline-block;
+	  line-height: 1;
+}
+.zg_essay .most_data .line1, .zg_essay .most_data .line2{
+	  height: 0.01rem;
+	  background: #ec3744;
+	  border-bottom: 1px solid #ec3744;
+	  position: absolute;
+	  top: 0.12rem;
+}
+.zg_essay .most_data .line1{
+ 	  width: 1.34rem;
+ 	  left: 0.25rem;
+}
+.zg_essay .most_data .line2{
+  	 width: 1.34rem;
+  	 right: 0.25rem;
+}
+.zg_essay .most_data img{
+  	width: 0.13rem;
+  	height: 0.37rem;
+  	position: absolute;
+  	right: 1.7rem;
+  	animation: ani 0.5s infinite linear;
+}
+@keyframes ani{
+  	0% {
+    	top: 0.05rem;
+  	}
+  	50% {
+    	top: 0;
+  	}
+  	100% {
+    	top: -0.05rem;
+  	}
+}
+@-webkit-keyframes ani{
+  	0% {
+    	top: 0.05rem;
+  	}
+  	50% {
+    	top: 0;
+  	}
+  	100% {
+    	top: -0.05rem;
+  	}
+}
+.zg_essay .con{
+  	padding-left: 0.24rem;
+  	padding-right: 0.24rem;
+  	margin-top: 0.15rem;
+  	width: 100%;
+  	box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.zg_essay .con p{
+  	color: #666;
+  	line-height: 0.65rem;
+  	text-indent: 2em;
+  	font-size: 0.28rem;
+}
+.zg_essay .con h6{
+  	color: #333;
+  	font-size: 0.3rem;
+  	margin-top: 0.2rem;
+  	margin-bottom: 0.2rem;
+}
+.zg_essay .con .button{
+  	padding-bottom: 0.63rem;
+ 	  margin-top: 0.33rem;
+  	font-size: 0.24rem;
+  	text-align: center;
+  	color: #999999;
+}
+.zg_essay .con .button img{
+  	width: 0.19rem;
+  	height: 0.11rem;
+}
+.zg_essay .con .button i{
+	margin: 0 3px;
+}
+.zg_essay .con .button a{
+  	    color: #333;
+    margin-left: 0.25rem;
+}
+.zg_essay .con .button a.stop{
+  	color: #999;
+}
+.zg_essay .share {
+  width: 100%;
+  height: 2.7rem;
+  background: #f8f8f8;
+  padding-left: 0.24rem;
+  padding-right: 0.24rem;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+.zg_essay .share .top {
+  color: #666;
+  height: 0.27rem;
+  line-height: 0.27rem;
+  font-size: 0.27rem;
+  margin-top: 0.46rem;
+  text-align: center;
+  position: relative;
+}
+.zg_essay .share .top .line1, .zg_essay .share .top .line2{
+  display: block;
+  width: 2.88rem;
+  height: 0.03rem;
+  background: #e8e8e8;
+  position: absolute;
+  top: 0.13rem;
+}
+.zg_essay .share .top .line1{
+  left: 0;
+}
+.zg_essay .share .top .line2{
+  right: 0;
+}
+.zg_essay .prev {
+  width: 100%;
+  height: 0.98rem;
+  font-size: 0.28rem;
+  padding-left: 0.24rem;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.zg_essay .prev .up {
+  margin-bottom: 0.27rem;
+  color: #666666;
+}
+.zg_essay .prev .up a {
+  color: #666666;
+}
+.zg_essay .prev .down {
+  color: #333333;
+}
+.zg_essay .prev .down a {
+  color: #333333;
+}
+/*分享*/
+#sharepage {
+  margin-top: 0.28rem;
+}
+#sharepage > div {
+  padding-left: 0.29rem;
+  padding-right: 0.29rem;
+}
+#sharepage .case {
+  width: auto;
+  float: left;
+  text-align: center;
+  margin-right: 0.63rem;
+}
+#sharepage .case span {
+  color: #666666;
+  font-size: 0.26rem;
+  display: block;
+  line-height: 1;
+  margin-top: 0.19rem;
+}
+#sharepage .case4 {
+  margin-right: 0;
+}
+#sharepage a{
+  display: inline-block;
+  width: 0.7rem;
+  height: 0.7rem;
+  padding: 0;
+  margin: 0;
+  float: none;
+}
+#sharepage .bds_qzone {
+  background: url(../images/qq.png) center top;
+  background-size: 100% 100%;
+}
+#sharepage .bds_tsina {
+  background: url(../images/weibo.png) center top;
+  background-size: 100% 100%;
+}
+#sharepage .vxf1 {
+  background: url(../images/wx.png) center top;
+  background-size: 100% 100%;
+}
+#sharepage .vxf2 {
+  background: url(../images/wxf.png) center top;
+  background-size: 100% 100%;
+}
+/*分享结束*/
+.zg_essay .recommend1 {
+  width: 100%;
+  margin-top: 0.4rem;
+}
+.zg_essay .recommend1 .head {
+  width: 100%;
+  height: 1.07rem;
+  line-height: 1.07rem;
+  font-size: 0.34rem;
+  color: #ec3744;
+  padding-left: 0.24rem;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-bottom: 0.01rem solid #e0e0e0;
+}
+.zg_essay .recommend1 .head span{
+  display: inline-block;
+  height: 0.34rem;
+  line-height: 0.34rem;
+  padding-left: 0.3rem;
+  position: relative;
+  color: #ec3744;
+}
+.zg_essay .recommend1 .head em{
+  display: block;
+  width: 0.08rem;
+  height: 0.34rem;
+  background: #ec3744;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.zg_essay .recommend1 ul {
+  padding-left: 0.24rem;
+  padding-right: 0.24rem;
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.zg_essay .recommend1 ul li {
+  height: 0.92rem;
+  line-height: 0.92rem;
+  border-top: 0.01rem dashed #dcdcdc;
+}
+.zg_essay .recommend1 ul li a {
+  color: #333333;
+  font-size: 0.28rem;
+}
+.zg_essay .recommend1 ul li span {
+  color: #999;
+  font-size: 0.26rem;
+}
+.zg_essay .recommend1 ul li:first-child {
+  border-top: none;
+}
+.zg_essay .recommend1 .more_news{
+    display: block;
+    height: 0.64rem;
+    line-height: 0.64rem;
+    text-align: center;
+    color: #999;
+    font-size: 0.24rem;
+    margin: 0.4rem 0;
+    background-color: #f8f8f8;
+}
+.see_more{
+	display: block;
+    height: 0.64rem;
+    line-height: 0.64rem;
+    text-align: center;
+    color: #999;
+    font-size: 0.24rem;
+    margin: 0.4rem 0;
+    background-color: #f8f8f8;
+}
+/*内容页 end*/
+/*遮罩*/
+.mask2 {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: 2000;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: none;
+}
+.mask2 .con {
+  width: 100%;
+  max-width: 702px;
+  height: 100%;
+  margin: 0 auto;
+  background-image: url(../images/wx_ck3.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-left: 0.24rem;
+  padding-right: 0.24rem;
+  padding-top: 0.82rem;
+  margin-top: 0.15rem;
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.mask2 p{
+  height: 0.48rem;
+  line-height: 0.48rem;
+}
+.mask2 img {
+  width: 0.48rem;
+  height: 0.42rem;
+}
+.mask2 span {
+  display: block;
+  color: #fff;
+  font-size: 0.24rem;
+}
+.mask2 .con > div {
+  margin-left: 0.95rem;
+}
+.mask2 .con > div p {
+  position: relative;
+  margin-left: 0.3rem;
+}
+.mask2 .con > div p img {
+  position: absolute;
+  margin-right: 0.18rem;
+  width: 0.48rem;
+  height: 0.42rem;
+  top: 0;
+  left: -0.6rem;
+}
+.mask2 .con > div p:nth-child(2) {
+  margin-top: 0.3rem;
+}
+/*遮罩结束*/
+
+
+.ad_list li{
+	margin-top: 0.2rem;
+}
+.ad_list li a{
+	position: relative;
+	display: block;
+}
+.ad_list li .ad_text{
+	position: absolute;
+	bottom: 0.20rem;
+	left: 0.25rem;
+	z-index: 1000;
+	display: block;
+	z-index: 5;
+}
+.ad_li_name{
+	display: block;
+	  font-size: 0.28rem;
+    color: #ffffff;
+    margin-bottom: 0.2rem;
+}
+.review{
+		display: inline-block;
+	  color: #fff;
+    font-size: 0.24rem;
+    background: #ee5648;
+    border-radius: 0.02rem;
+    width: 1.16rem;
+    height: 0.36rem;
+    margin-right: 0.1rem;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.times{
+	display: inline-block;
+	line-height: 0.37rem;
+	  height: 0.37rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../images/clock.png);
+    background-size: 0.18rem 0.18rem;
+    background-repeat: no-repeat;
+    background-position: 0.14rem center;
+    border-radius: 0.02rem;
+    font-size: 0.18rem;
+    border: 1px solid #6e6567;
+    padding-left: 0.39rem;
+    padding-right: 0.1rem;
+    box-sizing: border-box;
+}
+.ad_list li .masked{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.3;
+    background: #000;
+    left: 0;
+    top: 0;
+}
+
+
+@media only screen and (max-width: 420px) {
+	.zg_stick{
+	  border-bottom: 1px solid #eeeeee;
+	}
+	.zg_stick .sheng{
+		border: 1px solid #d9d9d9;
+	}
+	.zg_news_wrap li{
+		border-bottom: 1px solid #eeeeee;
+	}
+	.zg_recommend{
+		border-bottom: 1px solid #e4e4e4;
+	}
+	.zg_essay .most_data .line1, .zg_essay .most_data .line2{
+		border-bottom: 1px solid #ec3744;
+	}
+	.times{
+	    border: 1px solid #6e6567;
+	}
+}
