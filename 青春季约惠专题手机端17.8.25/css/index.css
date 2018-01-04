@@ -1,0 +1,295 @@
+ul li.nomar{
+	margin-right: 0;
+}
+.posirela{
+	position: relative;
+}
+.wrapper{	
+	max-width: 720px;
+    margin: 0 auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    background: #fae8ef;
+}
+.main{
+	width: 7rem;
+	margin: 0 auto;
+}
+
+
+
+/*优惠2*/
+.yh2_title{
+	background: url(../images/yh2.png) no-repeat;
+	height: 1.79rem;
+	background-size: 100% 100%;
+}
+.draw{
+	display: block;
+	width: 4.42rem;
+	height: 4.51rem;
+	margin: 0.15rem auto 0;
+}
+.zhuan{
+	margin-top: 0.33rem;
+	background: url(../images/zhuan.png) no-repeat;
+	background-size: 7.03rem 7.71rem;
+	width: 7.03rem;
+	height: 6.94rem;
+	margin-left: 0.1rem;
+	padding-top: 0.77rem;
+	position: relative;
+}
+.rules{
+	margin-top: 0.18rem;
+}
+.zhuan .pal28{
+	background: url(../images/heart.png) no-repeat 0.28rem 0.14rem;
+	background-size: 0.28rem 0.24rem;
+}
+.zhuan p{
+	font-size: 0.26rem;
+	line-height: 0.53rem;
+	margin-top: 0.02rem;
+	margin-left: 0.67rem;
+	color: #5d252a;
+}
+.guanzhu{
+	width: 1.4rem;
+	height: 0.52rem;
+	background: url(../images/guanzhu.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	right: 2.23rem;
+	bottom: 3.16rem;
+}
+.wb{
+	width: 2.24rem;
+	height: 2.23rem;
+	position: absolute;
+	right: 0.48rem;
+	bottom: 1.34rem;
+}
+.onlyone{
+	font-size: 0.26rem;
+	color: #ff1d32;
+	line-height: 0.52rem;
+	position: absolute;
+	bottom: 0.24rem;
+	right: 0.3rem;
+}
+
+
+/*优惠3*/
+.discount3{
+	margin-top: 0.4rem;
+}
+.yh3_title{
+	background: url(../images/yh3.png) no-repeat;
+	height: 1.8rem;
+	background-size: 100% 100%;
+}
+.qqhui{
+	background: url(../images/qqhui.png) no-repeat;
+	height: 4.61rem;
+	background-size: 100% 100%;
+	margin-top: 0.26rem;
+}
+.qqhui h4{
+	font-size: 0.38rem;
+	line-height: 0.66rem;
+	padding-top: 0.25rem;
+	width: 5.59rem;
+	text-align: center;
+	border-bottom: 0.05rem solid #5d252a;
+	margin: 0 auto;
+	color: #5d252a;
+}
+.qqlist{
+	margin-left: 0.28rem;
+	margin-top: 0.23rem;
+}
+.qqlist li{
+	float: left;
+	width: 2.92rem;
+	padding-left: 0.41rem;
+	background: url(../images/qqicon.png) no-repeat;
+	background-size: 0.32rem 0.36rem;
+	font-size: 0.22rem;
+	line-height: 0.32rem;
+	height: 0.32rem;
+	padding-top: 0.04rem;
+	color: #5d252a;
+	margin-bottom: 0.16rem;
+}
+.together{
+	background: url(../images/together.png) no-repeat;
+	height: 4.52rem;
+	margin-top: 0.44rem;
+	background-size: 6.84rem 4.52rem;
+}
+.together h3{
+	font-size: 0.45rem;
+	text-align: center;
+	color: #5d252a;
+	line-height: 0.91rem;
+	padding-top: 0.41rem;
+}
+.group{
+	font-size: 0.26rem;
+	line-height: 0.52rem;
+	padding-left: 0.76rem;
+	background: url(../images/heart.png) no-repeat 0.37rem 0.11rem;
+	background-size: 0.28rem 0.24rem;
+	color: #5d252a;
+}
+.warm{
+	font-size: 0.26rem;
+	line-height: 0.53rem;
+	color: #ff1d32;
+	margin-top: 0.12rem;
+	margin-left: 0.64rem;
+}
+
+
+/*优惠4*/
+.discount4{
+	margin-top: 0.45rem;
+	background: #fae8ef;
+}
+.yh4_title{
+	background: url(../images/yh4.png) no-repeat;
+	height: 1.79rem;
+	background-size: 100% 100%;
+}
+.wx_pic{
+	text-align: center;
+	margin-top: 0.17rem;
+}
+.wx_pic img{
+	display: block;
+	width: 4.56rem;
+	height: 5.89rem;
+	margin: 0 auto;
+}
+.getprize{
+	padding-top: 0.71rem;
+	margin-top: 0.28rem;
+	height: 6.85rem;
+	background: url(../images/get.png) no-repeat;
+	background-size: 6.99rem 7.56rem;
+}
+.zao1,.zao2{
+	font-size: 0.3rem;
+	font-weight: bold;
+	margin-left: 1.66rem;
+	color: #5d252a;
+	line-height: 0.52rem;
+}
+.zao2{
+	margin-bottom: 0.16rem;
+}
+.prize1{
+	font-size: 0.26rem;
+	line-height: 0.52rem;
+	padding-left: 0.67rem;
+	background: url(../images/heart.png) no-repeat 0.31rem 0.14rem;
+	background-size: 0.28rem 0.24rem;
+	color: #5d252a;
+}
+.prize2{
+	margin-top: 0.23rem;
+}
+.prize1 a{
+	text-decoration: underline;
+}
+.ps{
+	color: #ff1d32;
+}
+.yhadd{
+	width: 1.57rem;
+	height: 0.48rem;
+	background: #ffd11b;
+	border-radius: 0.06rem;
+	display: inline-block;
+	margin-right: 0.11rem;
+	text-align: center;
+}
+
+/*注意事项*/
+.attention{
+	height: 0.69rem;
+	background: url(../images/attention.png) no-repeat;
+	background-size: 7.04rem 1.42rem;
+	margin-left: 0.1rem;
+	margin-top: 0.32rem;
+	padding-top: 0.73rem;
+}
+.attask{
+	display: block;
+	width: 1.1rem;
+	height: 0.41rem;
+	background: url(../images/att_ask.png) no-repeat;
+	background-size: 100% 100%;
+	margin-left: 5.46rem;
+}
+/*祈祷*/
+.pray{
+	margin-top: 0.68rem;
+	height: 1.1rem;
+	padding-bottom: 1.28rem;
+}
+.pray .main{
+	height: 1.1rem;
+	background: url(../images/pray_03.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+
+
+/*底部*/
+.footer{
+	position: fixed;
+	/*width: 100%;*/
+	height: 0.68rem;
+	background: #1b1b1b;
+	left: 50%;
+	bottom: 0;
+	margin-left: -3.6rem;
+	width: 7.2rem;
+}
+.branch{
+	margin-left: 0.3rem;
+	width: 1.94rem;
+	padding-left: 0.26rem;
+	height: 0.68rem;
+	font-size: 0.24rem;
+	color: white;
+	line-height: 0.68rem;
+	background: url(../images/foot_tel.png) no-repeat left center;
+	background-size: 0.24rem 0.3rem;
+}
+.share{
+	margin-left: 2.31rem;
+	width: 0.56rem;
+	font-size: 0.24rem;
+	line-height: 0.68rem;
+	color: white;
+	text-align: center;
+}
+.ask{
+	margin-left: 0.6rem;
+	font-size: 0.24rem;
+	line-height: 0.68rem;
+	color: white;
+}
+
+
+
+/*分享*/
+.m-wxtip {display: none;position: fixed;z-index:22222222;top:0;left:0;width:100%;height:100%;background:#000; opacity:0.7}
+.m-wxtip .android-wxtip {position: fixed;left:0;top:0;width: 90%;padding:0 5%;z-index:222222;display:none;text-align:right;}
+.m-wxtip .ios-wxtip {position: absolute;left:0;bottom: 0;width: 86%;z-index:222222;display:none;text-align:center;padding-left:14%}
+.m-wxtip img{width:1.5rem;display:inline-block}
+

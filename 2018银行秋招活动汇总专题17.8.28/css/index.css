@@ -1,0 +1,581 @@
+ul li.nomar{
+	margin-right: 0;
+}
+.posirela{
+	position: relative;
+}
+.main{
+	width: 1000px;
+	margin: 0 auto;
+}
+a:hover{
+	color: #FF0000;
+}
+
+.zgHead{
+	height: 50px;
+	background: url(../images/head_01.jpg) no-repeat center top;
+}
+.logo{
+	padding-top: 3px;
+}
+.logolink{
+	width: 208px;
+	height: 38px;
+}
+.head_link{
+	margin-left: 27px;
+	font-size: 16px;
+	line-height: 36px;
+	padding-top: 14px;
+}
+.head_link a{
+	color: #FFFFFF;
+	margin-right: 5px;
+}
+.head_link a:hover{
+	color: #e60012;
+}
+.service_tel{
+	padding-top: 10px;
+	width: 220px;
+	color: #FFFFFF;
+	font-size: 24px;
+	line-height: 40px;
+	text-align: right;
+}
+.service_tel img{
+	vertical-align: -1px;
+	margin-right: 12px;
+}
+
+
+/*banner*/
+.banner{
+	height: 640px;
+	background: url(../images/banner_bg_02.jpg) no-repeat center top;
+}
+
+
+
+/*招聘信息*/
+.info{
+	padding-top: 91px;
+	background: url(../images/one_03.jpg) no-repeat center top;
+	height: 516px;
+}
+.title{
+	background: url(../images/tt1.png) no-repeat center top;
+	height: 95px;
+	text-align: center;
+	font-size: 30px;
+	line-height: 95px;
+	font-weight: bold;
+}
+.maodian0{
+	color: #f15e79;
+}
+.info_cont{
+	width: 1008px;
+	height: 368px;
+	margin: 15px auto 0;
+	background: url(../images/one_cont.png) no-repeat;
+}
+.info_left{
+	width: 454px;
+	height: 286px;
+	background: url(../images/info_bg.png) no-repeat;
+	margin-left: 31px;
+	margin-top: 35px;
+}
+.info_left h4{
+	padding-top: 3px;
+	font-size: 30px;
+	line-height: 74px;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 2px #156481;
+}
+.info_text{
+	height: 151px;
+}
+.info_text p{
+	font-size: 20px;
+	line-height: 34px;
+	color: white;
+	margin-left: 81px;
+}
+.notice{
+	background: url(../images/info_link.png) no-repeat;
+	width: 123px;
+	height: 43px;
+	margin-left: 81px;
+	text-align: center;
+	line-height: 43px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ff5353;
+}
+.order{
+	margin-left: 54px;
+}
+.mal39{
+	margin-left: 39px;
+}
+.info_text1 p{
+	font-size: 20px;
+	line-height: 34px;
+	color: white;
+	margin-left: 0;
+	text-align: center;
+}
+.query{
+	margin-left: 151px;
+}
+
+    
+/*修改简历*/
+.resume{
+	background: url(../images/two_04.jpg) no-repeat center top;
+	height: 514px;
+}
+.maodian1{
+	background: url(../images/tt2.png) no-repeat center top;
+	color: #e98c3a;
+}
+.resume_left{
+	background: url(../images/two_left.png) no-repeat;
+	width: 674px;
+	height: 320px;
+	margin-left: 23px;
+	margin-top: 24px;
+}
+.resu_text1{
+	font-size: 20px;
+	line-height: 36px;
+	padding: 30px 30px 0 32px;
+	color: #156481;
+}
+.resu_text1 span{
+	color: #ff0000;
+}
+.youhui{
+	margin-left: 32px;
+	font-size: 20px;
+	line-height: 36px;
+	color: #156481;
+	margin-top: 7px;
+	height: 141px;
+}
+.youhui span{
+	color: #ff0000;
+}
+.signup{
+	width: 160px;
+	height: 43px;
+	text-align: center;
+	line-height: 43px;
+	border: 2px solid #156481;
+	background: #4dcfff;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	margin-left: 137px;
+	border-radius: 11px;
+}
+.guidance{
+	margin-left: 69px;
+}
+.per_resume{
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+
+/*互动学习*/
+.interact{
+	background: url(../images/three_05.jpg) no-repeat center top;
+	height: 514px;
+}
+.maodian2{
+	background: url(../images/tt3.png) no-repeat center top;
+	color: #ffbb2c;
+}
+.inter_left{
+	width: 454px;
+	height: 286px;
+	background: url(../images/three_cont.png) no-repeat;
+	margin-top: 35px;
+	margin-left: 31px;
+}
+.inter_left h4{
+	font-size: 24px;
+	text-align: center;
+	line-height: 44px;
+	padding-top: 11px;
+    color: white;
+    text-shadow: 2px 2px 2px #156481;
+}
+.jinbu{
+	font-size: 18px;
+	line-height: 34px;
+	text-align: center;
+	color: #00172b;
+	margin-bottom: 21px;
+}
+.inter_left p{
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 62px;
+	padding-left: 35px;
+	background: url(../images/dui.png) no-repeat left 1px;
+}
+.expect{
+	background: url(../images/expect.png) no-repeat;
+	width: 160px;
+	height: 43px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 28px;
+	margin-left: 131px;
+	text-align: center;
+	color: #ff5353;
+	line-height: 42px;
+}
+.inter_right{
+	width: 454px;
+	height: 286px;
+	background: url(../images/inter_right.png) no-repeat;
+	margin-top: 35px;
+	margin-left: 39px;
+}
+.inter_right h4{
+	font-size: 24px;
+	text-align: center;
+	line-height: 54px;
+	padding-top: 6px;
+    color: white;
+    text-shadow: 2px 2px 2px #156481;
+}
+.weiguan{
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+	color: #00172b;
+	margin-bottom: 2px;
+}
+.inter_right p{
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 125px;
+}
+.live{
+	margin-left: 151px;
+}
+
+
+/*免费资料*/
+.data{
+	background: url(../images/four_06.jpg) no-repeat center top;
+	height: 511px;
+}
+.maodian3{
+	background: url(../images/tt4.png) no-repeat center top;
+	color: #9ccd57;
+}
+.data_left{
+	width: 454px;
+	height: 286px;
+	background: url(../images/data_bg.png) no-repeat;
+	margin-top: 35px;
+	margin-left: 31px;
+}
+.ewm_box{
+	padding-top: 36px;
+}
+.wx{
+	margin-left: 58px;
+}
+.ewm_text{
+	width: 200px;
+	margin-left: 17px;
+}
+.ewm_text p{
+	padding-top: 3px;
+	font-size: 18px;
+	line-height: 36px;
+	text-align: center;
+	color: #333333;
+	height: 77px;
+}
+.ewm_text a{
+	display: block;
+	background: url(../images/expect.png) no-repeat;
+	width: 160px;
+	height: 43px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 15px;
+	text-align: center;
+	color: #ff5353;
+	line-height: 42px;
+}
+.ewm_details{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 5px;
+	color: white;
+	text-shadow: 2px 2px 2px #156481;
+}
+.data_right{
+	margin-left: 39px;
+}
+
+
+/*玩出精彩*/
+.wonderful{
+	background: url(../images/five_14.jpg) no-repeat center top;
+	height: 511px;
+}
+.maodian4{
+	background: url(../images/tt5.png) no-repeat center top;
+	color: #30c2a6;
+}
+.wonder_left{
+	width: 470px;
+	height: 308px;
+	background: url(../images/wonder_left.png) no-repeat;
+	margin-left: 15px;
+	margin-top: 13px;
+}
+.wonder_left h4{
+	font-size: 24px;
+	line-height: 52px;
+	color: white;
+	text-shadow: 2px 2px 2px #156481;
+	padding-top: 34px;
+	margin-left: 52px;
+}
+.wonder_left p{
+	font-size: 16px;
+	line-height: 24px;
+	margin-left: 74px;
+}
+.join{
+	background: url(../images/expect.png) no-repeat;
+	width: 160px;
+	height: 43px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 24px;
+	margin-left: 147px;
+	text-align: center;
+	color: #ff5353;
+	line-height: 42px;
+}
+.wonder_right{
+	width: 454px;
+	margin-left: 40px;
+	margin-top: 35px;
+}
+.compete{
+	height: 83px;
+	background: url(../images/wonder_right.png) no-repeat;
+	margin-bottom: 19px;
+}
+.wonder_text{
+	padding-left: 42px;
+	width: 264px;
+}
+.wonder_text h5{
+	font-size: 20px;
+	line-height: 36px;
+	color: white;
+	padding-top: 13px;
+	text-shadow: 2px 2px 2px #156481;
+}
+.wonder_text p{
+	font-size: 16px;
+	line-height: 28px;
+}
+.wonder_link_box{
+	padding-top: 15px;
+}
+.wonder_link_box a{
+	display: block;
+	width: 101px;
+	height: 35px;
+	background: url(../images/wonder_link.png) no-repeat;
+	margin-left: 19px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ff5353;
+	line-height: 32px;
+}
+.wonder_link_box p{
+	font-size: 14px;
+	line-height: 28px;
+	margin-left: 5px;
+}
+
+
+/*报班学习*/
+.study{
+	background: url(../images/six_15.jpg) no-repeat center top;
+	height: 512px;
+}
+.maodian5{
+	background: url(../images/tt6.png) no-repeat center top;
+	color: #66c2f3;
+}
+.more_ms{
+	width: 960px;
+	text-align: right;
+	font-size: 18px;
+	line-height: 46px;
+	padding-top: 7px;
+}
+.pic_list{
+	margin-left: 47px;
+	margin-bottom: 17px;
+}
+.pic_list li{
+	float: left;
+	margin-right: 12px;
+}
+.pic_list li a{
+	display: block;
+}
+.wxkc{
+	background: url(../images/wxkc.png) no-repeat;
+	width: 913px;
+	height: 95px;
+	margin-left: 47px;
+	font-size: 30px;
+	line-height: 95px;
+	text-indent: 85px;
+	color: #ff5249;
+	position: relative;
+}
+.wxkc span{
+	position: absolute;
+	width: 90px;
+	height: 70px;
+	top: 2px;
+	right: 70px;
+	background: url(../images/tuoyuan.png) no-repeat;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	line-height: 24px;
+	padding-top: 20px;
+	text-indent: 0;
+}
+
+
+/*报班学习*/
+.accompany{
+	background: url(../images/seven_16.jpg) no-repeat center top;
+	height: 589px;
+}
+.maodian6{
+	background: url(../images/tt7.png) no-repeat center top;
+	color: #38b0f1;
+}
+.dizhi_inform{
+	margin-left: 50px;
+	margin-top: 50px;
+	width: 288px;
+	
+	display: none;
+}
+.zuobiao{
+	font-size: 24px;
+	color: white;
+	text-shadow: 1px 0px 5px #156481;
+	line-height: 58px;
+	font-weight: bold;
+}
+.dizhi_inform p{
+	font-size: 20px;
+	line-height: 30px;
+	word-break: break-all;
+}
+.dizhi_list{
+	margin-left: 29px;
+	margin-top: 66px;
+	width: 635px;
+}
+.dizhi_list li{
+	width: 83px;
+	height: 30px;
+	border: 1px solid #333333;
+	background: #69d3ff;
+	border-radius: 12px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 18px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.dizhi_list li.active{
+	color: #ff0d00;
+}
+.foot{
+	text-align: center;
+	font-size: 16px;
+	line-height: 32px;
+	margin-top: 23px;
+}
+
+
+/*悬浮窗*/
+.rightFixed{
+	padding-top: 194px;
+	width: 144px;
+	height: 258px;
+	background: url(../images/rightfix.png) no-repeat;
+	position: fixed;
+	right: 0;
+	top: 100px;
+}
+.fix_list{
+	width: 124px;
+	margin-left: 12px;
+}
+.fix_list li{
+	font-size: 14px;
+	color: #333333;
+	line-height: 30px;
+	cursor: pointer;
+	border-bottom: 1px dashed #a87026;
+	text-indent: 7px;
+}
+.fix_link{
+	margin-left: 19px;
+	color: #ff2a2a;
+	font-size: 14px;
+	line-height: 28px;
+}
+.download{
+	width: 117px;
+	height: 30px;
+	background: #ff4949;
+	border: 1px solid #000000;
+	margin-top: 8px;
+	margin-left: 14px;
+	border-radius: 8px;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+	font-size: 14px;
+}
+.download:hover{
+	color: white;
+}

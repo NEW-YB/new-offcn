@@ -1,0 +1,567 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+abbr,acronym{border:0;}
+.clearfix:after {visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+.clearfix {zoom:1;}	
+a{text-decoration:none;}
+.fl{float:left;}
+.fr{float:right;}
+*:focus{outline:none;}
+.bl{display:block;}
+.mr{margin:0 auto;}
+a,button,input,optgroup,select,textarea {
+    -webkit-tap-highlight-color:rgba(0,0,0,0);outline: none; /*去掉a、input和button点击时的蓝色外边框和灰色半透明背景*/border:0
+}
+input[type=”button”], input[type=”submit”], input[type=”reset”] {
+-webkit-appearance: none;/*去掉苹果默认样式*/
+}
+body{font-family:"microsoft yahei"; max-width: 7.5rem; margin: 0 auto; font-size: 12px;}
+
+
+.header{ width: 100%; height: .79rem; background: #fff;font-family: 'Microsoft Yahei';}
+.logo{ display: block; float: left; margin-left: .25rem; margin-top: .2rem; width: 1.98rem; height: .39rem;}
+.logo img{ display: block;}
+.hotline{font-size: 0.24rem; color: #333333; line-height: 0.62rem;padding-top: 0.17rem;margin-right: 0.24rem;}
+.tel{height: .62rem; line-height: .62rem; font-size: .24rem; color: #e60012;  float: right; }
+
+.yhbs_ban{ width: 7.5rem;padding-top: 1.24rem; height: 3.77rem; background: url(../images/yhms_02.jpg) no-repeat center; background-size: 100% 100%; text-align: center;	}
+.yhbs_ban h3{ height: 0.51rem; line-height: 0.51rem; font-family: 'Microsoft Yahei'; font-size: .36rem; color: #fff;display: inline-block; padding: 0 0.15rem; border: 1px dashed #ffffff;margin-bottom: 0.45rem;}
+.yhbs_ban span{color: #fff300;}
+.yhbs_ban img{ display: block; margin:0 auto; width:6.91rem; height: 1.67rem;}
+
+
+.yhbs_nav{ /*padding-left: 0.35rem; */height: .61rem; line-height: .61rem; /*background: #ff9600;*/}
+.maodian{
+	padding-left: 0.35rem; height: .61rem; line-height: .61rem; background: #ff9600;
+	width: 7.15rem;
+}
+.yhbs_nav a{ display: block; width: 1.7rem; line-height: .61rem; color: #fff; font-size: .28rem; font-family: 'Microsoft Yahei'; float: left; text-align: center;}
+.yhbs_nav a.on{ font-weight: bold;background: #ffaa31; height: 0.67rem; margin-top: -0.03rem;}
+.zg_scFix{ position: fixed; left: 50%; margin-left: -3.75rem; top: 0; z-index: 99;width: 7.15rem;}
+
+
+/*难题*/
+.yhms_ma1{ width: 7.5rem; background: #fff; padding-top: .97rem;padding-bottom: 0.67rem;}
+.title_box{
+	text-align: center;
+	font-size: 0.44rem;
+	line-height: 0.53rem;
+	height: 0.53rem;
+	font-weight: bold;
+}
+.title_box img{
+	width: 0.46rem;
+	height: 0.53rem;
+	vertical-align: top;
+}
+.yhms_ma1c{ 
+	width: 7.01rem; 
+	height: 3.19rem; 
+	margin: .6rem auto 0; 
+	background: url(../images/beauty.jpg) no-repeat; 
+	background-size: 3.19rem 3.19rem;
+	overflow: hidden;
+}
+.yhms_m1ct{ 
+	padding-top: .33rem;
+}
+.yhms_m1ct p{ 
+	text-indent: 0.06rem;
+	height: .38rem; 
+	line-height: .38rem; 
+	font-size: .24rem; 
+	color: #333333; 
+	font-family: 'Microsoft Yahei'; 
+	margin-bottom: .34rem;
+	background: url(../images/tuoyuan.png) no-repeat;
+	background-size: 0.38rem 0.38rem;
+}
+.yhms_m1ct p span{
+	color: white;
+	margin-right: 0.13rem;
+}
+.yhms_m1ct p.p1{ margin-left: 2.52rem;}
+.yhms_m1ct p.p2{ margin-left: 2.92rem;}
+.yhms_m1ct p.p3{ margin-left: 2.9rem;}
+.yhms_m1ct p.p4{ margin-left: 2.5rem;}
+.solve_title{
+	width: 6.02rem;
+	margin: 0.6rem auto 0;
+	height: 0.49rem;
+	background: #dd4040;
+	color: white;
+	font-size: 0.24rem;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.49rem;
+	border-radius: 0.08rem;
+}
+.recommend{
+	text-align: center;
+	font-size: 0.36rem;
+	line-height: 0.5rem;
+	font-weight: bold;
+	margin-top: 0.51rem;
+}
+.recom_lesson{
+	width: 7rem;
+	margin: 0.43rem auto 0;
+	border-bottom: 1px solid #006ed4;
+	border-right: 1px solid #006ed4;
+}
+.rels_l{
+	width: 33.33%;
+}
+.rels_tt{
+	height: 0.58rem;
+	text-align: center;
+	font-size: 0.24rem;
+	line-height: 0.58rem;
+	background: #006ed4;
+	color: white;
+}
+.rels_tt1{
+	background: #ff9600;
+}
+.rels_cont{
+	height: 2.96rem;
+	border-left: 1px solid #006ed4;
+	background: #ebf6ff;
+}
+.rels_cont1{
+	background: #fff0da;
+}
+.rels_cont p{
+	font-size: 0.24rem;
+	line-height: 0.36rem;
+	padding: 0.3rem 0.3rem 0;
+	height: 2.04rem;
+}
+.rels_cont p span{
+	color: #dd4040;
+}
+.zixun{
+	display: block;
+	width: 1.83rem;
+	height: 0.44rem;
+	text-align: center;
+	line-height: 0.44rem;
+	font-size: 0.24rem;
+	color: white;
+	background: #dd4040;
+	border-radius: 0.08rem;
+	margin: 0 auto;
+}
+
+
+/*优惠活动*/
+.yhms_ma2{
+	padding-top: 0.53rem;
+	background: #377fd7;
+	padding-bottom: 0.6rem;
+}
+.zhuanye{
+	width: 5.03rem;
+	height: 0.3rem;
+	display: block;
+	margin: 0 auto 0.34rem;
+}
+.yhms_ma2 .title_box{
+	color: white;
+}
+.active_box{
+	padding-top: 0.15rem;
+	width: 7rem;
+	margin: 0.57rem auto 0;
+	background: #ebf6ff;
+	/*height: 0.96rem;*/
+	text-align: center;
+	font-size: 0;
+	padding-bottom: 0.05rem;
+}
+.active_box1{
+	margin-top: 0.3rem;
+}
+.ac_name{
+	display: inline-block;
+	font-size: 0.24rem;
+	line-height: 0.35rem;
+	height: 0.35rem;
+	padding: 0 0.22rem;
+	border: 1px dashed #377fd7;
+	font-weight: bold;
+	color: #377fd7;
+}
+.ac_text{
+	font-size: 0.24rem;
+	line-height: 0.54rem;
+}
+.more_discount{
+	margin-top: 0.52rem;
+	margin-left: 0.74rem;
+	width: 6.02rem;
+	height: 0.49rem;
+	line-height: 0.49rem;
+	text-align: center;
+	font-size: 0.24rem;
+	font-weight: bold;
+	color: white;
+	display: block;
+	background: #dd4040;
+	border-radius: 0.08rem;
+}
+
+
+/*面授课程*/
+.yhbs_ma3{ background: #fff;padding-top: 0.61rem;}
+.foru_box{
+	margin-top: 0.2rem;
+	text-align: center;
+}
+.foru{
+	width: 3.25rem;
+	height: 0.39rem;
+	border: 1px dashed #377fd7;
+	text-align: center;
+	display: inline-block;
+	line-height: 0.39rem;
+	font-size: 0.24rem;
+}
+.ms_intro{
+	font-size: 0.24rem;
+	line-height: 0.44rem;
+	text-align: center;
+	color: #999999;
+	margin-top: 0.47rem;
+}
+.yhbs_mskc{ width: 7rem; height: auto; margin:.3rem auto 0; clear: both;}
+.yhbs_xlxz{ width: 7rem; height: .51rem; margin: 0 auto;}
+.guding{
+	width: 7rem; height: .51rem; 
+}
+.yhbs_xlFix{ position: fixed; left:50%; margin-left: -3.5rem; top: 0; z-index: 99; background: #fff;}
+.yhbs_xlxz select{ 
+	width: 3.42rem; 
+	height: .51rem; 
+	border: none; 
+	text-align: center;
+	padding-right: .6rem;
+	appearance:none;-moz-appearance:none;-webkit-appearance:none;font-size: .24rem; line-height: .51rem; color: #ffffff; font-family: 'Microsoft Yahei';}
+.yhbs_fbxz{
+	padding-left: 1.2rem; 
+	background: #377fd7 url(../images/xia.png) no-repeat 2.88rem center;
+	background-size: 0.27rem 0.14rem;
+}
+.yhbs_yjxl{
+	padding-left: .2rem; 
+	background: #ff9600 url(../images/xia.png) no-repeat 2.88rem center;
+	background-size: 0.27rem 0.14rem;
+}
+.yhbs_xlxz option{ width: 100%;  font-size: .20rem; color: #333; font-family: 'Microsoft Yahei'; line-height: .36rem;background: white;}
+.yhbs_yjxl{ display: none;}
+.yhbs_msbox{ width: 7rem; height: auto; margin: 0 auto; margin-top: .36rem;}
+.yhbs_fbbox{ width: 100%; height: auto; display: none;margin-bottom: 0.6rem;}
+.yhbs_yjbox{ display: none; width: 100%; height: auto;}
+.yhbs_ejbox{ width: 100%; height: auto; margin: 0 auto; /*padding-bottom: .54rem;*/ position: relative;}
+
+.ejxl_gda{ display: block; width: .27rem; height: .25rem; background: url(../images/yhbs_11.png) no-repeat center; background-size: 100% 100%; position: absolute; left: 50%; margin-left: -.13rem; bottom: .3rem;}
+
+.ejxl_name{ width: 100%; line-height: .6rem; text-align: center; font-size: .36rem; color: #333333; font-family: 'Microsoft Yahie'; font-weight: bold;}
+.ejxl_kcts{ 
+	border: 1px dashed #377fd7;
+	padding: .19rem .23rem .18rem; 
+	height: auto;
+	margin-top: 0.25rem;
+}
+.ejxl_kcts h6{ line-height: .35rem; font-size: .24rem; color: #377fd7; font-family: 'Microsoft Yahei';font-weight: bold;}
+.ejxl_kcts div{ height: .7rem; overflow: hidden;margin-bottom: .15rem;}
+.ejxl_kcts p{ line-height: .35rem; font-size: .24rem; color: #333; font-family: 'Microsoft Yahei'; overflow: hidden; }
+.ejxl_kcts a{ display: block; width: .27rem; height: .25rem; background: url(../images/yhbs_11.png) no-repeat center; background-size: 100% 100%; margin: 0 auto;}
+.bjbox{ width: 6.94rem; height: auto; margin: 0.29rem auto .4rem;border: 0.03rem solid #377fd7;padding-top: 0.28rem;}
+.bjbox h5{
+	width: 6.46rem; 
+	line-height: .56rem; 
+	text-align: center; 
+	background: url(../images/ban_tt.png) no-repeat center; 
+	background-size: 6.46rem 0.11rem;
+	font-size: .28rem; 
+	color: #333333; 
+	font-family: 'Microsoft Yahei';
+	font-weight: bold;
+	margin: 0 auto;
+}
+.bjboxc{ width:6.5rem;  padding-top: .29rem; margin: 0 auto; padding-bottom: .25rem;}
+.bjboxc p{ line-height: .36rem; font-size: .24rem; color: #333; font-family: 'Microsoft Yahei'; margin-bottom: .19rem; clear: both;margin-left: 0.1rem;}
+.bjboxc p span{ font-weight: bold;}
+.price{
+	background: #e2efff;
+	margin-top: 0.27rem;
+	padding: 0.13rem 0.1rem;
+}
+.price_left,.price_right{	
+	font-size: 0.24rem;
+	line-height: 0.36rem;
+	font-family: 'Microsoft Yahei';
+}
+.price_left{
+	width: 1.22rem;
+	font-weight: bold;
+}
+.price_right{
+	width: 4.3rem;
+}
+.qishu{
+	margin-top: 0.39rem;
+}
+.yiqi{
+	height: 0.59rem;
+	border: 1px dashed #dd4040;
+	margin-bottom: 0.2rem;
+}
+.periods{
+	width: 1.2rem;
+	text-align: center;
+	line-height: 0.59rem;
+	font-size: 0.24rem;
+	font-weight: bold;
+}
+.pe_times{
+	width: 3.19rem;
+	text-align: center;
+	font-size: 0.24rem;
+	line-height: 0.59rem;
+}
+.pe_signup{
+	width: 1.38rem;
+	height: 0.38rem;
+	background: #dd4040;
+	margin-top: 0.11rem;
+	margin-right: 0.29rem;
+	border-radius: 0.09rem;
+	text-align: center;
+	line-height: 0.38rem;
+	font-size: 0.24rem;
+	color: white;
+}
+
+
+/*网校课程*/
+.yhms_ma4{ height: auto; margin: 0 auto; clear: both;background: #377fd7;padding-bottom: 0.62rem;}
+.yhms_ma4 .title_box{
+	color: white;
+	padding-top: 0.61rem;
+}
+.tisheng{
+	margin: 0.2rem auto 0;
+	width: 3.25rem;
+	height: 0.39rem;
+	border: 1px dashed #ffffff;
+	text-align: center;
+	line-height: 0.39rem;
+	font-size: 0.24rem;
+	color: white;
+}
+.wx_list{
+	margin-top: 0.6rem;
+	margin-left: 0.25rem;
+}
+.wx_list li{
+	float: left;
+	width: 2.26rem;
+	height: 1.89rem;
+	margin-right: 0.12rem;
+}
+.wx_li1{
+	background: url(../images/wx1.png) no-repeat;
+	background-size: 100% 100%;
+}
+.wx_li2{
+	background: url(../images/wx2.png) no-repeat;
+	background-size: 100% 100%;
+}
+.wx_li3{
+	background: url(../images/wx3.png) no-repeat;
+	background-size: 100% 100%;
+}
+.wx_list li a{
+	display: block;
+	font-size: 0.3rem;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.6rem;
+	padding: 0.49rem 0;
+}
+.wx_list li.wx_li1 a{
+	color: #005db4;
+}
+.wx_list li.wx_li2 a{
+	color: #579da0;
+}
+.wx_list li.wx_li3 a{
+	color: #ea8a00;
+}
+
+
+/*不后悔选择*/
+.yhms_ma5{ width: 7.1rem; height: auto; margin: 0 auto; clear: both;padding-top: 0.57rem;padding-bottom: 0.32rem;}
+.mr7{
+	margin-right: 0.05rem;
+}
+.ml-4{
+	margin-left: -0.04rem;
+}
+.regret{
+	margin-top: 0.58rem;
+}
+.regret li{
+	background: #f1f1f1;
+	height: 1.42rem;
+	margin-bottom: 0.3rem;
+}
+.reg_left{
+	width: 1.27rem;
+	height: 1.35rem;	
+	border-right: 0.08rem solid white;
+}
+.qq_bg{
+	background: #05b5b5 url(../images/qq.png) no-repeat center center;
+	background-size: 0.88rem 0.89rem;
+}
+.reg_right{
+	margin-left: 0.09rem;
+	width: 5.5rem;
+}
+.reg_right h4{
+	font-size: 0.24rem;
+	line-height: 0.54rem;
+	padding-top: 0.05rem;
+	font-weight: bold;
+}
+.reg_right p{	
+	font-size: 0.24rem;
+	line-height: 0.35rem;
+}
+.dz_bg{
+	background: #84c4e7 url(../images/dingzhi.png) no-repeat center center;
+	background-size: 0.88rem 0.88rem;
+}
+.ts_bg{
+	background: #f6be4f url(../images/tuisong.png) no-repeat center center;
+	background-size: 0.89rem 0.69rem;
+}
+
+
+/*中公学习环境面面观*/
+.yhms_ma7{ width: 100%; height: auto; background: #377fd7; margin: 0 auto; padding-top: .59rem;padding-bottom: 0.62rem;}
+.yhms_ma7 .title_box{
+	color: white;
+	margin-bottom: 0.4rem;
+}
+
+.sw_box {
+	width: 7.01rem;
+    oveflow: hidden;
+    /*height: 4rem;*/
+    padding-top: 0.2rem;
+}
+.sw_box .swiper-slide{
+	margin-top: 0.23rem;
+    padding: 2% 5%;
+    box-sizing: border-box;
+    /*padding: 0.5rem 0.2rem;*/
+}
+.sw_box img {
+    width: 100%;
+	border: 0.04rem solid white;
+	box-shadow: 0 0 0.05rem 0.04rem #dcdcdc;
+}
+.sw_box .swiper-slide-active {
+	margin-top: 0;
+    padding: 0;
+    position: relative;
+    z-index: 22;
+}
+
+
+
+/*分部联系方式*/
+.yhms_ma8{ width: 100%; height: auto; padding-top: .59rem; background: #333333; padding-bottom: 1.45rem;}
+.yhms_ma8 .title_box{color: white;}
+.fenbu_list{
+	margin-top: 0.6rem;
+}
+.fenbu_list li{
+	float: left;
+	min-width: 1.2rem;
+	height: 0.4rem;
+	border-radius: 0.08rem;
+	background: #377fd7;
+	text-align: center;
+	line-height: 0.4rem;
+	margin-left: 0.25rem;
+	font-size: 0.24rem;
+	color: #FFFFFF;
+	margin-bottom: 0.37rem;
+	cursor: pointer;
+}
+.fenbu_list li.active{
+	background: white;
+	font-weight: bold;
+	color: #377fd7;
+}
+.fenbu_box{
+	margin-left: 0.25rem;
+	margin-top: 0.05rem;
+	margin-bottom: 0.53rem;
+	display: none;
+}
+.fenbu_info{
+	margin-bottom: 0.34rem;
+}
+.fenbu_name{
+	font-size: 0.24rem;
+	font-weight: bold;
+	line-height: 0.42rem;
+	color: white;
+	height: 0.42rem;
+	margin-bottom: 0.08rem;
+}
+.fenbu_name img{
+	width: 0.36rem;
+	height: 0.36rem;
+	vertical-align: top;
+	margin-right: 0.14rem;	
+}
+.fenbu_box p{
+	font-size: 0.24rem;
+	line-height: 0.35rem;
+	margin-left: 0.5rem;
+	color: white;
+}
+.copyright{
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.3rem;
+	color: #999999;
+	margin-top: 0.19rem;
+}
+
+
+.zgxf{ width: 7.5rem; height: .83rem; position: fixed; left: 50%; bottom: 0; margin-left: -3.75rem; z-index: 99;}
+.zgxf a{ display: block; float: left; width: 50%; height: .83rem; line-height: .83rem; font-size: .24rem; color: #fff; font-weight: bold; text-align: center;}
+.zgxf a:first-child{background: url(../images/zaixian.png) no-repeat; background-size: 100% 100%;}
+.zgxf a:last-child{background: url(../images/dianhua.png) no-repeat; background-size: 100% 100%;}
+.zgxf a img{
+	vertical-align: middle;
+	width: 0.39rem;
+	height: 0.36rem;
+	margin-right: 0.16rem;
+}
