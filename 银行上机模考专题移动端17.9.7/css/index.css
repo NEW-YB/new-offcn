@@ -1,0 +1,443 @@
+ul li.nomar{
+	margin-right: 0;
+}
+.posirela{
+	position: relative;
+}
+.wrapper{	
+	max-width: 750px;
+    margin: 0 auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    /*overflow: hidden;*/
+}
+.main{
+	width: 7.1rem;
+	margin: 0 auto;
+}
+
+
+/*头部*/
+.header{
+	height: 0.88rem;
+}
+.logo{
+	margin-top: 0.12rem;
+	margin-left: 0.02rem;
+	width: 3.1rem;
+	height: 0.56rem;
+}
+.hotline{
+	padding-top: 0.16rem;
+	width: 3rem;
+	text-align: right;
+	font-size: 0.32rem;
+	line-height: 0.72rem;
+}
+.tel_pic{
+	margin-top: 0.17rem;
+	width: 0.37rem;
+	height: 0.33rem;
+	display: inline-block;
+	margin-right: 0.18rem;
+}
+.tel_link{
+	color: #333333;
+}
+.banner{height: 6rem;}
+
+/*预约*/
+.order{
+	padding-top: 0.55rem;
+	padding-bottom: 0.58rem;
+}
+.title{
+	font-size: 0.44rem;
+	line-height: 0.6rem;
+	text-align: center;
+	color: #333333;
+}
+.title span{
+	color: #e91828;
+}
+.way1_box{
+	margin-top: 0.37rem;
+}
+.way1_title{
+	width: 3.68rem;
+	height: 0.53rem;
+	background: #ffdf05 url(../images/inte_order.png) no-repeat 0.48rem 0.08rem;
+	background-size: 0.35rem 0.35rem;
+	font-size: 0.24rem;
+	line-height: 0.53rem;
+	text-indent: 1rem;
+	border-radius: 0.18rem;
+}
+.form_box{
+	height: 4.51rem;
+	margin-top: 0.2rem;
+}
+.way1_form{
+	padding-top: 0.72rem;
+	/*margin-top: 0.2rem;*/
+	height: 3.79rem;
+	background: #2195ff;
+	border-radius: 0.04rem;
+}
+.user_box,.phone_box,.province_box{
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.4rem;
+	color: white;
+}
+.way1_form input{
+	vertical-align: top;
+	display: inline-block;
+	width: 4.4rem;
+	background: white;
+	border: none;
+	font-size: 0.2rem;
+	line-height: 0.4rem;
+	height: 0.4rem;
+	border-radius: 0.05rem;
+	text-indent: 0.1rem;
+}
+.phone_box{
+	margin-top: 0.24rem;
+}
+.province_box{
+	word-spacing: 0.6rem;
+	margin-top: 0.19rem;
+}
+.way1_form select{
+	vertical-align: top;
+	display: inline-block;
+	background: white url(../images/sanjiao.png) no-repeat 1.23rem 0.13rem;
+	background-size: 0.19rem 0.16rem;
+	border: none;
+	font-size: 0.2rem;
+	line-height: 0.4rem;
+	height: 0.4rem;
+	border-radius: 0.05rem;
+	text-indent: 0.1rem;
+	width: 1.5rem;
+	height: 0.4rem;
+	font-family: "microsoft yahei";
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+.way1_form p{
+	font-size: 0.24rem;
+	line-height: 0.36rem;
+	margin-top: 0.43rem;
+	margin-left: 0.64rem;
+	color: white;
+	width: 5.95rem;
+}
+.way1_form input.submit{
+	background: url(../images/order.png) no-repeat;
+	background-size: 1.93rem 0.49rem;
+	margin-top: 0.37rem;
+	width: 1.93rem;
+	height: 0.49rem;
+	margin-left: 2.59rem;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.44rem;
+	padding-bottom: 0.05rem;
+}
+.way_together{
+	margin-top: 0.26rem;
+}
+.way2_box{
+	width: 3.28rem;
+}
+.way2_title{
+	height: 0.53rem;
+	background: #ffdf05 url(../images/tel_order.png) no-repeat 0.28rem 0.11rem;
+	background-size: 0.33rem 0.37rem;
+	font-size: 0.24rem;
+	line-height: 0.53rem;
+	text-indent: 0.8rem;
+	border-radius: 0.18rem;
+}
+.yy_tel{
+	text-align: center;
+	font-size: 0.24rem;
+	line-height: 0.34rem;
+	margin-top: 0.31rem;
+}
+.yy_tel a{
+	color: #333333;
+}
+.way3_title{
+	background: #ffdf05 url(../images/scene_order.png) no-repeat 0.23rem 0.07rem;
+	background-size: 0.4rem 0.4rem;
+}
+.yy_address{
+	font-size: 0.24rem;
+	line-height: 0.32rem;
+	margin-top: 0.28rem;
+	margin-left: 0.11rem;
+}
+.yy_address a{
+	color: #333333;
+	text-decoration: underline;
+}
+
+
+/*亮点*/
+.ld1{
+	height: 5.27rem;
+	background: url(../images/ld1_02.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin-top: 0.25rem;
+}
+.ld1 h4{
+	font-size: 0.3rem;
+	color: #2195ff;
+	line-height: 0.92rem;
+	padding-top: 0.91rem;
+	margin-left: 0.32rem;
+}
+.ld1 p{
+	font-size: 0.24rem;
+	line-height: 0.36rem;
+	height: 1.63rem;
+	margin-left: 0.26rem;
+	width: 2.5rem;
+}
+.yuyue{
+	width: 2.16rem;
+	height: 0.6rem;
+	text-align: center;
+	margin-left: 0.28rem;
+	font-size: 0.24rem;
+	line-height: 0.56rem;
+	display: block;
+	color: #333333;
+	background: url(../images/yuyue.png) no-repeat;
+	background-size: 100% 100%;
+}
+/*亮点2*/
+.ld2{
+	height: 5.1rem;
+	background: url(../images/ld2_04.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin-top: 0.68rem;
+}
+.ld2 h4{
+	font-size: 0.3rem;
+	color: #ffdf05;
+	line-height: 0.92rem;
+	padding-top: 1.16rem;
+	margin-right: 0.48rem;
+	text-align: right;
+}
+.ld2 p{
+	font-size: 0.24rem;
+	line-height: 0.36rem;
+	height: 1.63rem;
+	margin-left: 4.86rem;
+	width: 2.5rem;
+	color: white;
+}
+.ld2 .yuyue{
+	margin-left: 4.88rem;
+}
+/*亮点3*/
+.ld3{
+	height: 4.62rem;
+	background: url(../images/ld3_06.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin-top: 0.82rem;
+	margin-bottom: 0.53rem;
+}
+.ld3 h4{
+	font-size: 0.3rem;
+	color: #2195ff;
+	line-height: 0.92rem;
+	padding-top: 0.74rem;
+	margin-left: 0.32rem;
+}
+.ld3 p{
+	font-size: 0.24rem;
+	line-height: 0.36rem;
+	height: 1.03rem;
+	margin-left: 0.46rem;
+	width: 2.5rem;
+}
+.ld3 .yuyue{
+	margin-left: 0.28rem;
+}
+/*亮点4*/
+.ld4{
+	height: 5.44rem;
+	background: url(../images/ld4_08.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.ld4 h4{
+	font-size: 0.3rem;
+	color: #2195ff;
+	line-height: 0.92rem;
+	padding-top: 1.09rem;
+	margin-left: 4.97rem;
+}
+.ld4 p{
+	font-size: 0.24rem;
+	line-height: 0.36rem;
+	height: 1.63rem;
+	margin-left: 4.9rem;
+	width: 2.5rem;
+}
+.ld4 .yuyue{
+	margin-left: 4.93rem;
+}
+/*亮点4*/
+.ld5{
+	height: 6.6rem;
+	background: url(../images/ld5_09.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.ld5 h4{
+	font-size: 0.3rem;
+	color: #2195ff;
+	line-height: 0.9rem;
+	padding-top: 1.67rem;
+	margin-left: 0.25rem;
+}
+.ld5 p{
+	font-size: 0.24rem;
+	line-height: 0.36rem;
+	height: 1.63rem;
+	margin-left: 0.19rem;
+	width: 2.5rem;
+}
+.ld5 .yuyue{
+	margin-left: 0.21rem;
+}
+
+
+/*特权*/
+.privilege{
+	padding-bottom: 0.61rem;
+}
+.tequan_box{
+	margin-top: 0.5rem;
+	margin-left: 0.25rem;
+	width: 6.96rem;
+	height: 4.4rem;
+}
+.tequan{
+	height: 0.88rem;
+	background: url(../images/privilege.png) no-repeat;
+	background-size: 100% 100%;
+	margin-bottom: 0.19rem;
+}
+.tequan h5{
+	font-size: 0.3rem;
+	float: left;
+	margin-left: 0.98rem;
+	line-height: 0.82rem;
+	padding-top: 0.06rem;
+	width: 1.77rem;
+}
+.tequan p{
+	float: left;
+	font-size: 0.24rem;
+	color: white;
+	line-height: 0.58rem;
+	padding-top: 0.16rem;
+}
+.privilege .yuyue{
+	margin-left: 2.67rem;
+}
+
+
+/*准备*/
+.prepare{
+	padding-bottom: 1.34rem;
+}
+.ewm_box{
+	margin-top: 0.11rem;
+}
+.ewm{
+	margin-top: 0.33rem;
+	width: 3.02rem;
+	height: 3.25rem;
+	background: #2195ff;
+}
+.ewm_pic{
+	width: 2.43rem;
+	height: 2.43rem;
+	margin-left: 0.28rem;
+	margin-top: 0.28rem;
+}
+.ewm p{
+	text-align: center;
+	color: white;
+	font-size: 0.3rem;
+	line-height: 0.52rem;
+}
+.zb_link{
+	width: 3.54rem;
+	background: url(../images/yuanju.png) no-repeat 0.87rem 1.02rem;
+	background-size: 1.65rem 2rem;
+}
+.zb_link a{
+	display: block;
+	margin-top: 0.47rem;
+	height: 0.68rem;
+	border-radius: 0.27rem;
+	text-align: center;
+	color: white;
+	font-size: 0.3rem;
+	line-height: 0.68rem;
+}
+.bank{
+	background: #29c3a8;
+}
+.qun{
+	background: #fc8c15;
+}
+.app{
+	background: #2195ff;
+}
+
+
+
+/*底部*/
+.footer{
+	position: fixed;
+	/*width: 100%;*/
+	height: 0.64rem;
+	left: 50%;
+	bottom: 0;
+	margin-left: -3.75rem;
+	width: 7.5rem;
+}
+.consult{
+	width: 50%;
+	float: left;
+	font-size: 0.3rem;
+	line-height: 0.64rem;
+	background: #fc8c15 url(../images/zixun.png) no-repeat 1rem 0.12rem;
+	background-size: 0.39rem 0.43rem;
+	color: white;
+	font-weight: bold;
+	text-indent: 1.6rem;
+}
+.foot_tel{
+	width: 50%;
+	float: left;
+	font-size: 0.3rem;
+	line-height: 0.64rem;
+	background: #27c9a2 url(../images/dianhua.png) no-repeat 1rem 0.16rem;
+	background-size: 0.38rem 0.33rem;
+	color: white;
+	font-weight: bold;
+	text-indent: 1.56rem;
+}
+
+

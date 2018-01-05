@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="gb2312">
+		<title>银行上机模考专题移动端</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta http-equiv="Cache-Control" content="no-cache"/>
+		<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport">
+		<meta name="MobileOptimized" content="320"/>
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="apple-touch-fullscreen" content="YES" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script type="text/javascript" src="http://www.offcn.com/statics/js/sdc_offcn_wap.js"></script>
+		
+		<script type="text/javascript">
+			function browserRedirect() {  
+				var sUserAgent = navigator.userAgent.toLowerCase();  
+				var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";  
+				var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";  
+				var bIsMidp = sUserAgent.match(/midp/i) == "midp";  
+				var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";  
+				var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";  
+				var bIsAndroid = sUserAgent.match(/android/i) == "android";  
+				var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";  
+				var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";  
+				if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {  
+				} 
+				else{
+					window.location.href = 'http://www.jinrongren.net/zt/2018yh_sjmk/'; 
+				}
+			}  
+			browserRedirect();
+		</script>
+	</head>
+	<body>
+		
+		<script>
+			function fs(){
+				var deviceWidth = document.documentElement.clientWidth;
+				if(deviceWidth > 750) deviceWidth = 750;
+				document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+			}
+			fs();
+			window.onresize=fs;
+		</script>
+		
+		<div class="wrapper">
+			
+			<div class="header">
+				<div class="main clearfix">
+					<a href="http://www.jinrongren.net/" class="logo fl"><img src="images/logo.png"/></a>
+					<div class="hotline fr">
+						<img class="tel_pic" src="images/tel.png"/><a href="tel:4006300999" class="tel_link" onclick="if (window._tag){_tag.dcsMultiTrack('wt.mtel','phone');}">400-6300-999</a>
+					</div>
+				</div>
+			</div>
+			
+			
+			<!--banner区-->
+			<div class="banner clearfix">
+				<img width="100%" src="images/banner.jpg"/>
+			</div>
+			
+			
+			<!--现在预约-->
+			<div class="order">
+				<div class="main">
+					<h3 class="title">现在预约<br />即可<span>0元</span>体验上机模考 </h3>
+					<div class="way1_box">
+						<h5 class="way1_title">【方式一：网上预约】</h5>
+						<div class="form_box">
+							<form class="way1_form" action="http://www.jinrongren.net/index.php?m=formguide&c=index&a=show&formid=797&action=js&siteid=1" method="post">
+								<div class="user_box">
+									姓名：<input type="text" class="username" name="info[name]" id="name" value="" />
+								</div>
+								<div class="phone_box">
+									电话：<input type="text" class="phone" name="info[tel]" id="tel" value="" />
+								</div>
+								<div class="province_box">
+									省份：<select name="info[province]" id="province"></select>
+	                  				地市：<select name="info[city]" id="city"></select>
+								</div>
+								<p>（预约成功后将有老师在3个工作日内联系您确认模考时间和地点，请保持手机畅通。）</p>
+								<input class="submit" name="dosubmit" id="dosubmit" type="submit" value="提交预约"/>
+							</form>
+						</div>
+					</div>
+					<div class="way_together clearfix">
+						<div class="way2_box fl">
+							<h5 class="way2_title">【方式二：电话预约】</h5>
+							<div class="yy_tel">
+								预约热线：<a href="tel:4006300999" onclick="if (window._tag){_tag.dcsMultiTrack('wt.mtel','phone');}">400-6300-999</a>
+							</div>
+						</div>
+						<div class="way2_box fr">
+							<h5 class="way2_title way3_title">【方式三：现场预约】</h5>
+							<div class="yy_address">
+								前往各地中公教育前台，直接报名。<a href="http://www.offcn.com/about/contact.html">点击查看分校地址>> </a>     
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<!--5大亮点-->
+			<div class="highlights">
+				<h3 class="title"><span>5</span>大助考亮点</h3>
+				<!--亮点一-->
+				<div class="ld1">
+					<h4>全面的模考类别</h4>
+					<p>包含五大行、政策性银行、股份制银行等多套模拟试卷，针对性模考，总有一套适合你！ </p>
+					<a href="javascript:void(0)" class="yuyue">立即预约</a>
+				</div>
+				<!--亮点二-->
+				<div class="ld2">
+					<h4>真实的试题内容</h4>
+					<p>模考试卷均源于历年银行考题改编，真实检测自身水平，帮助考生全面提升应试能力</p>
+					<a href="javascript:void(0)" class="yuyue">立即预约</a>
+				</div>
+				<!--亮点三-->
+				<div class="ld3">
+					<h4>轻松的答题过程</h4>
+					<p>设置试题检查板块<br />随时查看做题状态</p>
+					<a href="javascript:void(0)" class="yuyue">立即预约</a>
+				</div>
+				<!--亮点四-->
+				<div class="ld4">
+					<h4>严格的考试步骤</h4>
+					<p>从登录到阅读考生须知到开始答题严格参照真实考试流让考生全真体验每个答题步骤</p>
+					<a href="javascript:void(0)" class="yuyue">立即预约</a>
+				</div>
+				<!--亮点五-->
+				<div class="ld5">
+					<h4>专业的测评系统</h4>
+					<p>考试结束可直接查看得分情况；并免费生成模考报告，助你查漏补缺。</p>
+					<a href="javascript:void(0)" class="yuyue">立即预约</a>
+				</div>
+			</div>
+			
+			
+			<!--上机模考专享特权 抢先体验“银行考试”--> 
+			<div class="privilege">
+				<h3 class="title">上机模考<span>专享特权</span><br />抢先体验“银行考试” </h3>
+				<div class="tequan_box">
+					<div class="tequan clearfix">
+						<h5>拟真体验</h5>
+						<p>还原考试环境，感受答题氛围</p>
+					</div>
+					<div class="tequan clearfix">
+						<h5>知己知彼</h5>
+						<p>提前熟悉考试形式及考试流程</p>
+					</div>
+					<div class="tequan clearfix">
+						<h5>深解考题</h5>
+						<p>模考后可获中公名师专业解析</p>
+					</div>
+					<div class="tequan clearfix">
+						<h5>查漏补缺</h5>
+						<p>明确自身水平，检测不足</p>
+					</div>
+				</div>
+				<a href="javascript:void(0)" class="yuyue">立即预约</a>
+			</div>
+			
+			
+			<!--模考之前，做好万全准备--> 
+			<div class="prepare">
+				<div class="main">
+					<h3 class="title">模考之前，做好万全准备</h3>
+					<div class="ewm_box clearfix">
+						<div class="ewm fl">
+							<img class="ewm_pic" src="images/ewm.jpg"/>
+							<p>关注银行考试公众号</p>
+						</div>
+						<div class="zb_link fr">
+							<a href="http://www.jinrongren.net/zt/2018yh_ggyy/" class="bank">预约银行招聘公告</a>
+							<a href="https://jq.qq.com/?_wv=1027&k=5dFUk8m" class="qun">加入备考QQ群</a>
+							<a href="http://www.jinrongren.net/youti/" class="app">下载有题APP</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<!--底部固定窗-->
+			<div class="footer">
+				<div class="foot_link clearfix">
+					<a href="http://www.jinrongren.net/zt/zixun/" class="consult">QQ咨询</a>
+					<a href="tel:4006300999" class="foot_tel" onclick="if (window._tag){_tag.dcsMultiTrack('wt.mtel','phone');}">电话预约</a>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		<script src="js/area.js" type="text/javascript" charset="UTF-8"></script>
+		<script type="text/javascript">_init_area();</script>
+		
+		<script>
+			var formTop=$(".order").offset().top;
+			$(".yuyue").click(function(){
+				$("html,body").animate({scrollTop:formTop},500);
+			})
+		</script>
+		<!--幕后人员：【策划: 韩文艳】【设计: 刘洁】【制作：杨勃】【2017-09-07】-->
+		<div style="display: none;">
+			<script type="text/javascript" src="http://www.offcn.com/statics/js/bdbot.js"></script>
+		</div>
+	</body>
+</html>

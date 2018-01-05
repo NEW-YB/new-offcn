@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>常识刷题宝常识题列表页WAP</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta http-equiv="Cache-Control" content="no-cache"/>
+		<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport">
+		<meta name="MobileOptimized" content="320"/>
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="apple-touch-fullscreen" content="YES" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script language="javascript" src="http://www.offcn.com/statics/js/sdc_offcn_wap.js"></script>
+	</head>
+	<body>
+		<script>
+			function fs(){
+				var deviceWidth = document.documentElement.clientWidth;
+				if(deviceWidth > 750) deviceWidth = 750;
+				document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+			}
+			window.onresize=function(){
+				fs();
+			}
+			fs();
+		</script>
+		
+		<div class="wrapper">
+			
+			<!--头部-->
+			<div class="zg_head">
+				<a href="#" class="logo bl"><img src="images/logo.png"/></a>
+			</div>
+			
+			<!--banner-->
+			<div class="zg_banner posirela">
+				<img src="images/banner_02.jpg"/>
+				<div class="ban_text">四川/重庆省考学员专享</div>
+			</div>
+			
+			<!--答题区-->
+			<div class="dati">
+				<div class="main">
+					<ul class="dati_list">
+						<li>
+							<span>常识基础测试试卷1</span>
+							<a href="#">开始作答</a>
+						</li>
+						<li>
+							<span>常识基础测试试卷1</span>
+							<a href="#">开始作答</a>
+						</li>
+						<li>
+							<span>常识基础测试试卷1</span>
+							<a href="#">开始作答</a>
+						</li>
+						<li>
+							<span>常识基础测试试卷1</span>
+							<a href="#">开始作答</a>
+						</li>
+						<li>
+							<span>常识基础测试试卷1</span>
+							<a href="#">开始作答</a>
+						</li>
+						<li>
+							<span>常识基础测试试卷1</span>
+							<a href="#">开始作答</a>
+						</li>
+						<li>
+							<span>常识基础测试试卷1</span>
+							<a href="#">开始作答</a>
+						</li>
+						<li>
+							<span>常识基础测试试卷1</span>
+							<a href="#">开始作答</a>
+						</li>
+						<li>
+							<span>常识基础测试试卷1</span>
+							<a href="#">开始作答</a>
+						</li>
+						<li>
+							<span>常识基础测试试卷1</span>
+							<a href="#">开始作答</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<!--二维码区-->
+			<div class="zg_ewm">
+				<h3><img src="images/tit.png"/></h3>
+				<div class="ewm_box clearfix">
+					<div class="ewm_left fl">
+						<div class="ewm_bg">
+							<img src="images/h5.jpg"/>
+						</div>
+						<div class="ewm_tt">扫描H5页面二维码</div>
+						<p class="ewm_intro">随时随地轻松刷题</p>
+					</div>
+					<div class="ewm_right fl">
+						<div class="ewm_bg ewm_bg1">
+							<img src="images/app.jpg"/>
+						</div>
+						<div class="ewm_tt">扫描APP二维码</div>
+						<p class="ewm_intro">下载常识刷题宝APP</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="zg_foot">
+				Copyright©1999-<span class="nowtime">2017</span> 北京中公教育科技股份有限公司 .All Rights Reserved
+			</div>
+		</div>
+		
+		
+		<script>
+			$(".dati_list a").mousedown(function(){
+				$(this).parent().css("box-shadow","0px 7px 5px #999")
+			});
+			$(".dati_list a").mouseup(function(){
+				$(this).parent().css("box-shadow","none")
+			});
+			
+			var nowtime=new Date();
+			var nowyear=nowtime.getFullYear();
+			$(".nowtime").html(nowyear);
+		</script>
+		
+		<!--幕后人员：【策划: 刘昊为】【制作：杨勃】【2017-09-11】-->
+		<div style="display: none;">
+			<script language="javascript" src="http://www.offcn.com/statics/js/bdbot.js"></script>
+		</div>
+	</body>
+</html>

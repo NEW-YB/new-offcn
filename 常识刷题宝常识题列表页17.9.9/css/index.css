@@ -1,0 +1,134 @@
+.posirela{
+	position: relative;z-index:22;
+}
+.main{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+.zg_banner{
+	height: 645px;
+	background: url(../images/banner_bg_01.jpg) no-repeat center top;
+}
+.logo{
+	width: 365px;
+	height: 80px;
+	position: absolute;
+	left: 107px;
+	top: 107px;
+}
+.ban_text{
+	width: 100%;
+	height: 83px;
+	position: absolute;
+	left: 0;
+	top: 420px;
+	text-align: center;
+	background: url(../images/ban_lik.png) no-repeat center;
+	font-size: 36px;
+	text-align: center;
+	color: white;
+	line-height: 62px;
+}
+
+
+/*答题部分*/
+.answer{
+	/*height: 1095px;*/
+	background: white url(../images/timu_02.jpg) no-repeat center top;
+	padding-bottom: 69px;
+}
+.ques_list{
+	padding-top: 66px;
+}
+.ques_list li{
+	height: 78px;
+	border: 1px solid #dddddd;
+	border-radius: 9px;
+	margin-bottom: 16px;
+}
+.ques_list li:hover{
+	box-shadow: 0px 7px 5px #999;
+}
+.ques_title{
+	font-size: 20px;
+	line-height: 78px;
+	color: #555555;
+	margin-left: 40px;
+}
+.dati{
+	width: 160px;
+	height: 50px;
+	background: url(../images/dati.png) no-repeat;
+	margin-right: 40px;
+	margin-top: 14px;
+	font-size: 20px;
+	color: #1f62fb;
+	text-indent: 29px;
+	line-height: 50px;
+}
+.ques_list li:hover .dati{
+	background: url(../images/dati_ji.png) no-repeat;
+	color: white;
+}
+/*.dati:hover{
+	background: url(../images/dati_ji.png) no-repeat;
+	color: white;
+}*/
+
+
+/*底部*/
+.zg_foot{
+	height: 680px;
+	background: url(../images/zg_foot_03.jpg) no-repeat center;
+}
+.foot_title{
+	padding-top: 72px;
+	/*text-align: center;*/
+}
+.foot_title img{
+	margin-left: 204px;
+}
+.ewm_box{
+	margin-left: 12px;
+	margin-top: 53px;
+}
+.ewmL{
+	width: 430px;
+}
+.ewm_bg{
+	width: 214px;
+	height: 226px;
+	background: url(../images/L.png) no-repeat;
+	text-align: center;
+}
+.ewm_bg1{
+	background: url(../images/R.png) no-repeat;
+}
+.ewm_bg img{
+	margin-top: 12px;
+}
+.ewm_title{
+	border-left: 3px solid #1f62fb;
+	height: 24px;
+	line-height: 24px;
+	font-size: 24px;
+	padding-left: 11px;
+	margin-top: 51px;
+	margin-left: 29px;
+}
+.ewm_intro p{
+	font-size: 18px;
+	line-height: 32px;
+	margin-left: 43px;
+	margin-top: 16px;
+}
+.foot_text{
+	font-size: 12px;
+	font-family: "宋体";
+	color: white;
+	text-align: center;
+	line-height: 20px;
+	margin-top: 185px;
+}
