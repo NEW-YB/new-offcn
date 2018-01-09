@@ -1,0 +1,163 @@
+
+.zg_fcon{width:1200px;margin: 0 auto;}
+.zg_fconhea{height: 56px;font:16px/56px "Microsoft YaHei";color: #333;}
+.zg_fsp1{display: inline-block;width: 48px;background: url("../images/zg_cbg1.jpg") no-repeat right 50%;}
+.zg_fsp2{display: inline-block;width: 82px;background: url("../images/zg_cbg2.jpg") no-repeat right 50%;padding-left: 5px;}
+.zg_fsp3{display: inline-block;width: 82px;padding-left: 5px;}
+.zg_fconneifl{width: 330px;float: left;}
+
+.zg_fconneifl1{height: 208px;padding-top: 7px;}
+.zg_fslideBox{ width:329px; height:169px; overflow:hidden; position:relative;}
+.zg_fslideBox .zg_fbd{ position:relative; height:100%; z-index:0;   }
+.zg_fslideBox .zg_fbd li{ zoom:1; vertical-align:middle; }
+.zg_fslideBox .zg_fbd img{ width:329px; height:169px; display:block;  }
+.zg_fconneifl2{height:390px;}
+.zg_fconn1{width: 146px;height: 26px;border: 1px solid #999;border-radius: 13px;}
+.zg_fconn1 span{display:block;width: 66px;height: 26px;border-radius: 12px;text-align: center;font:16px/26px "Microsoft YaHei";color: #999;cursor: pointer;}
+.zg_fconn1sp1{float:left}
+.zg_fconn1sp2{float:right}
+.zg_fconn1 .active{background: #2cb96b;color: #fff;}
+.zg_fconn2{height: 345px;overflow: hidden;}
+.zg_fconn21{border-top:2px solid #2cb96b;margin-top: 10px;}
+.zg_fconn21le{float: left;width: 210px;}
+.zg_fconn21ri{position: relative;}
+.zg_fconn21ri .zg_fconn21ria1{float: right;width: 109px;font:16px/30px "Microsoft YaHei";color: #999;padding-top:16px;}
+.zg_fconn21ri .zg_fconn21ria2{color: #ff0000;font:12px/12px "Microsoft YaHei";position: absolute;right: 14px;top: 86px;}
+.zg_fconn22{height: 213px;padding-top: 20px;}
+.zg_fconn22 li{height: 22px;font:16px/22px "Microsoft YaHei";color: #333;margin-bottom: 19px;}
+.zg_fconn22 li span{display: inline-block;height: 22px;width: 22px;text-align: center;font:16px/22px "Microsoft YaHei";}
+.zg_fconn22oli1 span{background: url("../images/zg_cbg3.jpg") no-repeat left center;color: #fff;}
+.zg_fconn22oli2 span{background: url("../images/zg_cbg4.jpg") no-repeat left center;color: #fff;}
+.zg_fconn22oli3 span{background: url("../images/zg_cbg5.jpg") no-repeat left center;color: #fff;}
+.zg_fconn22oli4 span{background: url("../images/zg_cbg6.jpg") no-repeat left center;color: #333;}
+.zg_fconn22oli5 span{background: url("../images/zg_cbg6.jpg") no-repeat left center;color: #333;}
+.zg_fcon1{display: none;}
+.zg_fconn22 li a:hover{text-decoration: underline;color: #f33;}
+.zg_fconneifl21{height:390px;}
+.zg_fconn11{width: 200px;height: 26px;border: 1px solid #999;border-radius: 13px;}
+.zg_fconn11 span{display:block;width: 95px;height: 26px;border-radius: 12px;text-align: center;font:16px/26px "Microsoft YaHei";color: #999;cursor: pointer;}
+.zg_fconn1sp11{float:left}
+.zg_fconn1sp21{float:right}
+.zg_fconn11 .active{background: #2cb96b;color: #fff;}
+.zg_fconn23{height: 345px;overflow: hidden;}
+.zg_fconn213{border-top:2px solid #2cb96b;margin-top: 10px;}
+.zg_fconn213le{float: left;width: 210px;}
+.zg_fconn213ri{position: relative;}
+.zg_fconn213ri .zg_fconn21ria1{float: right;width: 109px;font:16px/30px "Microsoft YaHei";color: #999;padding-top:16px;}
+.zg_fconn213ri .zg_fconn21ria2{color: #ff0000;font:12px/12px "Microsoft YaHei";position: absolute;right: 14px;top: 86px;}
+.zg_fconn223{height: 213px;padding-top: 20px;}
+.zg_fconn223 li{height: 22px;font:16px/22px "Microsoft YaHei";color: #333;margin-bottom: 19px;}
+.zg_fconn223 li span{display: inline-block;height: 22px;width: 22px;text-align: center;font:16px/22px "Microsoft YaHei";}
+.zg_fconn223oli1 span{background: url("../images/zg_cbg3.jpg") no-repeat left center;color: #fff;}
+.zg_fconn223oli2 span{background: url("../images/zg_cbg4.jpg") no-repeat left center;color: #fff;}
+.zg_fconn223oli3 span{background: url("../images/zg_cbg5.jpg") no-repeat left center;color: #fff;}
+.zg_fconn223oli4 span{background: url("../images/zg_cbg6.jpg") no-repeat left center;color: #333;}
+.zg_fconn223oli5 span{background: url("../images/zg_cbg6.jpg") no-repeat left center;color: #333;}
+.zg_fcon13{display: none;}
+.zg_fconn223 li a:hover{color: #f33;text-decoration: underline;}
+
+.zg_fconneifr{width: 840px;float: right;border-top: 1px solid #bdbdbd;}
+.zg_fconneifrh3{font:bold 24px/34px "Microsoft YaHei";color: #333;padding-top: 25px;}
+#zg_fconneifrh3a1{background: url("../images/zg_cbg7.jpg") no-repeat left top;margin-right: 8px;}
+#zg_fconneifrh3a2{background: url("../images/zg_cbg8.jpg") no-repeat left top;margin-right: 8px;}
+#zg_fconneifrh3a3{background: url("../images/zg_cbg9.jpg") no-repeat left top;margin-right: 8px;}
+#zg_fconneifrh3a4{background: url("../images/zg_cbg10.jpg") no-repeat left top;margin-right: 0px;}
+.zg_fconneifrdi1{height: 28px;margin-top: 7px;}
+.zg_fconneifrdi1 div{float: left;}
+.zg_fconneifrdi1sp1{font:12px/28px "Microsoft YaHei";color: #999;}
+.zg_fconneifrdi1sp2{font:12px/28px "Microsoft YaHei";color: #999;margin-left: 34px;}
+.zg_fconneifrdi1sp3{font:12px/28px "Microsoft YaHei";color: #999;margin-left: 412px;*margin-left: 405px;}
+#zg_fconneifrdi1sp3{height: 28px;margin-left: 3px;}
+.zg_fconneifrhea{font:16px/28px "Microsoft YaHei";color: #000;text-align: center;margin-top: 12px;background: #fafafa;padding-top: 16px;padding-bottom: 15px;}
+.zg_fconneifrro1{margin-top: 30px;background: #fafafa;}
+.zg_fconneifrro1le{float: left;width:264px;}
+.zg_fconneifrro1ri{float: right;width:542px;}
+.zg_fconneifrro1ri{padding-top: 16px;}
+.zg_fconneifrro1ri li{font:14px/14px "Microsoft YaHei";color: #000;margin-bottom: 16px;padding-left: 7px;background: url(../images/nr_yuan_031.jpg) no-repeat left center;}
+.zg_fconneifrro1ri li a{margin-right: 10px;}
+.zg_fconneifrro2{height: 80px;font:14px/30px "Microsoft YaHei";color: #000;text-indent: 20px;padding-top: 23px;border-bottom: 1px solid #bdbdbd;}
+.zg_fconneifrro3{margin-top: 30px;padding-left: 132px;}
+.zg_fconneifrro3 li a{font:14px/14px "Microsoft YaHei";color: #333;}
+.zg_fconneifrro3 li{margin-bottom: 16px;}
+.zg_fconfrnei3{margin-top: 25px;padding-left: 308px;}
+.zg_fconfrnei3 .zg_fconfrnei3a1{font:14px/30px "Microsoft YaHei";color: #333;display:block;float:left;width: 60px;margin-right:28px;}
+.zg_fconfrnei3 .zg_fconfrnei3a2{font:14px/30px "Microsoft YaHei";color: #333;display:block;float:left;width: 60px;margin-left:8px;margin-right: 0px;}
+.zg_fconfrnei3 a{float:left;display:block;font:14px/30px "Microsoft YaHei";color: #333;height: 30px;width:30px;text-align:center;margin-right: 20px;}
+.zg_fconfrnei3 span{float:left;display:block;font:14px/30px "Microsoft YaHei";color: #fff;text-align:center;height: 30px;width:30px;background: #2cb96b;margin-right: 20px;}
+.zg_fconneifrro4{padding-top: 19px;height: 47px;border-bottom: 1px solid #bdbdbd;}
+.zg_fconneifrro4oli1{font:16px/16px "Microsoft YaHei";color: #333;float: left}
+.zg_fconneifrro4oli1 a{font:16px/16px "Microsoft YaHei";color: #2196f3;}
+.zg_fconneifrro4oli2{display: block;width: 40px;height: 24px;border:1px solid #bdbdbd;border-radius: 12px;background: url("../images/zg_cbg12.jpg") no-repeat 9px 3px;float: left;font:12px/24px "Microsoft YaHei";color: #999;padding-left: 34px;margin-left: 396px;cursor: pointer;}
+.zg_fconneifrro5{height: 38px;border-bottom: 1px solid #bdbdbd;padding-top: 30px}
+.zg_fconneifrro5 h6{display:inline-block;*display:inline;*zoom:1;font:bold 18px/20px "Microsoft YaHei";color: #000;width: 48px;}
+.zg_fconneifrro5 a{display:inline-block;padding: 0 20px;font:16px/26px "Microsoft YaHei";color: #000;border:1px solid #bdbdbd;border-radius: 12px;margin-left: 20px;}
+.zg_fconneifrro5 a:hover{border: 1px solid #2cb96b;background: #2cb96b;color: #fff;}
+.zg_fconneifrro6 dt{font:bold 18px/40px "Microsoft YaHei";color: #000;padding-top: 20px;border-bottom: 1px solid #bdbdbd;}
+.zg_fconneifrro6oul{padding-top: 21px;}
+.zg_fconneifrro6oul li{font-size: 14px;line-height: 30px;}
+.zg_fconneifrro6oul li a{color: #333;}
+
+.zg_fconneifr{
+	font-size: 14px;
+	font-family: "microsoft yahei";
+}
+.zg_fconneifr table td{
+	text-align: center;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
