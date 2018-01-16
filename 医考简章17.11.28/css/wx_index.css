@@ -1,0 +1,51 @@
+.wx_list{
+	height: 70px;
+}
+.wx_list li{
+	float: left;
+	width: 33.3%;
+	text-align: center;
+	line-height: 70px;
+	font-size: 24px;
+	color: white;
+	background: url(../images/wx_ul.jpg) no-repeat;
+}
+.wx_tab{
+	width: 100%;
+	border: 1px solid #d1ddff;
+}
+.wx_tab th{
+	text-align: center;
+	font-size: 16px;
+	font-weight: normal;
+	color: #333333;
+	line-height: 49px;
+	height: 49px;
+	background: #f5f5f5;
+	
+}
+.wx_tab td{
+	font-size: 16px;
+	text-align: center;
+	background: white;
+	border: 1px solid #d1ddff;
+	line-height: 26px;
+	padding: 19px 0;
+}
+.wx_tab td a{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	height: 38px;
+	color: #ff4444;
+	text-align: center;
+	line-height: 38px;
+	padding: 0 19px;
+	border: 1px solid #ff5b5b;
+	border-radius: 20px;
+	margin: 0 5px 0 6px;
+}
+.wx_tab td a:hover{
+	background: #ff5b5b;
+	color: white;
+}

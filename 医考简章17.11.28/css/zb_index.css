@@ -1,0 +1,55 @@
+.zb_tabbox{
+	padding: 23px 20px 21px;
+	background: white;
+}
+.zb_tab{
+	width: 100%;
+}
+.zb_tab th{
+	text-align: center;
+	font-size: 16px;
+	font-weight: normal;
+	color: white;
+	line-height: 48px;
+	height: 48px;
+	background: #1cd694;
+	border: 1px solid #1cd694;
+}
+.zb_tab td{
+	font-size: 16px;
+	text-align: center;
+	background: white;
+	border: 1px solid #d1ddff;
+	line-height: 26px;
+	padding: 19px 0;
+}
+.zb_tab th.w348{
+	width: 348px;
+}
+.zb_tab td a{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	height: 38px;
+	color: #ff4444;
+	text-align: center;
+	line-height: 38px;
+	padding: 0 19px;
+	border: 1px solid #ff5b5b;
+	border-radius: 20px;
+	margin: 0 5px 0 6px;
+}
+.zb_tab td a.disable{
+	background: #eeeeee;
+	border-color: #EEEEEE;
+	color: #333333;
+}
+.zb_tab td a:hover{
+	background: #ff5b5b;
+	color: white;
+}
+.zb_tab td a.disable:hover{
+	background: #eeeeee;
+	border-color: #EEEEEE;
+	color: #333333;
+}
