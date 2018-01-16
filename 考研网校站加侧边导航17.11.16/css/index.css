@@ -1,0 +1,169 @@
+@charset "utf-8";
+.clearfix:after { content:" "; display:block; clear:both; height:0; }
+.clearfix { zoom:1;}
+body,h1,h2,h3,h4,h5,p,dl,dd{
+	margin: 0;font-family: Microsoft Yahei;
+	font-family: "microsoft yahei";
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+
+.fixed{
+	position: fixed;
+	right: 0;
+	width: 50px;
+	top: 150px;
+}
+.zaixian{
+	position: relative;
+	cursor: pointer;
+}
+.zaixian:hover .zaixian_tan{
+	display: block;
+}
+.zaixian_tan{
+	width: 148px;
+	height: 59px;
+	background: #71e2a6;
+	position: absolute;
+	left: -148px;
+	top: 0px;
+	padding-top: 17px;
+	display: none;
+}
+.zxzx img{
+	float: left;
+	margin: 1px 5px 0 11px;
+}
+.zxzx a{
+	float: left;
+	width: 73px;
+	height: 21px;
+	background: #fcff00;
+	border-radius: 2px;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	color: #51cc8a;
+	line-height: 21px;
+}
+.zxdh{
+	margin-left: 12px;
+	height: 14px;
+	line-height: 14px;
+	margin-top: 9px;
+	font-size: 14px;
+	color: white;
+}
+.zxdh img{
+	margin-right: 7px;
+}
+.shouhou{
+	margin-top: 4px;
+	position: relative;
+	cursor: pointer;
+}
+.shouhou_tan{
+	width: 148px;
+	height: 67px;
+	background: #ffc874;
+	position: absolute;
+	left: -148px;
+	top: 0;
+	padding-top: 9px;
+	display: none;
+}
+.shouhou:hover .shouhou_tan{
+	display: block;
+}
+.fix_qq img{
+	margin: 2px 9px 0 12px;
+}
+.qqzx{
+	width: 73px;
+	height: 21px;
+	background: #fcff00;
+	border-radius: 2px;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	color: #ffbc57;
+	line-height: 21px;
+}
+.shdh_box{
+	margin-top: 5px;
+}
+.shdh_box img{
+	float: left;
+	margin: 2px 4px 0 12px;
+}
+.shdh_box p{
+	font-size: 14px;
+	color: white;
+	line-height: 19px;
+	float: left;
+}
+.fix_wx{
+	display: block;
+	width: 50px;
+	height: 50px;
+	position: relative;
+	margin-top: 4px;
+	background: url(../images/wx_ori_03.jpg) no-repeat;
+}
+.fix_ewmbox{
+	padding-top: 15px;
+	width: 125px;
+	padding-right: 10px;
+	height: 110px;
+	position: absolute;
+	left: -145px;
+	top: -37px;
+	background: url(../images/fix_ewmbox.png) no-repeat;
+	text-align: center;
+	display: none;
+}
+.fix_ewmbox img{
+	width: 95px;
+}
+.fix_wx:hover{
+	background: url(../images/wx_now_06.jpg) no-repeat;
+}
+.fix_wx:hover .fix_ewmbox{
+	display: block;
+}
+.fix_app{
+	display: block;
+	width: 50px;
+	height: 50px;
+	position: relative;
+	margin-top: 4px;
+	background: url(../images/app_ori_06.jpg) no-repeat;
+}
+.fix_app:hover{
+	background: url(../images/app_now_14.jpg) no-repeat;
+}
+.fix_app:hover .fix_ewmbox{
+	display: block;
+}
+.fix_pc{
+	display: block;
+	margin-top: 4px;
+	width: 50px;
+	height: 50px;
+	background: url(../images/pc_ori_08.jpg) no-repeat;
+}
+.fix_pc:hover{
+	background: url(../images/pc_now_16.jpg) no-repeat;
+}

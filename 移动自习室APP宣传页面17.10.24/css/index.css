@@ -1,0 +1,300 @@
+@charset "utf-8";
+ul li.nomar{
+	margin-right: 0;
+}
+.posirela{
+	position: relative;
+}
+.main{
+	width: 1000px;
+	margin: 0 auto;
+}
+/*a:hover{
+	color: #FF0000;
+}*/
+
+body{
+	min-width: 1000px;
+}
+
+.zgHead{
+	height: 50px;
+}
+.logo{
+	padding-top: 6px;
+	margin-left: 1px;
+}
+.logolink{
+	width: 133px;
+	height: 30px;
+}
+.head_link{
+	margin-left: 57px;
+	font-size: 12px;
+	line-height: 46px;
+	padding-top: 4px;
+	font-family: "宋体";
+	color: #333333;
+}
+.head_link span{
+	margin-left: -6px;
+}
+.service_tel{
+	color: #666666;
+	font-size: 16px;
+	line-height: 48px;
+	text-align: right;
+	width: 350px;
+}
+
+
+/*banner*/
+.banner{
+	height: 627px;
+	background: url(../images/banner_bg_02.jpg) no-repeat center top;
+}
+.ban_text1{
+	font-size: 74px;
+	color: white;
+	width: 100%;
+	text-align: center;
+	line-height: 114px;
+	position: absolute;
+	left: 0;
+	top: 106px;
+}
+.ban_text2{
+	font-size: 40px;
+	color: white;
+	width: 100%;
+	text-align: center;
+	line-height: 60px;
+	position: absolute;
+	left: 0;
+	top: 220px;
+}
+.android{
+	background: url(../images/android.png) no-repeat;
+	width: 215px;
+	height: 62px;
+	position: absolute;
+	left: 277px;
+	top: 340px;
+	font-size: 20px;
+	line-height: 62px;
+	text-indent: 60px;
+	color: white;
+}
+.ios{
+	background: url(../images/ios.png) no-repeat;
+	width: 215px;
+	height: 62px;
+	position: absolute;
+	left: 506px;
+	top: 340px;
+	font-size: 20px;
+	line-height: 62px;
+	text-indent: 78px;
+	color: white;
+}
+
+
+/*第一部分*/
+.sec1{
+	padding-top: 46px;
+}
+.sec1_tt{
+	font-size: 40px;
+	line-height: 90px;
+	text-align: center;
+	color: #333333;
+	background: url(../images/sec1_tt.png) no-repeat center bottom;
+}
+.free{
+	margin-top: 97px;
+	height: 720px;
+	background: url(../images/sec1_1_04.jpg) no-repeat center bottom;
+}
+.mobile_pic1{
+	margin-left: 56px;
+}
+.free_right{
+	margin-left: 89px;
+	margin-top: 144px;
+}
+.free_right div{
+	font-size: 36px;
+	line-height: 76px;
+}
+.free_right p{
+	font-size: 22px;
+	line-height: 40px;
+	color: #444444;
+}
+/*随时随地，看课刷题*/
+.shuati{
+	padding-top: 98px;
+	height: 641px;
+	background: url(../images/sec1_2_05.jpg) no-repeat center top;
+}
+.shuati_left{
+	margin-left: 53px;
+	margin-top: 125px;
+	width: 404px;
+}
+.shuati_left div{
+	color: white;
+	font-size: 36px;
+	line-height: 76px;
+}
+.shuati_left p{
+	color: white;
+	font-size: 22px;
+	line-height: 40px;
+}
+/*系统课程，助力学习*/
+.zhuli{
+	padding-top: 81px;
+	height: 635px;
+}
+.zhuli .free_right{
+	margin-top: 164px;
+}
+/*微信答疑，互为补充*/
+.add{
+	padding-top: 192px;
+	height: 774px;
+	background: url(../images/sec1_4_07.jpg) no-repeat center top;
+}
+
+.add_left{
+	margin-left: 58px;
+	margin-top: 180px;
+	width: 460px;
+}
+.add_left div{
+	font-size: 36px;
+	line-height: 76px;
+}
+.add_left p{
+	color: #444444;
+	font-size: 22px;
+	line-height: 40px;
+	margin-left: 2px;
+}
+
+
+/*第二部分*/
+.sec2{
+	height: 626px;
+	background: url(../images/sec2_bg_08.jpg) no-repeat center top;
+}
+.sec2_tt{
+	color: white;
+	background: url(../images/sec2_tt.png) no-repeat center bottom;
+}
+.ewm_box{
+	margin-top: 95px;
+}
+.ewm_left{
+	width: 320px;
+}
+.ewm_tt{
+	font-size: 24px;
+	line-height: 34px;
+	color: white;
+	padding-left: 20px;
+	background: url(../images/zxs_line.png) no-repeat left 8px;
+	height: 92px;
+}
+.ewm_tt span{
+	color: #ffea01;
+}
+.ewm_right{
+	width: 680px;
+}
+.ewm_list li{
+	float: left;
+	width: 210px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	line-height: 60px;
+	margin-right: 25px;
+}
+
+
+/*footer*/
+.footer{
+	background: url(../images/foot_bg_09.jpg) no-repeat center top;
+	height: 82px;
+	text-align: center;
+	font-size: 12px;
+	font-family: "宋体";
+	line-height: 18px;
+	padding-top: 28px;
+	color: #e2f0ff;
+}
+
+
+/*遮罩层*/
+.mask{
+	width:100%;
+    height:100%;
+    background: #000;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+    position: fixed;
+    top:0;
+    left:0;
+    display: none;
+}
+/*iphone*/
+.iphone{
+	width: 800px;
+	height: 410px;
+	position: fixed;
+	left: 50%;
+	margin-left: -400px;
+	top: 50%;
+	margin-top: -205px;
+	background: white url(../images/iphone.png) no-repeat 642px 220px;
+	border-radius: 10px;
+	text-align: center;
+	display: none;
+}
+.close{
+	position: absolute;
+	right: 24px;
+	top: 24px;
+	cursor: pointer;
+}
+.iphone_tt{
+	text-align: center;
+	font-size: 30px;
+	line-height: 60px;
+	padding-top: 33px;
+}
+.iphone_tip{
+	text-align: center;
+	font-size: 20px;
+	line-height: 34px;
+	color: #666666;
+	margin-bottom: 34px;
+}
+/*android*/
+.android_download{
+	width: 800px;
+	height: 386px;
+	position: fixed;
+	left: 50%;
+	margin-left: -400px;
+	top: 50%;
+	margin-top: -193px;
+	background: white url(../images/android_robot.png) no-repeat 636px bottom;
+	border-radius: 10px;
+	text-align: center;
+	display: none;
+}
+
+

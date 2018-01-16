@@ -1,0 +1,159 @@
+@charset "utf-8";
+.clearfix:after { content:" "; display:block; clear:both; height:0; }
+.clearfix { zoom:1;}
+body,h1,h2,h3,h4,h5,p,dl,dd{
+	margin: 0;font-family: Microsoft Yahei;
+	font-family: "microsoft yahei";
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.fixed{
+	position: fixed;
+	right: 0;
+	width: 36px;
+	top: 150px;
+}
+.zaixian{
+	position: relative;
+	cursor: pointer;
+}
+.zaixian:hover .zaixian_tan{
+	display: block;
+}
+.zaixian_tan{
+	width: 124px;
+	height: 49px;
+	background: #18b15f;
+	position: absolute;
+	left: -124px;
+	top: 3px;
+	padding-top: 5px;
+	display: none;
+}
+.zxzx{
+	margin-left: 3px;
+	height: 21px;
+	font-size: 0;
+}
+.zxzx img{
+	vertical-align: top;
+	margin-right: 5px;
+}
+.zxzx a{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 73px;
+	height: 21px;
+	background: #fcff00;
+	border-radius: 2px;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	color: #18b15f;
+	line-height: 21px;
+}
+.zxdh{
+	margin-left: 4px;
+	height: 14px;
+	line-height: 14px;
+	margin-top: 9px;
+	font-size: 14px;
+	color: white;
+}
+.zxdh img{
+	margin-right: 7px;
+}
+.shouhou{
+	margin-top: 7px;
+	position: relative;
+	cursor: pointer;
+}
+.shouhou_tan{
+	width: 124px;
+	height: 65px;
+	background: url(../images/shouhou_left.png) no-repeat;
+	position: absolute;
+	left: -124px;
+	top: 3px;
+	padding-top: 4px;
+	display: none;
+}
+.shouhou:hover .shouhou_tan{
+	display: block;
+}
+.fix_qq img{
+	margin-left: 4px;
+	margin-top: 2px;
+	margin-right: 9px;
+}
+.qqzx{
+	width: 73px;
+	height: 21px;
+	background: #fcff00;
+	border-radius: 2px;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	color: #009e96;
+	line-height: 21px;
+}
+.shdh_box{
+	margin-top: 5px;
+}
+.shdh_box img{
+	float: left;
+	margin: 2px 4px 0;
+}
+.shdh_box p{
+	font-size: 14px;
+	color: white;
+	line-height: 19px;
+	float: left;
+}
+.fix_wx{
+	display: block;
+	width: 36px;
+	height: 36px;
+	position: relative;
+	margin-top: 8px;
+}
+.fix_wxewm{
+	position: absolute;
+	left: -113px;
+	top: -40px;
+	display: none;
+}
+.fix_wx:hover .fix_wxewm{
+	display: block;
+}
+.fix_app{
+	display: block;
+	width: 36px;
+	height: 36px;
+	position: relative;
+	margin-top: 8px;
+}
+.fix_appewm{
+	position: absolute;
+	left: -113px;
+	top: -40px;
+	display: none;
+}
+.fix_app:hover .fix_appewm{
+	display: block;
+}
+.fix_pc{
+	display: block;
+	margin-top: 9px;
+}

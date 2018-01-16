@@ -1,0 +1,54 @@
+.xilie{
+	
+	/*box-shadow: 0px 0px 20px #d0d9e7;*/
+}
+.xilie_name{
+	font-size: 30px;
+	color: white;
+	background: url(../images/wangxiao_name.png) no-repeat;
+	width: 334px;
+	line-height: 56px;
+	text-indent: 19px;
+	height: 92px;
+	font-weight: bold;
+}
+
+.xilie_tab{
+	margin-left: 20px;
+	width: 960px;
+	margin-top: 4px;
+}
+.xilie_tab th{
+	font-size: 20px;
+	font-weight: normal;
+	color: #f3687f;
+	line-height: 56px;
+	height: 60px;
+	background: #ffd1d8;
+}
+.xilie_tab td{
+	font-size: 16px;
+	text-align: center;
+	background: white;
+	border-bottom: 1px solid #ececec;
+	border-right: 1px solid #ececec;
+	line-height: 28px;
+	padding: 20px 0;
+}
+.xilie_tab td.lasttd{
+	border-right: none;
+}
+.xilie_tab tr.lasttr td{
+	border-bottom: none;
+}
+.xilie_tab td a{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 100px;
+	height: 40px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	background: url(../images/xilie_baoming.png) no-repeat;
+}

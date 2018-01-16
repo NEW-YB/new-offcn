@@ -1,0 +1,581 @@
+ul li.nomar{
+	margin-right: 0;
+}
+.posirela{
+	position: relative;
+}
+.wrapper{	
+	max-width: 720px;
+    margin: 0 auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    /*overflow: hidden;*/
+}
+
+
+
+/*头部*/
+.header{
+	height: 0.5rem;
+	background: #1b1b1b;
+}
+.logo{
+	margin-top: 0.04rem;
+	margin-left: 0.11rem;
+	width: 1.57rem;
+	height: 0.38rem;
+}
+.tel_link{
+	font-size: 0.18rem;
+	font-weight: bold;
+	color: white;
+	line-height: 0.44rem;
+	padding-top: 0.06rem;
+	margin-right: 0.1rem;
+	padding-left: 0.33rem;
+	background: url(../images/head_tel.png) no-repeat left 0.09rem;
+	background-size: 0.24rem 0.3rem;
+}
+
+
+/*第一部分*/
+.sec1{
+	padding-top: 0.31rem;
+	padding-bottom: 0.5rem;
+	background: #fffee4;
+}
+.sec1_tt{
+	font-size: 0.36rem;
+	line-height: 0.58rem;
+	text-align: center;
+	color: #8f7200;
+	background: url(../images/sec1_tt.png) no-repeat center top;
+	background-size: 3.14rem 0.58rem;
+}
+.sec1_tt_add{
+	text-align: center;
+	font-size: 0.4rem;
+	line-height: 0.88rem;	
+	color: #00cee0;
+    background-image: -webkit-gradient(linear, 0 center, right center, from(rgba(0, 206, 224, 1)), to(rgba(82, 121, 248, 1)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: -0.04rem;
+}
+.sec1_cont{
+	width: 6.94rem;
+	height: 2.81rem;
+	border: 3px solid #0cc7d8;
+	margin: 0.88rem auto 0;
+	position: relative;
+	padding-top: 0.67rem;
+	background: white;
+}
+.sec1_pos{
+	width: 2.48rem;
+	height: 1.28rem;
+	background: url(../images/sec1_shadow.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left: -0.07rem;
+	top: -0.61rem;
+}
+.sec1_pos h4{
+	font-size: 0.28rem;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	line-height: 0.38rem;
+}
+.sec1_pos h4.sec1_pos_p1{
+	padding-top: 0.38rem;
+}
+.sec1_pos h4.sec1_pos_p2{
+	padding-top: 0.19rem;
+}
+.sec1_cont p{
+	font-size: 0.24rem;
+	line-height: 0.42rem;
+	margin-left: 0.31rem;
+	padding-left: 0.24rem;
+	background: url(../images/blue_circle.png) no-repeat left 0.16rem;
+	background-size: 0.1rem 0.1rem;
+	width: 6.1rem;
+	margin-bottom: 0.09rem;
+}
+.sec1_cont3{
+	background: white url(../images/sec1_cont3_05.jpg) no-repeat left bottom;
+	background-size: 100% 1.69rem;
+}
+.sec1_link_box{
+	margin: 0.4rem auto 0;
+	width: 4.56rem;
+	background: url(../images/sec1_linkbg.png) no-repeat;
+	background-size: 100% 100%;
+	height: 0.48rem;
+}
+.link_left{
+	width: 2.35rem;
+	text-align: center;
+	font-size: 0.26rem;
+	line-height: 0.48rem;
+	color: #8f7200;
+}
+.link_right{
+	width: 2.2rem;
+	text-align: center;
+	font-size: 0.26rem;
+	line-height: 0.48rem;
+	color: #00cee0;
+	background-image: -webkit-gradient(linear, 0 center, right center, from(rgba(0, 206, 224, 1)), to(rgba(82, 121, 248, 1)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*第二部分*/
+.sec2{
+	padding-top: 0.3rem;
+}
+.sec2_tt{
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 0.6rem;	
+	color: #00cee0;
+    background-image: -webkit-gradient(linear, 0 center, right center, from(rgba(0, 206, 224, 1)), to(rgba(82, 121, 248, 1)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sec2_tt_add{
+	font-size: 0.22rem;
+	line-height: 0.38rem;
+	text-align: center;
+}
+.sec2_posir{
+	position: relative;
+	height: 2.08rem;
+}
+.pure_bg{
+	width: 1.13rem;
+	height: 1.27rem;
+	background: #fffbb9;
+	position: absolute;
+	left: 0;
+	top: -0.19rem;
+}
+.sec2_zixun{
+	padding-left: 0.3rem;
+	background: url(../images/sec2_top.png) no-repeat;
+	background-size: 7.01rem 1.84rem;
+	width: 6.71rem;
+	height: 1.84rem;
+	position: absolute;
+	bottom: 0;
+	left: 0.09rem;
+}
+.sec2_zixun_intro{
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 0.7rem;
+	color: #00cee0;
+    background-image: -webkit-gradient(linear, 0 center, right center, from(rgba(0, 206, 224, 1)), to(rgba(82, 121, 248, 1)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 0.36rem;
+}
+.new_linkbox{
+	margin: 0 auto;
+}
+.sec2_tabbox{
+	width: 7rem;
+	margin: 0.4rem auto 0;
+	background: url(../images/sec2_tab.jpg) no-repeat;
+	background-size: 100% 0.66rem;
+}
+.sec2_tab{
+	width: 100%;
+	box-sizing: border-box;
+}
+.sec2_tab th{
+	font-size: 0.28rem;
+	color: white;
+	line-height: 0.66rem;
+	border-right: 1px solid #d1d1d1;
+	padding: 0;
+}
+.sec2_tab th.bole{
+	border-left: 2px solid #1dd1d8;
+}
+.sec2_tab th.nobr{
+	border-right: 2px solid #5279f8;
+}
+.sec2_tab td{
+	font-size: 0.24rem;
+	text-align: center;
+	border-right: 1px solid #d1d1d1;
+	border-bottom: 1px solid #d1d1d1;
+	line-height: 0.34rem;
+}
+.sec2_tab td.bori{
+	border-right: 2px solid #0cc7d8;
+	padding: 0.1rem 0;
+}
+.sec2_tab td.bole{
+	border-left: 2px solid #0cc7d8;
+	border-bottom: 2px solid #0cc7d8;
+	color: #4c81f5;
+}
+.sec2_tab td a{
+	display: inline-block;
+	background: url(../images/sec2_tablink.jpg.png) no-repeat;
+	background-size: 100%;
+	width: 1.38rem;
+	height: 0.34rem;
+	text-align: center;
+	font-size: 0.22rem;
+	line-height: 0.34rem;
+	color: white;
+}
+.sec2_tab td.bobt{
+	border-bottom: 2px solid #0cc7d8;
+}
+
+
+/*第三部分*/
+.sec3{
+	padding-top: 0.85rem;
+	margin-top: 0.07rem;
+	height: 9.42rem;
+	background: url(../images/sec3_bg_08.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.teacher_list{
+	margin-top: 0.39rem;
+	margin-left: 0.23rem;
+}
+.teacher_list li{
+	float: left;
+	width: 2.14rem;
+	margin-right: 0.18rem;
+}
+.teacher_pic{
+	width: 1.64rem;
+	height: 2.2rem;
+	margin-left: 0.23rem;
+}
+.teacher_list li h5{
+	text-align: center;
+	font-size: 0.28rem;
+	color: #0cc7d8;
+	line-height: 0.68rem;
+	margin-top: 0.03rem;
+}
+.teacher_intro{
+	height: 0.4rem;
+	text-align: center;
+	color: white;
+	line-height: 0.4rem;
+	background: #0cc7d8;
+	border-radius: 0.2rem;
+	font-size: 0.22rem;
+}
+.teacher_list li p{
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+	margin-top: 0.2rem;
+}
+.new_linkbox1{
+	margin: 0.32rem auto;
+}
+
+
+/*第四部分*/
+.sec4{
+	padding-top: 0.44rem;
+	padding-bottom: 0.59rem;
+}
+.sec4_cont{
+	height:3.59rem;
+	position: relative;
+	padding-top: 0.99rem;
+}
+.sec4_pic{
+	width: 4.5rem;
+	height: 4.29rem;
+	position: absolute;
+	top: 0.36rem;
+	left: 0.03rem;
+}
+.yinhao{
+	background: url(../images/yinhao.png) no-repeat;
+	background-size: 100%;
+	width: 1.33rem;
+	height: 1.2rem;
+	position: absolute;
+	right: 0.33rem;
+	top: -0.3rem;
+}
+.sec4_cont a{
+	width: 2.48rem;
+	height: 0.56rem;
+	text-align: center;
+	display: block;
+	background: #0cc7d8;
+	line-height: 0.56rem;
+	font-size: 0.28rem;
+	color: white;
+	text-decoration: underline;
+	margin-left: 4.62rem;
+	margin-bottom: 0.68rem;
+}
+.sec4_cont a strong{
+	color: #fdec05;
+}
+.sec4_cont a.nomabo{
+	margin-bottom: 0;
+}
+
+
+/*第五部分*/
+.sec5{
+	background: url(../images/sec5_bg.jpg) no-repeat;
+	background-size: 100%;
+	padding-top: 0.4rem;
+	padding-bottom: 0.5rem;
+}
+.sec5_list{
+	margin-top: 0.37rem;
+	
+}
+.sec5_list li{
+	float: left;
+	margin-left: 0.11rem;
+	width: 2.26rem;
+	height: 1.03rem;
+	background: url(../images/sec5_li.jpg) no-repeat;
+	background-size: 100%;
+	font-size: 0.28rem;
+	text-align: center;
+	color: white;
+	line-height: 0.38rem;
+	padding-top: 0.1rem;
+}
+.sec5_list li.active{
+	background: url(../images/sec5_liac.png) no-repeat;
+	background-size: 100%;
+}
+.s5_change{
+	display: none;
+}
+.sec5_box1{
+	width: 6.98rem;
+	margin: 0.42rem auto 0;
+}
+.sec5_link_box{
+	margin: 0.39rem auto 0;
+	background: url(../images/sec5_linkbg.png) no-repeat;
+	background-size: 100% 100%;
+}
+.sec5_link_box .link_left{
+	color: white;
+}
+.sec5_box2{
+	margin-top: 0.42rem;
+}
+.yuanxiao_list{
+	margin-left: 0.2rem;
+}
+.yuanxiao_list li{
+	float: left;
+	width: 1.34rem;
+	height: 0.71rem;
+	background: url(../images/yuanxiao.png) no-repeat;
+	background-size: 100%;
+	font-size: 0.24rem;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.3rem;
+	padding-top: 0.05rem;
+	margin-right: 0.03rem;
+}
+.yuanxiao_list li.active{
+	background: url(../images/yuanxiao_ac.png) no-repeat;
+	background-size: 100%;
+}
+.sec5_box2 .sw_box{
+	width: 6.82rem;
+	margin: 0.27rem auto 0;
+	display: none;
+}
+.sec5_box3 .sw_box1{
+	width: 6.82rem;
+	margin: 0.42rem auto 0;
+}
+.sec5_box2 .sw_box .swiper-slide,.sec5_box3 .sw_box1 .swiper-slide{
+	position: relative;
+}
+.sec5_box2 .sw_box .swiper-slide div,.sec5_box3 .sw_box1 .swiper-slide div{
+	position: absolute;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 0.36rem;
+	text-align: center;
+	font-size: 0.22rem;
+	color: white;
+	line-height: 0.36rem;
+	background: rgba(0,0,0,0.5);
+	border-radius: 0 0 0.04rem 0.04rem;
+}
+.prev{
+	background: url(../images/prev.png) no-repeat;
+	width: 0.34rem;
+	height: 0.6rem;
+	background-size: 100%;
+	left: 0;
+}
+.next{
+	background: url(../images/next.png) no-repeat;
+	width: 0.34rem;
+	height: 0.6rem;
+	background-size: 100%;
+	right: 0;
+}
+
+
+/*第六部分*/
+.sec6{
+	padding-top: 0.41rem;
+	padding-bottom: 1.07rem;
+}
+.sec6_cont{
+	margin-top: 0.23rem;
+}
+.sec6_left{
+	width: 3.04rem;
+	margin-left: 0.1rem;
+}
+.s6left_top{
+	background: #0cc7d8;
+	height: 2.21rem;
+	padding-top: 0.33rem;
+	margin-bottom: 0.04rem;
+}
+.s6left_top div{
+	font-size: 0.28rem;
+	line-height: 0.44rem;
+	background: url(../images/fuwu.png) no-repeat 0.63rem center;
+	background-size: 0.3rem 0.28rem;
+	text-indent: 1.03rem;
+	color: #fef400;	
+}
+.s6left_top p,.s6left_bot p{
+	font-size: 0.24rem;
+	line-height: 0.36rem;
+	color: white;
+	padding: 0 0.2rem;
+}
+.s6left_bot{
+	padding-top: 0.1rem;
+	background: #0cc7d8;
+	height: 2.05rem;
+	margin-top: 0.04rem;
+}
+.s6left_bot div{
+	font-size: 0.28rem;
+	line-height: 0.48rem;
+	background: url(../images/xingji.png) no-repeat 0.83rem center;
+	background-size: 0.2rem 0.26rem;
+	text-indent: 1.12rem;
+	color: #fef400;	
+}
+.sec6_right{
+	width: 3.92rem;
+	margin-right: 0.1rem;
+}
+.s6rt1{
+	width: 2.3rem;
+}
+.s6rt2{
+	width: 1.58rem;
+}
+.s6right_mid{
+	height: 2.28rem;
+	background: #0cc7d8;
+	margin-top: 0.04rem;
+	padding-top: 0.24rem;
+}
+.s6right_mid div{
+	font-size: 0.28rem;
+	line-height: 0.5rem;
+	background: url(../images/zhuangtai.png) no-repeat 1.25rem center;
+	background-size: 0.25rem 0.25rem;
+	text-indent: 1.58rem;
+	color: #fef400;	
+}
+.s6right_mid p{
+	font-size: 0.24rem;
+	line-height: 0.36rem;
+	color: white;
+	padding: 0 0.26rem;
+}
+.s6right_bot{
+	margin-top: 0.04rem;
+}
+.s6rb1{
+	width: 1.3rem;
+}
+.s6rb2{
+	width: 1.3rem;
+	margin-left: 0.04rem;
+}
+.s6rb3{
+	width: 1.23rem;
+}
+
+
+
+
+
+
+/*底部*/
+.footer{
+	z-index: 100;
+	position: fixed;
+	height: 0.68rem;
+	left: 50%;
+	bottom: 0;
+	margin-left: -3.6rem;
+	width: 7.2rem;
+}
+.foot_link a{
+	float: left;
+	width: 50%;
+	height: 0.68rem;
+	font-size: 0.24rem;
+	line-height: 0.68rem;
+	color: white;
+}
+.foot_tel{
+	background: #1b1b1b url(../images/fix_tel.png) no-repeat 0.76rem center;
+	background-size: 0.38rem 0.3rem;
+	text-indent: 1.23rem;
+}
+.consult{
+	background: #f20202 url(../images/fix_ask.png) no-repeat 1.09rem center; 
+	background-size: 0.38rem 0.32rem;
+	text-indent: 1.56rem;
+}
+
+.right_fix{
+	width: 0.66rem;
+	height: 1.1rem;
+	position: fixed;
+	display: block;
+	right: 0;
+	top: 50%;
+	margin-top: -0.55rem;
+	z-index: 100;
+}
