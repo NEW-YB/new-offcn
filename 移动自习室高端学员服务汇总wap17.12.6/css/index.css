@@ -1,0 +1,84 @@
+ul li.nomar{
+	margin-right: 0;
+}
+.posirela{
+	position: relative;
+}
+.wrapper{	
+	max-width: 750px;
+    margin: 0 auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.mailer{
+	width: 6.9rem;
+	height: 4.45rem;
+	background: url(../images/xinfeng.png) no-repeat;
+	background-size: 100%;
+	margin: 0.25rem auto 0;
+}
+.mail_tt{
+	text-align: center;
+	padding-top: 0.35rem;
+	height: 0.49rem;
+}
+.mail_tt img{
+	width: 3.81rem;
+	height: 0.37rem;
+}
+.mail_cont{
+	margin-left: 0.56rem;
+}
+.mail_cont h4{
+	font-size: 0.24rem;
+	color: #004f49;
+	line-height: 0.44rem;
+}
+.mail_cont p{
+	font-size: 0.22rem;
+	color: #004f49;	
+	line-height: 0.38rem;
+	width: 5.82rem;
+}
+
+
+.province_box{
+	width: 6.9rem;
+	margin: 0.77rem auto 0;
+}
+.province_tt{
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.34rem;
+	color: #333333;
+	height: 0.72rem;
+	background: url(../images/province_tt.png) no-repeat left bottom;
+	background-size: 6.89rem 0.22rem;
+}
+.province_tt img{
+	width: 0.33rem;
+	margin: 0 0.13rem 0 0.17rem;
+}
+.province_link{
+	margin-top: 0.38rem;
+	margin-left: 0.04rem;
+	padding-bottom: 0.58rem;
+}
+.province_link a{
+	float: left;
+	min-width: 1.2rem;
+	line-height: 0.6rem;
+	height: 0.6rem;
+	text-align: center;
+	font-size: 0.26rem;
+	margin-right: -0.08rem;
+	border-radius: 0.3rem;
+	color: #15aa9a;
+	margin-bottom: 0.22rem;
+}
+.province_link a.active,.province_link a:active{
+	background: #02cbb2;
+	color: white;
+}

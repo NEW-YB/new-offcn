@@ -1,0 +1,117 @@
+ul li.nomar{
+	margin-right: 0;
+}
+.posirela{
+	position: relative;
+}
+.wrapper{	
+	max-width: 750px;
+    margin: 0 auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    background: #f4f4f4;
+}
+
+
+dl{
+	background: white;
+	padding: 0.09rem 0.3rem 0;
+	font-size: 0;
+	margin-bottom: 0.2rem;
+}
+dl dt{
+	font-size: 0.3rem;
+	color: #02cbb2;
+	line-height: 0.88rem;
+}
+dl dd{
+	display: inline-block;
+	width: 50%;
+	height: 0.42rem;
+	margin-bottom: 0.4rem;
+}
+dl dd a{
+	font-size: 0.28rem;
+	line-height: 0.42rem;
+	color: #666666;
+	display: inline-block;	
+}
+.dd_left a{
+	margin-left: 0.35rem;
+	padding-left: 0.61rem;
+}
+.dd_right{
+	background: url(../images/line.jpg) no-repeat left center;
+	background-size: 1px 0.4rem;
+}
+.dd_right a{
+	margin-left: 0.69rem;
+	padding-left: 0.62rem;
+}
+.icon1{
+	background: url(../images/icon1.jpg) no-repeat;
+	background-size: 0.42rem;
+}
+.icon2{
+	background: url(../images/icon2.jpg) no-repeat;
+	background-size: 0.42rem;
+}
+.icon3{
+	background: url(../images/icon3.jpg) no-repeat;
+	background-size: 0.42rem;
+}
+.icon4{
+	background: url(../images/icon4.jpg) no-repeat;
+	background-size: 0.42rem;
+}
+.icon5{
+	background: url(../images/icon5.jpg) no-repeat;
+	background-size: 0.42rem;
+}
+.icon6{
+	background: url(../images/icon6.jpg) no-repeat;
+	background-size: 0.42rem;
+}
+.icon7{
+	background: url(../images/icon7.jpg) no-repeat;
+	background-size: 0.42rem;
+}
+.icon8{
+	background: url(../images/icon8.jpg) no-repeat;
+	background-size: 0.42rem;
+}
+.icon9{
+	background: url(../images/icon9.jpg) no-repeat;
+	background-size: 0.42rem;
+}
+.icon10{
+	background: url(../images/icon10.jpg) no-repeat;
+	background-size: 0.42rem;
+}
+.icon11{
+	background: url(../images/icon11.jpg) no-repeat;
+	background-size: 0.42rem;
+}
+.icon12{
+	background: url(../images/icon12.jpg) no-repeat;
+	background-size: 0.42rem;
+}
+.icon13{
+	background: url(../images/icon13.jpg) no-repeat;
+	background-size: 0.42rem;
+}
+.icon14{
+	background: url(../images/icon14.jpg) no-repeat;
+	background-size: 0.42rem;
+}
+.icon15{
+	background: url(../images/icon15.jpg) no-repeat;
+	background-size: 0.42rem;
+}
+.dllast{
+	background: white;
+	padding: 0.09rem 0.3rem 0.15rem;
+	font-size: 0;
+	margin-bottom: 0rem;
+}
