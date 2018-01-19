@@ -1,0 +1,15 @@
+/* by 高李莎 in 2017.03.28 */
+
+*{padding: 0;margin: 0;}
+body{font-family: '微软雅黑'; background:#94c5eb;}
+h1,h2,h3,h4,h5,h6,p,i,em,strong,b{font-style: normal;font-weight: normal;padding:0;margin:0;}
+li{list-style:none;}
+.clearfix:after{content:'';display: block;clear:both;}
+.clearfix{zoom:1;}
+.fl{float:left;}
+.fr{float: right;}
+img{vertical-align: top; border:none;}
+input,select{border:none;outline: none;}
+a{text-decoration: none;}
+.w{width:1000px;margin:0 auto;}
+
