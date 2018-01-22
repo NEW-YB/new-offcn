@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>19课堂公告弹窗wap</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta http-equiv="Cache-Control" content="no-cache"/>
+		<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport">
+		<meta name="MobileOptimized" content="320"/>
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="apple-touch-fullscreen" content="YES" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		<!--<script type="text/javascript" src="http://www.offcn.com/statics/js/sdc_offcn_wap.js"></script>-->
+	</head>
+	<body>
+		<script>
+			function fs(){
+				var deviceWidth = document.documentElement.clientWidth;
+				if(deviceWidth > 720) deviceWidth = 720;
+				document.documentElement.style.fontSize = deviceWidth / 7.2 + 'px';
+			}
+			fs();
+			window.onresize=fs;
+		</script>
+		
+		<div class="wrapper">
+			<div class="zzc">&nbsp;</div>
+			<div class="popup">
+				<span class="close_popup">&nbsp;</span>
+				<h4>公告</h4>
+				<p>中公教育集团创建于1999年，经过十余年潜心发展，中公教育已由一家北大毕业生自主创业的信息技术与教育服务机构，发展为教育服务业的综合性企业集团<a href="http://www.offcn.com/">www.offcn.com</a></p>
+			</div>
+		</div>
+		
+		<script>
+			$(".close_popup").click(function(){
+				$(".popup,.zzc").hide();
+			})
+		</script>
+		
+		<!--幕后人员：【策划: 】【制作：杨勃】【2018-01-15】-->
+		<!--<div style="display: none;">
+			<script type="text/javascript" src="http://www.offcn.com/statics/js/bdbot.js"></script>
+		</div>-->
+	</body>
+</html>

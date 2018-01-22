@@ -1,0 +1,298 @@
+html{ font-family: "Microsoft YaHei"; color:#333; font-size:100px;}
+html,body{width:100%;min-width:7.5rem;
+ height:100%;}
+body,p,ul,ol,dl,dd,dt,p,h2,h3,h4,h5,h6{ margin:0; padding:0; font-size:0.14rem;text-indent:0;}
+li{ list-style:none; }
+a{ text-decoration:none; color:#333; }
+a img{ border:0; }
+img{ vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+.clear{ *zoom:1; }
+.clear:after{ content:""; display:block; clear:both; }
+.fl{float: left}
+.fr{float: right}
+.main{width:7.02rem;margin: 0 auto;}
+.zg_content{margin: 0 auto;width: 7.5rem;}
+
+
+/*------------头部---------*/
+.zg_header{height: .88rem;background: #fff;width: 100%;}
+.logo{width: 1.83rem;height: .4rem;  margin:.18rem 0 0 .2rem;}
+.logo img{width:1.83rem;height: .4rem;}
+.phone{font-size: .24rem;line-height: .28rem;margin:.33rem  .18rem 0 0;background: url("../images/zg_tel.jpg") no-repeat left 50%;background-size: .18rem .25rem;padding-left: .3rem}
+.phone a{color: #e60000;}
+/*------------banner---------*/
+.zg_banner{background: url("../images/zg_banner.jpg") no-repeat center top;width: 7.5rem;height: 5rem;background-size: 7.5rem 5rem;}
+.zg_ban1{font:.3rem/.34rem "Microsoft YaHei";text-align: center;color: #e3eaff;padding-top: .44rem;letter-spacing: .05rem}
+.zg_ban2{text-align: center;margin-top: -.15rem}
+.zg_ban2 img{width: 6.7rem;height: 2.68rem}
+.zg_ban3{text-align: center;margin-top: .36rem}
+.zg_ban3 img{width: 6.58rem;height: .54rem}
+.zg_ban4{text-align: center;font:.2rem/.24rem "Microsoft YaHei";color: #fff;margin-top: .15rem}
+.zg_ban4 span{color: #79ffd4;}
+
+/*------------专业专项部门揭秘---------*/
+.zg_content1{height: 5.7rem;}
+.zg_con1{padding-top: .3rem}
+.zg_h3{font:.28rem/.7rem "Microsoft YaHei";color: #fff;text-align: center;background: url("../images/zg_bg1.png") no-repeat left top;width: 5.36rem;height: 1.05rem;background-size: 5.36rem 1.05rem;margin: 0 auto;position: relative;z-index: 1;}
+.zg_h3 span{font-weight:bold;color: #5feabd;}
+.zg_con1div{padding-left: .2rem;height: 4.31rem;border-radius: .13rem;background: #fff;box-shadow: 0 -.05rem .4rem #ebebee;margin-top: -.667rem;padding-top: .72rem}
+.zg_con1div div{padding: 1px;background: #cacaca;float: left;border-radius: .08rem;margin-right: .2rem;margin-bottom: .2rem;}
+.zg_con1div a{font:.28rem/.58rem "Microsoft YaHei";color: #666;text-align: center;display: block;border-radius: .08rem;background: #fff;}
+.zg_cona1{width:1.48rem;}
+.zg_cona2{width:3.18rem;}
+.zg_con1div .zg_cona3{margin-right: 0;}
+.zg_con1div .active{background: #4976ea;}
+.zg_con1div .active a{color: #4976ea;}
+
+
+/*------------出入境检验检疫局---------*/
+.zg_content2{padding-top: 0.71rem;padding-bottom: 0.73rem;}
+.zg_h2{
+	font:bold .48rem/.92rem "Microsoft YaHei";
+	text-align: center;
+	background: url("../images/tt_bg.png") no-repeat center top;
+	height: 1.04rem;
+	background-size: 3.68rem 1.04rem;
+	margin-bottom: .72rem;
+}
+.zg_h31{text-align: center;font:bold .38rem/.54rem "Microsoft YaHei";color: #333;}
+.zg_h31 img{width: .65rem;height: .17rem;}
+.zg_img1{margin-right: .23rem}
+.zg_img2{margin-left: .23rem}
+.zg_con2oul{
+	background: url("../images/zg_bg3.jpg") no-repeat .08rem top;
+	background-size: 1px 3.55rem;
+	margin-left: 0.44rem;
+	margin-top: 0.27rem;
+	padding-top:0.05rem;
+	height: 3.5rem;
+	width: 6.5rem;
+}
+.zg_con2oul li{background: url("../images/zg_bg2.png") no-repeat left .17rem;padding-left: .4rem;font:.26rem/.44rem "Microsoft YaHei";color: #333;background-size: .18rem .18rem;margin-bottom: .26rem}
+.zg_con2oul li span{color: #ff4444;}
+
+/*------------面试重难点---------*/
+.zg_content3{background: url("../images/zg_con3.jpg") no-repeat center top;height: 6.69rem;background-size: 7.5rem 6.69rem;}
+.zg_con3{padding-top: 0.42rem;}
+.zg_con3oul{margin-top: .39rem;margin-left: 0.44rem;}
+.zg_con3oul li{background-size: 3.1rem 2rem;width: 3.1rem;height: 2rem;float: left;margin-right: 0.37rem;margin-bottom: 0.4rem;}
+.zg_con3oul li p{
+	font-size: 0.26rem;
+	color: white;
+	line-height: 0.42rem;
+	padding: 0.61rem 0.25rem 0;
+}
+.zg_con3oul li div{
+	margin-top: 0.14rem;
+	padding-right: 0.12rem;
+	text-align: right;
+	font-size: 0.24rem;
+	line-height: 0.34rem;
+	font-weight: bold;
+	font-style: italic;
+	color: white;
+}
+.zg_con3ouloli1{background: url("../images/zg_bg5.png") no-repeat left top;}
+.zg_con3ouloli2{background: url("../images/zg_bg6.png") no-repeat left top;}
+.zg_con3ouloli3{background: url("../images/zg_bg7.png") no-repeat left top;}
+.zg_con3ouloli4{background: url("../images/zg_bg8.png") no-repeat left top;}
+
+/*------------专业性特点---------*/
+.zg_content4{background: url("../images/zg_con4.jpg") no-repeat center top;height: 5.5rem;background-size: 7.5rem 5.5rem;}
+.zg_con4{padding-top: .41rem}
+.zg_h32{text-align: center;font:bold .38rem/.54rem "Microsoft YaHei";color: #fff;}
+.zg_h32 img{width: .65rem;height: .17rem;}
+.zg_con4oul{
+	margin-left: 0.44rem;
+	margin-top: 0.51rem;
+}
+.zg_con4oul li{
+	margin-bottom: 0.09rem;
+}
+.zg_con4oul li span{
+	float: left;
+	width: 0.42rem;
+	height: 0.42rem;
+	background: url(../images/zg_bg9.png) no-repeat;
+	background-size: 100%;
+	text-align: center;
+	line-height: 0.42rem;
+	color: white;
+	font-size: 0.24rem;
+	font-weight: bold;
+	margin-top: 0.02rem;
+}
+.zg_con4oul li p{
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+	color: white;
+	width: 6.06rem;
+	float: left;
+	margin-left: 0.23rem;
+}
+.zg_con4oul li p strong{
+	color: #5483ff;
+}
+
+
+/*------------专业性例题---------*/
+.zg_content5{background:#f5f5f5;}
+.zg_con5{padding-top: .42rem;padding-bottom: .54rem}
+.zg_con5div{background: url("../images/zg_bg12.png") no-repeat;width: 6.72rem;height: 3.32rem;margin-top: 0.12rem;margin-left: 0.43rem;background-size: 6.72rem 4.16rem;padding-top: 0.84rem;}
+.zg_con5div p{
+	font-size: 0.26rem;
+	line-height: 0.44rem;
+	margin-left: 0.46rem;
+	color: #444444;
+	width: 5.71rem;
+}
+.zg_con5div p span{
+	color: #666;
+}
+.con5p{
+	margin-bottom: 0.16rem;
+}
+
+
+/*------------敲黑板，划重点---------*/
+.zg_content6{
+	background: url(../images/zg_bg11.jpg) no-repeat;
+	background-size: 100% 100%;
+	height: 12.76rem;
+}
+.zg_con6{padding-top: .41rem;}
+.zg_con6oul{margin-top: .33rem}
+.zg_con6oul li{width: 6.69rem;height: 2.56rem;background-size: 6.69rem 2.56rem;position: relative;margin-left: 0.42rem;margin-bottom: 0.24rem;}
+.zg_con6oli1{background:url("../images/zg_bg13.png") no-repeat left top;}
+.zg_con6oli2{background:url("../images/zg_bg14.png") no-repeat left top;}
+.zg_con6oli3{background:url("../images/zg_bg15.png") no-repeat left top;}
+.zg_con6oli4{background:url("../images/zg_bg16.png") no-repeat left top;}
+
+
+.zg_con6oul li strong{
+	font-size: 0.26rem;
+	color: white;
+	position: absolute;
+	right: 0.2rem;
+	line-height: 0.36rem;
+	top: 0.18rem;
+}
+.zg_con6oul li h6{
+	font-size: 0.3rem;
+	line-height: 0.68rem;
+	padding-top: 0.2rem;
+	margin-left: 0.43rem;
+	color: #555555;
+}
+.zg_con6oul li p{
+	font-size: 0.26rem;
+	line-height: 0.44rem;
+	margin-left: 0.43rem;
+	width: 5.82rem;
+	color: #666666;
+}
+.zg_con6oul li p span{
+	color: #4891ff;
+}
+
+
+/*------------定制方案---------*/
+.zg_content7{background: #ededed;}
+.zg_con7{padding-top:.5rem;padding-bottom: .4rem}
+.con7_tt{
+	font: bold .48rem/.92rem "Microsoft YaHei";
+    text-align: center;
+    background: url(../images/tt_bg7.png) no-repeat center top;
+    height: 1.04rem;
+    background-size: 5.98rem 1.04rem;
+}
+.zg_con7tab{width: 7.2rem;margin: .4rem auto 0;}
+.zg_con7tab th{background: #5480ff;font:.18rem/.56rem "Microsoft YaHei";color: #fff;text-align: center}
+.zg_con7th1{width: 1.48rem;border-right: 1px solid #e5e5e5;}
+.zg_con7th2{width: 1.74rem;border-right: 1px solid #e5e5e5;}
+.zg_con7th3{width: 1.3rem;border-right: 1px solid #e5e5e5;}
+.zg_con7th4{width: 1.14rem;border-right: 1px solid #e5e5e5;}
+.zg_con7th5{width: 1.48rem;}
+.zg_con7tab td{background: #fff;font-size:.18rem;font-family:"Microsoft YaHei";line-height: 1;color: #333;text-align: center;border: 1px solid #e5e5e5;padding: .3rem 0;vertical-align: middle;}
+.zg_con7tab td a{display: block;text-align: center;height:.4rem;color: #fff;background: url("../images/zg_bg18.png") no-repeat left top;width: 1rem;margin: 0 auto;background-size:100% 100%;position: relative;}
+.zg_con7tab td a em{display:inline-block;vertical-align: middle;font-style:normal;font-size:.36rem;line-height:.8rem;transform: scale(0.5);transform-origin: 0% 0%;position: absolute;width: 2rem;left: 0;}/*.zg_con7tab td a{display: block;text-align: center;height:.28rem; font-size:.18rem;color: #fff;background: url("../images/zg_bg18.png") no-repeat left top;width: 1rem;margin: 0 auto;background-size:100% 100%;padding-top:.12rem;}*/
+/*font-family:"Microsoft YaHei";*/
+.zg_con7p1{color: #4976ea;text-align: center;font:bold .3rem/.48rem "Microsoft YaHei";margin-top: .26rem;}
+.zg_con7p2{color: #333;text-align: center;font:.3rem/.48rem "Microsoft YaHei";}
+/*------------地址链接---------*/
+.zg_con8{padding-top: .66rem;}
+.con8_tt{
+	font: bold .48rem/.92rem "Microsoft YaHei";
+    text-align: center;
+    background: url(../images/tt_bg8.png) no-repeat center top;
+    height: 1.04rem;
+    background-size: 6.97rem 1.04rem;
+}
+.zg_fx{
+ margin-top: .58rem;
+ margin-left: 0.41rem;
+}
+.zg_fx a{
+ float: left;
+ width: 1.2rem;
+ height: .68rem;
+ line-height: .66rem;
+ background: white;
+ text-align: center;
+ border-radius: .06rem;
+ font-size: 0.26rem;
+ color: #666;
+ margin-right: 0.2rem;
+ margin-bottom: 0.19rem;
+ border:1px solid #d6d6d6;
+ box-sizing:border-box;
+ -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ color: #666666;
+}
+.zg_fx a:hover,.zg_fx a:active{
+ background:#4976ea;color: #fff;border: none;
+ line-height: 0.68rem;
+}
+/*------------底部---------*/
+/*.zg_footer{background: #2b2b2b;font:.12rem/.24rem "宋体";text-align: center;}*/
+
+footer {
+	margin-top: 0.33rem;
+ width:100%;
+ background: #2b2b2b;
+ padding: .24rem 0 .22rem 0;
+ color: #ccc;
+}
+footer p {
+ width:100%;
+ text-align:center;
+ font:.22rem/.34rem "宋体";
+ color: #ccc;
+}
+footer a {
+ display:inline!important;
+ font:.22rem/.34rem "宋体";
+ color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

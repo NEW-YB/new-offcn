@@ -1,0 +1,583 @@
+ul li.nomar{
+	margin-right: 0;
+}
+.posirela{
+	position: relative;
+}
+.wrapper{	
+	max-width: 800px;
+    margin: 0 auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    background: #fff8f8;
+}
+
+.ban_link{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	top: 4.2rem;
+	height: 0.46rem;
+}
+.ban_link a{
+	float: left;
+	width: 1.6rem;
+	height: 0.46rem;
+	font-size: 0.2rem;
+	color: white;
+	margin-right: 0.25rem;
+	line-height: 0.44rem;
+}
+.banlink1{
+	background: url(../images/banlink1.png) no-repeat;
+	background-size: 100%;
+	text-indent: 0.57rem;
+	margin-left: 0.38rem;
+}
+.banlink2{
+	background: url(../images/banlink2.png) no-repeat;
+	background-size: 100%;
+	text-indent: 0.57rem;
+}
+.banlink3{
+	background: url(../images/banlink3.png) no-repeat;
+	background-size: 100%;
+	text-indent: 0.57rem;
+}
+.banlink4{
+	background: url(../images/banlink4.png) no-repeat;
+	background-size: 100%;
+	text-indent: 0.44rem;
+}
+.ban_text{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 5.07rem;
+	font-size: 0;
+	text-align: center;
+}
+.ban_text p{
+	display: inline-block;
+	font-size: 0.24rem;
+	line-height: 0.46rem;
+	border-top: 1px solid #ecb7c7;
+	border-bottom: 1px solid #ecb7c7;
+	color: #ffffff;
+}
+.ban_text p span{
+	color: #fdef08;
+}
+
+
+/*专属*/
+.zhuanshu{
+	padding-top: 0.65rem;
+	height: 3.83rem;
+	background: url(../images/zhuanshu_04.jpg) no-repeat;
+	background-size: 100%;
+}
+.zhuanshu_tt{
+	font-size: 0.38rem;
+	text-align: center;
+	line-height: 0.88rem;
+}
+.zhuanshu_tt span{
+	color: #ff6043;
+}
+.zhuanshu_ttadd{
+	font-size: 0.2rem;
+	line-height: 0.34rem;
+	text-align: center;
+}
+.zhuanshu_ttadd strong{
+	color: #ff6345;
+}
+.zs_text{
+	margin-top: 0.41rem;
+}
+.zs_left{
+	font-size: 0.24rem;
+	line-height: 0.44rem;
+	margin-top: 0.72rem;
+	margin-left: 0.7rem;
+	width: 2.41rem;
+}
+.zs_text strong{
+	float: left;
+	width: 1.56rem;
+	text-align: center;
+	font-size: 0.24rem;
+	color: #fffefe;
+	line-height: 0.88rem;
+}
+.zs_right{
+	font-size: 0.24rem;
+	line-height: 0.44rem;
+	margin-top: 0.72rem;
+	margin-left: 0.18rem;
+}
+
+
+/*集训营*/
+.jixun{
+	height: 4.53rem;
+	background: url(../images/jixun_06.jpg) no-repeat;
+	background-size: 100%;
+	margin-top: 0.53rem;
+}
+.jixun_tt{
+	font-size: 0;
+	text-align: center;
+}
+.jixun_tt p{
+	display: inline-block;
+	font-size: 0.38rem;
+	line-height: 0.78rem;
+	background: url(../images/tt_bg.jpg) no-repeat left 0.49rem;
+	background-size: 6.47rem 0.1rem;
+}
+.jixun_tt p span{
+	color: #ff6043;
+}
+.jixun_ttadd{
+	text-align: center;
+	font-size: 0.2rem;
+	line-height: 0.34rem;
+	/*margin-top: 0.09rem;*/
+	margin: 0.09rem auto 0;
+	width: 7.5rem;
+}
+.jixun_list li{
+	width: 2.44rem;
+	float: left;
+	margin-left: 0.13rem;
+	margin-right: 0.07rem;
+}
+.jixun_list{
+	margin-top: 1.02rem;
+}
+.jixun_list li h5{
+	text-align: center;
+	font-size: 0.2rem;
+	color: #333333;
+	line-height: 0.26rem;
+	margin-bottom: 0.42rem;
+}
+.jixun_list li p{
+	font-size: 0.16rem;
+	line-height: 0.36rem;
+	margin-left: 0.32rem;
+	padding-left: 0.22rem;
+}
+.jx1 p{
+	background: url(../images/jixun1.png) no-repeat left center;
+	background-size: 0.09rem 0.09rem;
+}
+.jx2 p{
+	background: url(../images/jixun2.png) no-repeat left center;
+	background-size: 0.09rem 0.09rem;
+}
+
+
+/*学习基地*/
+.jidi{
+	margin-top: 0.54rem;
+	background: url(../images/jidi_bg.png) no-repeat right 0.33rem;
+	padding-bottom: 0.55rem;
+}
+.jidi_yuan{
+	margin-top: 0.28rem;
+	height: 2.51rem;
+	background: url(../images/jidi_yuan.png) no-repeat 2.13rem 0;
+	background-size: 3.65rem 2.51rem;
+	position: relative;
+}
+.jidi_yuan div{
+	font-size: 0.2rem;
+	position: absolute;
+	line-height: 0.3rem;
+}
+.wei1{
+	left: 0.84rem;
+	top: 0.46rem;
+}
+.wei2{
+	left: 5.88rem;
+	top: 0.44rem;
+}
+.wei3{
+	left: 0.94rem;
+	top: 1.86rem;
+}
+.wei4{
+	left: 5.79rem;
+	top: 1.86rem;
+}
+.jidi_yuan p{
+	font-size: 0.28rem;
+	color: white;
+	line-height: 0.34rem;
+	position: absolute;
+	left: 3.36rem;
+	top: 0.91rem;
+}
+.jidi_list{
+	margin-top: 0.33rem;
+	margin-left: 0.1rem;
+}
+.jidi_list li{
+	float: left;
+	width: 2.26rem;
+	height: 2.26rem;
+	background: url(../images/hj_bg.png) no-repeat right bottom;
+	margin-right: 0.48rem;
+}
+.jidi_list li img{
+	width: 2.2rem;
+}
+
+
+/*大咖陪伴*/
+.peiban{
+	height: 10.32rem;
+	background: url(../images/peiban_08.jpg) no-repeat center bottom;
+	background-size: 8rem 9.62rem;
+}
+.peiban_cont{
+	padding-top: 1.11rem;
+	width: 7.8rem;
+	height: 7.39rem;
+	background: url(../images/yuanxiao.png) no-repeat;
+	background-size: 100% 100%;
+	margin: 0.45rem auto 0;
+}
+.peiban_ttadd{
+	font-size: 0.18rem;
+	color: #666666;
+	line-height: 0.28rem;
+	margin-left: 2.54rem;
+}
+.yuan_list{
+	margin-top: 0.46rem;
+	margin-left: 0.5rem;
+}
+.yuan_list li{
+	width: 3.3rem;
+	height: 1.6rem;
+	margin-right: 0.2rem;
+	float: left;
+	margin-bottom: 0.2rem;
+}
+.yuan_list li h6{
+	font-size: 0.28rem;
+	color: #ffffff;
+	line-height: 0.62rem;
+	margin-left: 0.33rem;
+	padding-top: 0.15rem;
+	font-weight: normal;
+}
+.yuan_list li p{
+	margin-left: 0.33rem;
+	font-size: 0.18rem;
+	color: white;
+	line-height: 0.3rem;
+}
+.zxdk{
+	font-size: 0.18rem;
+	text-align: center;
+	background: url(../images/zxdk.png) no-repeat;
+	background-size: 3.48rem 0.55rem;
+	width: 3.48rem;
+	height: 0.55rem;
+	line-height: 0.5rem;
+	color: #fff;
+	margin: 0.19rem auto 0;
+}
+
+
+/*模式*/
+.moshi{
+	height: 4.93rem;
+	background: url(../images/moshi_bg_09.jpg) no-repeat;
+	background-size: 100%;
+}
+.moshi_tt{
+	color: white;
+}
+.moshi_tt p{
+	background: url(../images/moshi_tt.jpg) repeat-x left 0.49rem;
+	background-size: 4.26rem 0.1rem;
+}
+.moshi_tt p span{
+	color: #fef11e;
+}
+.moshi_list{
+	margin-top: 0.27rem;
+	margin-left: 0.1rem;
+}
+.moshi_list li{
+	width: 2.3rem;
+	float: left;
+	margin-right: 0.45rem;
+	position: relative;
+}
+.moshi_list li p{
+	position: absolute;
+	width: 100%;
+	font-size: 0.18rem;
+	text-align: center;
+	line-height: 0.36rem;
+	left: 0;
+	bottom: 0;
+	background: rgba(255,255,255,0.4);
+	border-radius: 0 0 0.06rem 0.06rem;
+}
+
+
+/*免费学习注会*/
+.xxjd_pic{
+	margin-top: 0.41rem;
+	margin-left: 0.1rem;
+	width: 7.75rem;
+	height: 3.68rem;
+}
+.ban_list{
+	margin-top: 0.36rem;
+	margin-left: 0.1rem;
+}
+.ban_list li{
+	float: left;
+	width: 3.8rem;
+	height: 2.2rem;
+	margin-right: 0.18rem;
+	text-align: center;
+}
+.ban_list li h6{
+	font-size: 0.24rem;
+	font-weight: normal;
+	line-height: 0.46rem;
+	padding-top: 0.44rem;
+}
+.ban_list li p{
+	font-size: 0.18rem;
+	color: #333;
+	line-height: 0.32rem;
+}
+.ban1{
+	background: url(../images/ban1.png) no-repeat;
+	background-size: 100%;
+}
+.ban1 h6{
+	color: #3b9cff;
+}
+.ban2{
+	background: url(../images/ban2.png) no-repeat;
+	background-size: 100%;
+}
+.ban2 h6{
+	color: #f46370;
+}
+.mianfei_zx{
+	margin: 0.44rem auto 0.64rem;
+}
+
+
+/*合理作息安排*/
+.anpai_pic{
+	width: 7.67rem;
+	margin: 0.28rem auto 0;
+}
+.apdk{
+	background: url(../images/apdk.png) no-repeat;
+	background-size: 3.48rem 0.55rem;
+	margin: 0.42rem auto 0.55rem;
+}
+
+
+/*分部*/
+.fenbu{
+	/*height: 9.5rem;*/
+	/*position: relative;*/
+	background: url(../images/fenbu_bot_16.jpg) no-repeat center bottom;
+	background-size: 100% 0.94rem;
+}
+.fenbu_box{
+	/*position: absolute;*/
+	/*left: 0.1rem;*/
+	/*top: 0.84rem;*/
+	margin: 0.06rem auto 0;
+	width: 7.8rem;
+	border-radius: 0.08rem;
+	background: #f7eeee url(../images/fenbu_bg_13.jpg) no-repeat right 0.24rem;
+	background-size: 7.36rem 0.83rem;
+	padding-bottom: 0.52rem;
+}
+.ewm{
+	width: 0.76rem;
+	margin-left: 0.64rem;
+	margin-top: 0.31rem;
+}
+.contact_right{
+	margin-top: 0.31rem;
+}
+.contact_right p{
+	font-size: 0.2rem;
+	line-height: 0.3rem;
+	margin-left: 0.16rem;
+}
+.contact_right h6{
+	font-size: 0.26rem;
+	line-height: 0.36rem;
+	margin-left: 0.14rem;
+}
+.address_box{
+	width: 6.76rem;
+	border-bottom: 1px dashed #d5d1d1;
+	margin-left: 0.42rem;
+	margin-top: 0.22rem;
+	padding-bottom: 0.15rem;
+}
+.address_box dl{
+	/*height: 0.34rem;*/
+	clear: both;
+}
+.address_box dt{
+	float: left;
+	width: 0.92rem;
+	font-size: 0.14rem;
+	text-align: right;
+	line-height: 0.34rem;
+}
+.address_box dd{
+	float: left;
+	font-size: 0.14rem;
+	line-height: 0.34rem;
+	margin-left: 0.11rem;
+	width: 5.66rem;
+}
+.address_box dd span{
+	margin-left: 0.2rem;
+}
+.newadd_box{
+	border-bottom: none;
+	margin-left: 0.42rem;
+	margin-top: 0.15rem;
+	padding-bottom: 0;
+}
+
+
+
+/*大机构值得信赖*/
+.xinlai{
+	height: 8.28rem;
+	background: url(../images/jianzheng_bg_17.jpg) no-repeat;
+	background-size: 100%;
+}
+.xinlai_tt{
+	text-align: center;
+	font-size: 0.44rem;
+	color: white;
+	line-height: 1.34rem;
+	font-weight: normal;
+	margin-bottom: 0.05rem;
+}
+.xinlai_tt span{
+	color: #fff21f;
+}
+.xl_text{
+	font-size: 0.18rem;
+	color: white;
+	margin-left: 0.09rem;
+	width: 2.38rem;
+	line-height: 0.43rem;
+}
+.xl_text strong{
+	font-size: 0.3rem;
+	color: #fff21f;
+}
+.xl_box div{
+	padding-top: 0.3rem;
+	float: left;
+	margin-left: 0.2rem;
+	width: 1.6rem;
+	height: 0.92rem;
+	font-size: 0.16rem;
+	color: white;
+	text-align: center;
+	line-height: 0.3rem;
+}
+.xl_box div strong{
+	font-size: 0.18rem;
+}
+.xl_box div span{
+	font-size: 0.18rem;
+}
+.xl1{
+	background: url(../images/xl1.png) no-repeat;
+	background-size: 100%;
+}
+.xl2{
+	background: url(../images/xl2.png) no-repeat;
+	background-size: 100%;
+}
+.xl3{
+	background: url(../images/xl3.png) no-repeat;
+	background-size: 100%;
+}
+.jianzheng{
+	width: 7.8rem;
+	height: 4.1rem;
+	background: url(../images/jianzheng_bg.png) no-repeat;
+	background-size: 100%;
+	margin: 0.79rem auto 0;
+	position: relative;
+}
+.jianzheng h5{
+	font-size: 0.28rem;
+	color: white;
+	position: absolute;
+	left: 0.82rem;
+	line-height: 0.38rem;
+	top: -0.21rem;
+}
+.jz_pic{
+	width: 2.31rem;
+	margin-left: 0.44rem;
+	margin-top: 0.41rem;
+}
+.jz2{
+	margin-top: 0.1rem;
+}
+.jz_right{
+	width: 3.92rem;
+	margin-top: 0.57rem;
+}
+.jz_right p{
+	font-size: 0.18rem;
+	color: white;
+	padding-left: 0.19rem;
+	background: url(../images/jz_circle.png) no-repeat left center;
+	background-size: 0.06rem 0.06rem;
+	line-height: 0.36rem;
+}
+.jg{
+	display: block;
+	width: 3.26rem;
+	height: 0.25rem;
+	margin-top: 0.18rem;
+}
+.jz_right a{
+	display: block;
+	width: 2.7rem;
+	text-align: center;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	color: white;
+	font-size: 0.18rem;
+	background: #fd8a9f;
+	border-radius: 0.25rem;
+	margin-left: 0.12rem;
+	margin-top: 0.36rem;
+}
