@@ -1,0 +1,496 @@
+body {
+  margin: 0;
+  font-family: Microsoft Yahei;
+}
+input{
+	padding: 0;
+	font-family: "microsoft yahei";
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	vertical-align: top;
+	border: none;
+	width: 100%;
+}
+input {
+	-webkit-appearance:none;
+}
+input:focus{
+	outline: none;
+}
+input,button,select,textarea{ outline:none;}
+a{
+	-webkit-tap-highlight-color:transparent;
+	text-decoration: none;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.bl{
+	display: block;
+}
+h1,h2,h3,h4,h5,h6,p,dl,dt,dd{
+	margin: 0;
+}
+table{border-collapse:collapse;border-spacing:0;}
+.inbl{
+	display: inline-block;
+}
+
+
+ul li.nomar{
+	margin-right: 0;
+}
+.posirela{
+	position: relative;
+}
+.wrapper{	
+	max-width: 750px;
+    margin: 0 auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/*---------------日历图片------------------------*/
+header{
+	height: 0.74rem;
+	text-align: center;
+	font-size: 0.32rem;
+	line-height: 0.74rem;
+	color: #333333;
+}
+.close{
+	margin-left: 0.45rem;
+	margin-top: 0.22rem;
+	width: 0.3rem;
+	height: 0.3rem;
+}
+.menu{
+	margin-right: 0.35rem;
+	margin-top: 0.24rem;
+	width: 0.3rem;
+	text-align: center;
+	height: 0.26rem;
+}
+.menu img{
+	width: 0.06rem;
+	height: 0.26rem;
+}
+.cont_box{
+	height: 12.06rem;
+	background: url(../images/cont_bg_03.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.user_box{
+	margin-top: 1.06rem;
+	margin-left: 0.49rem;
+	width: 3.7rem;
+}
+.user_icon{
+	width: 1rem;
+	height: 1rem;
+}
+.user_name{
+	margin-left: 0.29rem;
+	font-size: 0.32rem;
+	line-height: 1rem;
+	color: #666666;
+}
+.time_box{
+	width: 2.2rem;
+	margin-right: 0.51rem;
+	margin-top: 0.81rem;
+}
+.time_box p{
+	font-size: 0.32rem;
+	line-height: 0.68rem;
+	margin-left: 0.15rem;
+}
+.time_box div{
+	font-size: 0.32rem;
+	text-align: center;
+	color: white;
+	line-height: 0.58rem;
+	background: #ff7297;
+	border-radius: 0.29rem;
+}
+.img_box{
+	width: 6.47rem;
+	height: 3.14rem;
+	margin: 0.21rem auto 0;
+}
+
+.chinglish{
+	background: url(../images/chiglish.png) no-repeat 0.61rem top;
+	background-size: 6.11rem 1.52rem;
+	margin-top: 0.14rem;
+	text-align: center;
+	padding-top: 0.46rem;
+}
+.english_text{
+	font-size: 0.28rem;
+	line-height: 0.42rem;
+	color: #a4576b;
+}
+.chinese_text{
+	font-size: 0.26rem;
+	color: #a4576b;
+	line-height: 0.42rem;
+	margin-top: 0.35rem;
+}
+.ewm_box{
+	margin-top: 0.45rem;
+}
+.ewm_box p{
+	font-size: 0.24rem;
+	text-align: center;
+	color: #666666;
+	line-height: 0.34rem;
+}
+.ewm_bg{
+	width: 3.69rem;
+	height: 1.99rem;
+	background: url(../images/ewm_bg.png) no-repeat;
+	background-size: 100% 100%;
+	margin: 0.16rem auto 0;
+	text-align: center;
+	padding-top: 0.16rem;
+}
+.ewm_bg img{
+	width: 1.73rem;
+}
+
+
+/*---------------------------------日历页面---------------------------*/
+.rlym_time_box{
+	margin-left: 0.51rem;
+}
+.save_tag{
+	width: 2.16rem;
+	line-height: 0.54rem;
+	border: 2px solid #d4d4d4;
+	text-align: center;
+	line-height: 0.54rem;
+	color: #999999;
+	font-size: 0.28rem;
+	margin-top: 1.5rem;
+	margin-right: 0.5rem;
+	border-radius: 0.28rem;
+}
+.voice{
+	width: 0.96rem;
+	height: 0.96rem;
+	position: absolute;
+	left: 2.82rem;
+	bottom: -0.53rem;
+}
+.rlym_chinglish{
+	margin-top: 0.44rem;
+}
+.signup{
+	width: 1.7rem;
+	line-height: 0.7rem;
+	text-align: center;
+	font-size: 0.28rem;
+	height: 0.7rem;
+	color: #513200;
+	margin: 0.94rem auto 0;
+	background: #ffcb78;
+	border-radius: 0.34rem;
+}
+.already_signup{
+	background: #ccc0b6;
+	color: #fffefe;
+	display: none;
+}
+.no_study{
+	background: #ccc0b6;
+	color: #fffefe;
+	width: 2.7rem;
+	display: none;
+}
+.mask{
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	opacity: 0.8;
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: none;
+}
+.ewm_tc{
+	background: url(../images/ewm_tc.png) no-repeat;
+	background-size: 100% 100%;
+	width: 6.1rem;
+	height: 5.74rem;
+	position: fixed;
+	left: 50%;
+	margin-left: -3.05rem;
+	top: 50%;
+	margin-top: -5rem;
+	padding-top: 2.65rem;
+	display: none;
+}
+.ewm_tip{
+	text-align: center;
+	font-size: 0.28rem;
+	color: #666666;
+	line-height: 0.48rem;
+}
+.ewm_tc h5{
+	text-align: center;
+	font-size: 0.38rem;
+	line-height: 0.76rem;
+	color: #ff4f75;
+}
+.tc_ewm{
+	width: 2.73rem;
+	height: 2.75rem;
+	margin: 0.28rem auto 0.63rem;
+}
+.tc_prompt{
+	text-align: center;
+	font-size: 0.26rem;
+	color: #666666;
+	line-height: 0.46rem;
+}
+.tc_close{
+	width: 0.6rem;
+	height: 0.6rem;
+	position: absolute;
+	left: 2.75rem;
+	bottom: -0.9rem;
+}
+.signup_tc{
+	background: url(../images/tc_signup.png) no-repeat;
+	background-size: 100% 100%;
+	width: 6.1rem;
+	height: 2.58rem;
+	position: fixed;
+	left: 50%;
+	margin-left: -3.05rem;
+	top: 50%;
+	margin-top: -2.7rem;
+	padding-top: 2.2rem;
+	display: none;
+}
+.signup_tc p{
+	font-size: 0.4rem;
+	text-align: center;
+	color: #333333;
+	line-height: 0.6rem;
+}
+.signup_tc a{
+	display: block;
+	width: 3.7rem;
+	line-height: 0.88rem;
+	height: 0.88rem;
+	text-align: center;
+	background: #ffcb78;	
+	font-size: 0.28rem;
+	color: #513200;
+	margin: 0.55rem auto 0;
+	border-radius: 0.44rem;
+}
+
+
+/*------------------------注册页面-------------------*/
+.riqian{
+	padding-top: 1.74rem;
+	text-align: center;
+	height: 0.53rem;
+}
+.riqian img{
+	width: 3.33rem;
+}
+.sense{
+	text-align: center;
+	font-size: 0.36rem;
+	color: #333333;
+	line-height: 1.04rem;
+}
+.register_form{
+	margin: 0.4rem auto 0;
+	width: 6.4rem;
+}
+.register_form select{
+	width: 100%;
+	display: block;
+	height: 1.09rem;
+	border: none;
+	border-bottom: 1px solid #ebebeb;
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	font-size: 0.3rem;
+	color: #666;
+	background: url(../images/select.png) no-repeat right 0.55rem;
+	background-size: 0.32rem 0.17rem;
+	line-height: 0.94rem;
+	padding-top: 0.15rem;
+	font-family: "微软雅黑";
+}
+.mobile{
+	width: 100%;
+	display: block;
+	height: 0.94rem;
+	border: none;
+	border-bottom: 1px solid #ebebeb;
+	font-size: 0.3rem;
+	line-height: 0.94rem;
+	padding-top: 0.15rem;
+}
+.yzm_box{
+	height: 0.94rem;
+	border-bottom: 1px solid #ebebeb;
+	padding-top: 0.15rem;
+}
+.yzm_box input{
+	float: left;
+	width: 4.66rem;
+	border: none;
+	font-size: 0.3rem;
+	line-height: 0.94rem;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #666;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #666;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #666;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #666;
+}
+
+.yzm_box a{
+	float: right;
+	width: 1.67rem;
+	background: url(../images/yzm.jpg) no-repeat left center;
+	background-size: 1px 0.3rem;
+	font-size: 0.3rem;
+	line-height: 0.94rem;
+	text-align: right;
+	color: #bbbbbb;
+}
+.dosubmit{
+	width: 100%;
+	display: block;
+	height: 1rem;
+	line-height: 1rem;
+	text-align: center;
+	font-size: 0.34rem;
+	color: white;
+	background: #ff8dab;
+	border: none;
+	background: -webkit-linear-gradient(left, #ffadc2 , #ff8dab); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #ffadc2 , #ff8dab); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #ffadc2 , #ff8dab); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, #ffadc2 , #ff8dab); /* 标准的语法 */
+ 	margin-top: 1rem;
+ 	border-radius: 0.04rem;
+}
+.form_tip{
+	text-align: center;
+	font-size: 0.28rem;
+	color: #bbbbbb;
+	line-height: 0.68rem;
+}
+
+
+
+/*--------------------------签到日历--------------------------*/
+.qdrl{
+	padding-top: 0.88rem;
+	height: 11.18rem;
+}
+.user_infor{
+	background: url(../images/user_bg.png) no-repeat 2.65rem top;
+	background-size: 2.17rem 1.18rem;
+	padding-top: 0.09rem;
+}
+.user_infor img{
+	display: block;
+	width: 1rem;
+	margin-left: 3.25rem;
+	height: 1rem;
+}
+.user_infor p{
+	font-size: 0.38rem;
+	text-align: center;
+	line-height: 0.74rem;
+	color: #ff8dab;
+	margin-top: 0.12rem;
+}
+.calendar_box{
+	padding-top: 0.6rem;
+	width: 6.74rem;
+	height: 6.38rem;
+	background: url(../images/calendar.png) no-repeat;
+	background-size: 100% 100%;
+	margin-left: 0.61rem;
+}
+.calendar_head a{
+	width: 0.22rem;
+	height: 0.39rem;
+	float: left;
+	margin-left: 0.59rem;
+}
+.calendar_head p{
+	width: 4.68rem;
+	float: left;
+	text-align: center;
+	font-size: 0.4rem;
+	line-height: 0.4rem;
+	color: #824051;
+}
+.calendar_head a.next_month{
+	margin-left: 0;
+}
+.calendar_list{
+	width: 6.04rem;
+	margin-left: 0.13rem;
+	margin-top: 0.94rem;
+}
+.calendar_list li{
+	float: left;
+	font-size: 0.26rem;
+	text-align: center;
+	width: 14.2%;
+	color: #824051;
+	line-height: 0.86rem;
+	margin-bottom: 0.04rem;
+}
+.calendar_list li.active{
+	background: url(../images/dui.png) no-repeat 0.3rem 0.42rem;
+	background-size: 0.37rem 0.3rem;
+}
+.go_signup{
+	display: block;
+	width: 2.3rem;
+	height: 0.7rem;
+	text-align: center;
+	line-height: 0.7rem;
+	font-size: 0.28rem;
+	color: #513200;
+	background: #ffcb78;
+	margin: 0.3rem auto 0;
+	border-radius: 0.35rem;
+}

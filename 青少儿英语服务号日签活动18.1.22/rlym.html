@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>青少儿英语服务号日签活动日历页面</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta http-equiv="Cache-Control" content="no-cache"/>
+		<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport">
+		<meta name="MobileOptimized" content="320"/>
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="apple-touch-fullscreen" content="YES" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		<!--<script type="text/javascript" src="http://www.offcn.com/statics/js/sdc_offcn_wap.js"></script>-->
+	</head>
+	<body>
+		<script>
+			function fs(){
+				var deviceWidth = document.documentElement.clientWidth;
+				if(deviceWidth > 750) deviceWidth = 750;
+				document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+			}
+			fs();
+			window.onresize=fs;
+		</script>
+		
+		<div class="wrapper">
+			<header class="clearfix">
+				<a href="#" class="close fl"><img src="images/close.png"/></a>
+				日签幸运星
+				<a href="#" class="menu fr"><img src="images/menu.png"/></a>
+			</header>
+			<section class="cont_box">
+				<div class="clearfix">
+					<div class="time_box fl rlym_time_box">
+						<p>FIM</p>
+						<div>2018.01.05</div>
+					</div>
+					<a href="#" class="save_tag fr">保存这个日签</a>
+				</div>
+				<div class="img_box posirela">
+					<img src="images/img1.jpg"/>
+					<a href="javascript:void(0)" class="voice"><img src="images/voice.png"/></a>
+				</div>
+				<div class="chinglish rlym_chinglish">
+					<div class="english_text">Be nice to people on the way up，<br />because you'll need them on your way down.</div>
+					<div class="chinese_text">向上爬时，对遇到的人好点，<br />因为掉下来时，你还会遇到他们。</div>
+				</div>
+				<a href="#" class="signup bl">签到</a>
+				<!--<a href="javascript:void(0)" class="signup already_signup bl">已签到</a>-->
+				<!--<a href="javascript:void(0)" class="signup no_study bl">今天你没有学习</a>-->
+			</section>
+			
+			<div class="mask">&nbsp;</div>
+			<!--关注弹框-->
+			<div class="ewm_tc">
+				<p class="ewm_tip">长按识别二维码 关注平台</p>
+				<h5>生成你的日签</h5>
+				<div class="tc_ewm"><img src="images/tc_ewm.jpg"/></div>
+				<p class="tc_prompt">每日一个英文美句 丰富你的语言表达</p>
+				<span class="tc_close"><img src="images/tc_close.png"/></span>
+			</div>
+			<!--签到弹框-->
+			<div class="signup_tc">
+				<p>您还没有签到</p>
+				<a href="#">去签到</a>
+				<span class="tc_close"><img src="images/tc_close.png"/></span>
+			</div>
+		</div>
+		
+		
+		<script src="js/index.js"></script>
+		<!--幕后人员：【策划: 马布川】【制作：杨勃】【2018-01-22】-->
+		<!--<div style="display: none;">
+			<script type="text/javascript" src="http://www.offcn.com/statics/js/bdbot.js"></script>
+		</div>-->
+	</body>
+</html>
