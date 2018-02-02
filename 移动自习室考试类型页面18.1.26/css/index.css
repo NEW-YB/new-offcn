@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+  font-family: Microsoft Yahei;
+}
+input{
+	padding: 0;
+	font-family: "microsoft yahei";
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	vertical-align: top;
+	border: none;
+	width: 100%;
+}
+input {
+	-webkit-appearance:none;
+}
+input:focus{
+	outline: none;
+}
+a{
+	-webkit-tap-highlight-color:transparent;
+	text-decoration: none;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.bl{
+	display: block;
+}
+h1,h2,h3,h4,h5,h6,p,dl,dt,dd{
+	margin: 0;
+}
+table{border-collapse:collapse;border-spacing:0;}
+.inbl{
+	display: inline-block;
+}
+
+ul li.nomar{
+	margin-right: 0;
+}
+.posirela{
+	position: relative;
+}
+.wrapper{	
+	max-width: 750px;
+    margin: 0 auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+
+.zg_header{ 
+	height:0.88rem;
+	border-bottom: 1px solid #dfdfdf;
+	position: relative;
+}
+.page_h1{ 
+	text-align:center; 
+	font-size:0.34rem; 
+	line-height:0.88rem; 
+	font-weight: normal;
+	position: absolute;
+	top: 0;
+	width: 5rem;
+	left: 1.25rem;
+}
+.go_back{ 
+	float:left; 
+	width:0.22rem;
+	height: 0.36rem;
+	cursor:pointer;
+	margin-left: 0.3rem;
+	margin-top: 0.26rem;
+}
+.save_btn{ 
+	float:right; 
+	font-size: 0.3rem;
+	line-height: 0.88rem;
+	margin-right: 0.3rem;
+	color: #4db8ff;
+}
+
+.test_list{
+		
+}
+.test_list li{
+	margin-left: 0.3rem;
+	font-size: 0.32rem;
+	line-height: 1rem;
+	border-bottom: 1px solid #efefef;
+}
+.test_list li.xia{
+	background: url(../images/xia.png) no-repeat 6.66rem center;
+	background-size: 0.24rem 0.14rem;
+}
+.test_list li.xia span{
+	float: right;
+	width: 0.32rem;
+	background: 0.32rem;
+	text-align: center;
+	color: white;
+	line-height: 0.32rem;
+	font-size: 0.24rem;
+	background: #4db8ff;
+	border-radius: 50%;
+	margin-top: 0.34rem;
+	margin-right: 0.84rem;
+	display: none;
+}
+.test_list li.xia.active{
+	background: url(../images/shang.png) no-repeat 6.66rem center;
+	background-size: 0.24rem 0.14rem;
+	color: #4db8ff;
+}
+.test_list li.xia.active span{
+	display: block;
+}
+.test_list li:last-of-type{
+	border: none;
+}
+.test_list li.selected{
+	color: #4db8ff;
+	background: url(../images/selected.png) no-repeat 6.59rem 0.38rem;
+	background-size: 0.32rem 0.24rem;
+}
+.xiala{
+	display: none;
+	margin-top: -1px;
+	background: #eeeeee;
+	padding-left: 0.3rem;
+	padding-top: 0.2rem;
+	padding-bottom: 0.16rem;
+}
+.local_city{
+	font-size: 0.24rem;
+	color: #999999;
+	line-height: 0.62rem;
+}
+.city_name,.all_city span{
+	display: inline-block;
+	vertical-align: top;
+	width: 2.1rem;
+	height: 0.76rem;
+	text-align: center;
+	background: white;
+	background: url(../images/city.png) no-repeat;
+	background-size: 100% 100%;
+	line-height: 0.76rem;
+	color: #666666;
+	font-size: 0.3rem;
+	border-radius: 0.05rem;
+	margin-right: 0.3rem;
+}
+.all_city{
+	margin-top: 0.2rem;
+	font-size: 0;
+}
+.all_city p{
+	font-size: 0.24rem;
+	color: #999999;
+	line-height: 0.62rem;
+}
+.all_city span{
+	margin-bottom: 0.24rem;
+}
+.all_city span.active{
+	background: url(../images/cityac.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+
+
+
+.kaoshi_box{
+	padding-top: 0.6rem;
+}
+.kaoshi_box a{
+	display: block;
+	height: 0.9rem;
+	margin-left: 0.5rem;
+	margin-bottom: 0.6rem;
+}
+.kaoshi_box a span{
+	width: 0.9rem;
+	height: 0.9rem;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	text-align: center;
+	font-size: 0.4rem;
+	line-height: 0.88rem;
+	float: left;
+	border-radius: 50%;
+}
+.kaoshi_box a p{
+	font-size: 0.34rem;
+	line-height: 0.9rem;
+	margin-left: 0.28rem;
+	color: #333333;
+	float: left;
+}
+
+.kaoshi_box a.active{
+	background: url(../images/selected.png) no-repeat 6.19rem center;
+	background-size: 0.32rem 0.24rem;
+}
+.kaoshi_box a.active span{
+	background: #4db8ff;
+	color: white;
+	line-height: 0.9rem;
+	border: none;
+}
+.kaoshi_box a.active p{
+	color: #4db8ff;
+}
+.ks1 span{
+	border: 1px solid #c4dca0;
+	color: #c1da9b;
+}
+.ks2 span{
+	border: 1px solid #f9b1b3;
+	color: #f9b1b3;
+}
+.ks3 span{
+	border: 1px solid #ddc0f7;
+	color: #ddc0f7;
+}
+.ks4 span{
+	border: 1px solid #9bdabe;
+	color: #9bdabe;
+}
+.ks5 span{
+	border: 1px solid #f9c8ad;
+	color: #f9c8ad;
+}
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>移动自习室考试类型页面wap</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta http-equiv="Cache-Control" content="no-cache"/>
+		<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport">
+		<meta name="MobileOptimized" content="320"/>
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="apple-touch-fullscreen" content="YES" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		<!--<script type="text/javascript" src="http://www.offcn.com/statics/js/sdc_offcn_wap.js"></script>-->
+	</head>
+	<body>
+		<script>
+			function fs(){
+				var deviceWidth = document.documentElement.clientWidth;
+				if(deviceWidth > 750) deviceWidth = 750;
+				document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+			}
+			fs();
+			window.onresize=fs;
+		</script>
+		
+		<div class="wrapper">
+			<header class="zg_header">
+				<a class="go_back" href="javascript:history.go(-1);"><img src="images/goback.png"></a>
+		        <h1 class="page_h1">添加考试</h1>
+		        <a href="javascript:void(0)" class="save_btn fr">保存(8)</a>
+		    </header>
+			<ul class="test_list">
+				<li>国家公务员</li>
+				<li class="xia">地方公务员<span>0</span></li>
+				<div class="xiala">
+					<div style="font-size: 0;">
+						<p class="local_city">定位城市</p>
+						<div class="city_name">北京</div>
+					</div>
+					<div class="all_city">
+						<p>所有城市</p>
+						<span>北京</span><span class="">北京</span><span>北京</span><span>北京</span><span>北京</span><span>北京</span><span>北京</span>
+					</div>
+				</div>
+				<li>事业单位</li>
+				<li>选调生</li>
+				<li>乡镇公务员</li>
+				<li>国家公务员</li>
+				<li>三支一扶</li>
+				<li>事业单位</li>
+				<li>国家公务员</li>
+				<li>国家公务员</li>
+				<li>国家公务员</li>
+				<li>国家公务员</li>
+				<li>国家公务员</li>
+				<li>国家公务员</li>
+			</ul>
+		</div>
+		<script src="js/index.js"></script>
+		<!--幕后人员：【策划:乔诗倩 】【制作：杨勃】【2018-01-26】-->
+		<!--<div style="display: none;">
+			<script type="text/javascript" src="http://www.offcn.com/statics/js/bdbot.js"></script>
+		</div>-->
+	</body>
+</html>
