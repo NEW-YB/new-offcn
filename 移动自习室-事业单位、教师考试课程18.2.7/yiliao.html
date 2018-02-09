@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="gb2312">
+		<title>移动自习室-医疗单位</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta http-equiv="Cache-Control" content="no-cache"/>
+		<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport">
+		<meta name="MobileOptimized" content="320"/>
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="apple-touch-fullscreen" content="YES" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/TouchSlide.js" type="text/javascript" charset="utf-8"></script>
+		
+		<!--<script type="text/javascript" src="http://www.offcn.com/statics/js/sdc_offcn_wap.js"></script>-->
+
+	</head>
+	<body>
+		
+		<script>
+			function fs(){
+				var deviceWidth = document.documentElement.clientWidth;
+				if(deviceWidth > 750) deviceWidth = 750;
+				document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+			}
+			fs();
+			window.onresize=fs;
+		</script>
+		
+		<div class="wrapper">
+			<header class="clearfix">
+				<a href="#" class="close_page fl"><img src="images/close_page.png"/></a>
+				选择课程
+				<a href="#" class="share fr"><img src="images/share.png"/></a>
+			</header>
+			
+			<!--banner区-->
+			<section class="banner">
+				<div id="slideBox" class="slideBox">
+					<div class="bd">
+						<ul>
+							<li><img src="images/banner.jpg"/></li>
+							<li><img src="images/banner.jpg"/></li>
+							<li><img src="images/banner.jpg"/></li>
+						</ul>
+					</div>
+					<div class="hd">
+						<ul></ul>
+					</div>
+				</div>
+			</section>
+			
+			<div class="lm_list clearfix">
+				<a href="#" class="active">事业单位</a>
+				<a href="#">医疗招聘</a>
+			</div>
+			<div class="video_box">
+				<img src="images/video_bg.jpg"/>
+				<!--<video class="yl_video" src="movie.ogg" controls="controls">
+					您的浏览器不支持 video 标签。
+				</video>-->
+			</div>
+			<div class="sydw_box clearfix">
+				<div class="sydw_left fl">
+					<h6>事业单位</h6>
+					<p><strong>1元考点课：</strong>精选核心知识点视频讲解课程</p>
+					<p><strong>入门基础课：</strong>了解基本考情，如何复习指导，考试题型分析，高质量专项习题讲解，强化提高，补足短板，做题技巧与效率</p>
+				</div>
+				<a href="#" class="jrxk1">进入<br />选课</a>
+			</div>
+			<div class="ylzp_box clearfix">
+				<div class="sydw_left fl ylzp_left">
+					<h6>医疗招聘</h6>
+					<p>考试科目分医基、临床、护理、中医、药学、中药学、检验学、影像学、预防医学与公共卫生、麻醉学等精选课程。<br />通过精练的教学方式，整体把握专业科目的考试内容和作答技巧。</p>
+				</div>
+				<a href="#" class="jrxk1 jrxk2">进入<br />选课</a>
+			</div>
+			<!--网络小班私授-->
+			<div class="ad_box">
+				<h5 class="ad_tt"><img src="images/ad_tt.png"/></h5>
+				<p>时间灵活 签订协议 保障教学 协议退费<br />建立学习档案 制定详细学习计划 全真情景模拟 实时互动<br />互相模拟实战答题 快速提升成绩</p>
+				<a href="#">免费预约体验</a>
+			</div>
+	
+			<!--底部固定窗-->
+			<div class="fixed">
+				<a href="#">联系客服</a>
+			</div>
+			<div class="back-top"><img src="images/top.png"/></div>
+		</div>
+		
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			TouchSlide({ 
+				slideCell:"#slideBox",
+				titCell:".hd ul",
+				mainCell:".bd ul",
+				effect:"leftLoop",
+				autoPage:true, 
+				autoPlay:true
+			});
+		</script>
+		<!--幕后人员：【策划: 安金然】【设计: 】【制作：杨勃】【2018-02-07】-->
+		<!--<div style="display: none;">
+			<script type="text/javascript" src="http://www.offcn.com/statics/js/bdbot.js"></script>
+		</div>-->
+	</body>
+</html>

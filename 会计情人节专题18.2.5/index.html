@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="gb2312">
+		<title>会计情人节专题</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">			
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/firemaks.js" type="text/javascript" charset="utf-8"></script>
+		<!--<script src="js/jquery.SuperSlide.2.1.1.js" type="text/javascript" charset="utf-8"></script>-->
+		<!--<script type="text/javascript" src="http://www.offcn.com/statics/js/bdtop.js"></script>-->
+		
+		<script type="text/javascript">
+var cx = 0,cy = 0;
+	
+var color1 = new Array( new Array({r:241,g:0,b:0},  {r:255,g:72,b:72},  {r:239,g:107,b:107},  {r:255,g:191,b:191},  {r:255,g:255,b:255}),
+new Array({r:12,g:152,b:228},  {r:81,g:188,b:246},  {r:100,g:195,b:247},  {r:195,g:232,b:252},  {r:255,g:255,b:255}),
+new Array({r:202,g:228,b:12},  {r:226,g:246,b:81},  {r:229,g:247,b:100},  {r:245,g:252,b:195},  {r:255,g:255,b:255}) );
+var color2 = new Array( new Array({r:255,g:0,b:0}, {r:228,g:225,b:0}, {r:169,g:0,b:231}, {r:255,g:0,b:148}, {r:255,g:255,b:255}),
+new Array({r:0,g:153,b:231}, {r:194,g:0,b:231}, {r:255,g:118,b:0}, {r:141,g:227,b:0}, {r:255,g:255,b:255}), 
+new Array({r:255,g:251,b:125}, {r:0,g:206,b:223}, {r:247,g:154,b:255}, {r:255,g:165,b:106}, {r:255,g:255,b:255}) );
+var color3 = new Array( new Array({r:0,g:94,b:226}, {r:255,g:255,b:255}),
+new Array({r:231,g:234,b:0}, {r:255,g:255,b:255}), 
+new Array({r:255,g:109,b:0}, {r:255,g:255,b:255}) );
+var color4 = new Array(
+	new Array({r:255,g:0,b:0}),
+	new Array({r:0,g:94,b:226}),
+	new Array({r:214,g:214,b:214}),
+	new Array({r:0,g:168,b:0}),
+	new Array({r:231,g:234,b:0}),
+	new Array({r:255,g:118,b:0}),
+	new Array({r:0,g:205,b:255}),
+	new Array({r:182,g:255,b:125}),
+	new Array({r:255,g:0,b:123})	
+	);
+	
+
+jQuery(document).ready(function(){
+    $('body').firemaks({
+		color: 'random',
+		type: 'random',
+		color_child: 'inherit',
+		type_child: 'random',
+		boom_count: 3
+	});
+	
+	$(document).mousemove(function(e){ cx = e.pageX; cy = e.pageY; });	
+	$('body').on('click',function(){ $('body').firemaks('fire',cx,cy,40,color1/*'full_random'*/,2,1.5); });
+	
+});
+    </script>
+	</head>
+	<body>
+		<div class="zg_head">
+			<div class="main clearfix">
+				<a href="http://www.kjr365.com/" class="logo fl" target="_blank"><img src="images/logo_03.jpg"/></a>
+				<div class="head_link fl">
+					<a href="http://www.offcn.com/" target="_blank">中公首页</a>
+					<span>|</span> 
+					<a href="http://www.51gouke.com/bjjm/" target="_blank">面授课程</a>
+					<span>|</span>
+					<a href="http://www.eoffcn.com/?wt.bd=zg34" target="_blank">网校课程</a>
+					<span>|</span>
+					<a href="http://www.letushu.com/?wt.bd=zg56" target="_blank">图书商城</a>
+					<span>|</span>
+					<a href="http://www.offcn.com/zg/qqzx/" target="_blank">联系我们</a> 
+				</div>
+				<div class="service_tel fr">全国统一咨询电话：400-605-3513</div>
+			</div>
+		</div>
+		
+		<div style="overflow: hidden;">
+			<!--banner区-->
+			<div class="zg_banner">
+				<div class="main posirela">
+					<img src="images/banner_07.jpg" alt="2018狗年赢好礼"/>
+					<img src="images/banner_09.jpg" alt="2018狗年赢好礼"/>
+					<img src="images/banner_10.jpg" alt="2018狗年赢好礼"/>
+					<img class="ban1" src="images/ban1.png"/>
+					<img class="ban2" src="images/ban2.png"/>
+					<img class="ban3" src="images/ban3.png"/>
+				</div>
+			</div>
+			<!--第一部分-->
+			<div class="sec1">
+				<div class="sec1_top">
+					<div class="main">
+						<img class="left_jie" src="images/left_jie.png"/>
+						<img class="right_jie" src="images/right_jie.png"/>
+						<img class="sec1_icon" src="images/sec1_icon.png"/>
+						<h4 class="sec_tt">撒狗粮&middot;集玫瑰</h4>
+						<div class="fangdin"><img src="images/fangdin.png"/></div>
+					</div>
+				</div>
+				<div class="sec1_bot">
+					<div class="main">
+						<!--登录成功状态-->
+						<div class="welcome clearfix">
+							<div class="greeting fl">
+								亲爱的！<span class="login_user">张三</span><br />今日您还有【 <span class="login_gl">10</span> 】包狗粮可以使用
+							</div>
+							<div class="share fr bdsharebuttonbox">
+								分享获得更多狗粮
+								<a href="#" class="qq_share" data-cmd="sqq">QQ</a>
+								<a href="#" class="qzone_share"  data-cmd="qzone">空间</a>
+								<a href="#" class="weixin_share" data-cmd="weixin">微信</a>
+								<a href="#" class="weixin1_share" data-cmd="weixin">朋友圈</a>
+								<a href="#" class="copy_share" data-cmd="copy">链接</a>
+							</div>
+						</div>
+						<div class="sec1_cont clearfix">
+							<div class="sec1_left fl">
+								<div class="gouliang"><img src="images/hezi.png"/></div>
+								<div class="gl_point"><img src="images/gl_point.gif"/></div>
+								<div class="left_top clearfix">
+									<div>剩余【 <span class="duo">10</span> 】朵玫瑰</div>
+									<a href="javascript:void(0)" class="duijiang">去兑换奖品>></a>
+								</div>
+								<div class="dog_box"><div class="dog"><img src="images/dog.gif"/></div></div>
+								<!--收集鲜花弹窗-->
+								<div class="shouji_tc">
+									<a href="javascript:void(0)" class="tc_close"><img src="images/close.png"/></a>
+									<p>成功收集到 <span>2</span> 朵玫瑰~</p>
+								</div>
+								<div class="sec1_button clearfix">
+									<a href="javascript:void(0)" class="register">新用户注册</a>
+									<a href="javascript:void(0)" class="login">登录</a>
+								</div>
+							</div>
+							<div class="sec1_right fl">
+								<h5>活动详情</h5>
+								<h6>活动时间</h6>
+								<p>2月7日-14日（共计8天）</p>
+								<h6>活动流程</h6>
+								<p>成功注册并登录即得两包狗粮和5朵玫瑰；分享活动可额外获得一包狗粮，每日通过分享最多获得一包狗粮（即每日狗粮上限为3包）每日成功登陆均可获得两包狗粮。撒狗粮会随机收集到0-5朵玫瑰，玫瑰收集到足够的数量即可在中公会计年货铺子兑换相应的礼品，多参与就有机会获得更多的礼品哦；</p>
+								<h6>奖品说明</h6>
+								<p>中公会计年货铺为你准备了精美的数码礼品、精品直播录播课程以及各种学习资料，奖品多多，赶快来参与吧！ </p>
+								<h6>领奖方式</h6>
+								<p>活动结束后，我们会核对获奖用户的中奖信息，年 后陆续为获奖用户送出相应礼品。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<!--第二部分-->
+		<div class="sec2">
+			<div class="sec2_top">
+				<div class="main posirela">
+					<h4 class="sec_tt">逛铺子&middot;迎豪礼</h4>
+				</div>
+			</div>
+			<div class="main posirela">
+				<div class="sec2_cont">
+					<img class="sec2_dog" src="images/sec2_dog.gif"/>
+					<div class="prize_type clearfix">
+						<a class="active" href="javascript:void(0)">实物礼品</a><a href="javascript:void(0)">课程礼品</a>
+					</div>
+					<ul class="prize_list clearfix" style="display: block;">
+						<li>
+							<div>数量<br />有限</div>
+							<img src="images/prize1.png"/>
+							<p>华为手环<br/>价值<span>80</span>朵玫瑰</p>
+							<a href="javascript:void(0)" class="disable">立即兑换</a>
+						</li>
+						<li>
+							<div>数量<br />有限</div>
+							<img src="images/prize1.png"/>
+							<p>华为手环<br/>价值<span>80</span>朵玫瑰</p>
+							<a href="javascript:void(0)">立即兑换</a>
+						</li>
+						<li>
+							<div>数量<br />有限</div>
+							<img src="images/prize1.png"/>
+							<p>华为手环<br/>价值<span>80</span>朵玫瑰</p>
+							<a href="javascript:void(0)">立即兑换</a>
+						</li>
+						<li>
+							<div>数量<br />有限</div>
+							<img src="images/prize1.png"/>
+							<p>华为手环<br/>价值<span>80</span>朵玫瑰</p>
+							<a href="javascript:void(0)">立即兑换</a>
+						</li>
+						<li>
+							<div>数量<br />有限</div>
+							<img src="images/prize1.png"/>
+							<p>华为手环<br/>价值<span>80</span>朵玫瑰</p>
+							<a href="javascript:void(0)">立即兑换</a>
+						</li>
+					</ul>
+					<ul class="prize_list clearfix">
+						<li>
+							<div>数量<br />有限</div>
+							<img src="images/prize1.png"/>
+							<p>华为手环<br/>价值<span>80</span>朵玫瑰</p>
+							<a href="javascript:void(0)" class="disable">立即兑换</a>
+						</li>
+						<li>
+							<div>数量<br />有限</div>
+							<img src="images/prize1.png"/>
+							<p>华为手环<br/>价值<span>80</span>朵玫瑰</p>
+							<a href="javascript:void(0)">立即兑换</a>
+						</li>
+						<li>
+							<div>数量<br />有限</div>
+							<img src="images/prize1.png"/>
+							<p>华为手环<br/>价值<span>80</span>朵玫瑰</p>
+							<a href="javascript:void(0)">立即兑换</a>
+						</li>
+						<li>
+							<div>数量<br />有限</div>
+							<img src="images/prize1.png"/>
+							<p>华为手环<br/>价值<span>80</span>朵玫瑰</p>
+							<a href="javascript:void(0)">立即兑换</a>
+						</li>
+					</ul>
+				</div>
+				<img class="left_jie" src="images/left_jie.png"/>
+				<img class="right_jie" src="images/right_jie.png"/>
+				<div class="button_box clearfix">
+					<a href="javascript:void(0)">查看兑换记录</a>
+					<a href="javascript:void(0)">返回并继续撒狗粮</a>
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<div class="zg_foot">
+			<div class="main">
+				Copyright&copy;1999-2017 中公教育 .All Rights Reserved<br />
+				京ICP备10218183号 京ICP证161188号 京公网安备11010802020724号		
+			</div>
+		</div>
+		<!--悬浮-->
+		<div class="fixed">
+			<a href="javascript:void(0)" class="tc_close"><img src="images/close.png"/></a>
+			<ul class="fix_list">
+				<li><a href="#" target="_blank">在线咨询</a></li>
+				<li class="mao"><a href="javascript:void(0)">收集玫瑰</a></li>
+				<li class="mao"><a href="javascript:void(0)">兑换礼品</a></li>
+				<li><a href="#" target="_blank">全国QQ群</a></li>
+				<li class="lastli"><a href="#" target="_blank">咨询电话</a></li>
+			</ul>
+			<div class="fix_ewm">
+				<img src="images/fix_ewm.jpg"/>
+				<p>中公会计公众号</p>
+			</div>
+			<span class="totop">TOP</span>
+		</div>
+		
+		
+		<div class="mask"></div>
+		<!--注册弹窗-->
+		<div class="register_tc">
+			<a href="javascript:void(0)" class="tc_close"><img src="images/close.png"/></a>
+			<form class="register_form" action="" method="post">
+				<div class="inp_box clearfix">
+					<span>姓名</span>
+					<input type="text" name="" id="" value="" />
+				</div>
+				<div class="inp_box clearfix">
+					<span>手机</span>
+					<input type="text" name="" id="" value="" />
+				</div>
+				<div class="select_box clearfix">
+					<span>省份</span>
+					<select name="">
+						<option value="">请选择省份</option>
+					</select>
+				</div>
+				<div class="yzm_box clearfix">
+					<span>验证码</span>
+					<input type="text" name="" id="" value="" />
+					<a href="javascript:void(0)" class="yzm_button">获取验证码</a>
+				</div>
+				<input class="register_button" type="submit" value="点击注册"/>
+			</form>
+		</div>
+		<!--登录弹框-->
+		<div class="login_tc">
+			<a href="javascript:void(0)" class="tc_close"><img src="images/close.png"/></a>
+			<form class="login_form" action="" method="post">
+				<div class="inp_box clearfix">
+					<span>手机</span>
+					<input type="text" name="" id="" value="" />
+				</div>
+				<input class="login_button" type="submit" value="点击登录"/>
+			</form>
+		</div>
+		<!--兑换记录弹框-->
+		<div class="exchange_tc">
+			<a href="javascript:void(0)" class="tc_close"><img src="images/close.png"/></a>
+			<ul class="exchange_list">
+				<li>
+					<img class="user_icon fl" src="images/user_icon.png"/>
+					<div class="exchange_info fl">
+						<img src="images/hua.png"/>
+						<p>成功兑换注会知识点梳理（电子版）</p>
+						<span>-5</span>
+						<div>01-25  15:44</div>
+					</div>
+				</li>
+				<li>
+					<img class="user_icon fl" src="images/user_icon.png"/>
+					<div class="exchange_info fl">
+						<img src="images/hua.png"/>
+						<p>成功兑换注会知识点梳理（电子版）</p>
+						<span>-5</span>
+						<div>01-25  15:44</div>
+					</div>
+				</li>
+				<li class="lastli">
+					<img class="user_icon fl" src="images/user_icon.png"/>
+					<div class="exchange_info fl">
+						<img src="images/hua.png"/>
+						<p>成功兑换注会知识点梳理（电子版）</p>
+						<span>-5</span>
+						<div>01-25  15:44</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!--备考类型弹框-->
+		<div class="bklx_tc">
+			<a href="javascript:void(0)" class="bklx_close"><img src="images/bklx_close.png"/></a>
+			<p>选择你的备考类型</p>
+			<ul class="bklx_list">
+				<li>初级</li>
+				<li>中级</li>
+				<li>注会</li>
+			</ul>
+			<a href="javascript:void(0)" class="ljdh">立即兑换</a>
+		</div>
+		<!--确认兑换弹框-->
+		<div class="confirm_tc">
+			<a href="javascript:void(0)" class="bklx_close"><img src="images/bklx_close.png"/></a>
+			<p>确认是否兑换？</p>
+			<div class="sure_box clearfix">
+				<span class="yes_but">是</span>
+				<span class="no_but">否</span>
+			</div>
+		</div>
+		<!--获奖弹框-->
+		<div class="getprize_tc">
+			<a href="javascript:void(0)" class="bklx_close"><img src="images/bklx_close.png"/></a>
+			<p>恭喜您已成功获得<br /><span>中级知识点梳理（电子版）</span></p>
+			<a href="javascript:void(0)" class="getprize_button">查看兑换记录</a>
+		</div>
+		<!--信息提交弹窗-->
+		<div class="inform_tc">
+			<a href="javascript:void(0)" class="bklx_close"><img src="images/bklx_close.png"/></a>
+			<form class="inform_form" action="" method="post">
+				<div class="inp_box clearfix">
+					<span>姓名</span>
+					<input type="text" name="" id="" value="" />
+				</div>
+				<div class="inp_box clearfix">
+					<span>电话</span>
+					<input type="text" name="" id="" value="" />
+				</div>
+				<div class="inp_box clearfix">
+					<span>详细地址</span>
+					<textarea name="" rows="" cols=""></textarea>
+				</div>
+				<input class="submit_button" type="submit" value="提交"/>
+			</form>
+		</div>
+		
+		
+		
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<!--页面分享-->
+		<script>
+			window._bd_share_config={
+				"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},
+				"share":{},
+//				"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},
+				"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}
+			};
+			with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+		</script>
+		
+		<!--幕后人员：【策划: 王维】【制作：杨勃】【2018-02-05】-->
+		
+		<!--<div style="display: none;">
+			<script type="text/javascript" src="http://www.offcn.com/statics/js/bdbot.js"></script>
+		</div>-->
+	</body>
+</html>
