@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="gb2312">
+		<title>选调生移动端图书课程推荐</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta http-equiv="Cache-Control" content="no-cache"/>
+		<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport">
+		<meta name="MobileOptimized" content="320"/>
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="apple-touch-fullscreen" content="YES" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		<!--<script type="text/javascript" src="http://www.offcn.com/statics/js/sdc_offcn_wap.js"></script>-->
+
+	</head>
+	<body>
+		
+		<script>
+			function fs(){
+				var deviceWidth = document.documentElement.clientWidth;
+				if(deviceWidth > 750) deviceWidth = 750;
+				document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+			}
+			fs();
+			window.onresize=fs;
+		</script>
+		
+		<div class="wrapper">
+			<!--banner区-->
+			<section class="banner">
+				<img src="images/banner.jpg" alt="获取选调生考试专属学习方案" />
+			</section>
+			
+			<div class="home_but_box">
+				<a href="isbai.html" class="isbai_but clearfix">
+					<img class="bai_pic fl" src="images/isbai.png"/>
+					<p class="bai_text fl">我是选调生小白<br /><span>对选调生考试了解较少，完全不知道如何复习</span></p>
+				</a>
+				<a href="nobai.html" class="notbai_but clearfix">
+					<img class="bai_pic fl" src="images/notbai.png"/>
+					<p class="bai_text fl">我不是小白<br /><span>有一定的备考基础 ，希望得到进一步提高</span></p>
+				</a>
+			</div>
+		</div>
+		
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<!--幕后人员：【策划: 齐麟】【设计: 】【制作：杨勃】【2018-02-26】-->
+		<!--<div style="display: none;">
+			<script type="text/javascript" src="http://www.offcn.com/statics/js/bdbot.js"></script>
+		</div>-->
+	</body>
+</html>

@@ -1,0 +1,223 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,p,dl,dd{
+	margin: 0;font-family: Microsoft Yahei;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after { content:" "; display:block; clear:both; height:0; }
+.clearfix { zoom:1;}
+a{
+	text-decoration: none;
+	color: #333333;
+}
+img{
+	border: none;
+	vertical-align: top;
+}
+.bl{
+	display: block;
+}
+.inbl{
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+}
+input{
+	padding: 0;
+	font-family: "microsoft yahei";
+	/*font: 14px "microsoft yahei" ;*/
+}
+input:focus{
+	outline: none;
+}
+select:focus{
+	outline: none;
+}
+textarea:focus{
+	outline: none;
+}
+select{
+	font-family: "微软雅黑";
+}
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+li{
+	vertical-align: top;
+	list-style: none;
+}
+textarea{resize:none;}button,input,textarea{/*background: none; border:none;*/font-family:"Microsoft Yahei",Tahoma,Arial,Helvetica,sans-serif;vertical-align:middle;}/*input:focus{outline: none;}*/
+table{border-collapse:collapse;border-spacing:0;}
+
+
+.posirela{
+	position: relative;
+}
+.main{
+	width: 1000px;
+	margin: 0 auto;
+}
+ul li.nomar{
+	margin-right: 0;
+}
+body{
+	min-width: 1000px;
+}
+
+
+.zg-header {height: 48px;}
+.logo {margin-top: 9px;}
+.nav {line-height: 48px;}
+.nav {font-size: 12px;color: #333;margin-left: 15px;}
+.nav a {font-size: 12px;border-right: 1px solid #333;color: #333;padding: 0 12px 0 5px;line-height: 48px;text-decoration: none; font:12px/1.5 "微软雅黑",Tahoma,Arial,Helvetica,sans-serif;}
+.nav .nav-a02 {border-right: 0;}
+.nav a:hover {color: #c81623;}
+.tel {color: #c81623;line-height: 48px;background: url(../images/zg_08.jpg) no-repeat left center;padding-left: 16px;margin-right: 8px;font-size: 14px;}
+.register{line-height: 48px;font-size: 12px;}
+.register a {border-right: 1px solid #333;color: #333;padding: 0 12px 0 5px;}
+.register a:hover {color: #c81623;}
+.register .register-a05 {border-right: 0;padding-right: 0;}
+.register img {position: relative;top: -5px;vertical-align: middle;}
+
+
+/*banner*/
+.banner{
+	background: url(../images/banner_bg_02.jpg) no-repeat center top;
+}
+.ban_text{
+	width: 428px;
+	height: 84px;
+	background: url(../images/ban_text.png) no-repeat;
+	position: absolute;
+	left: 286px;
+	top: 385px;
+	text-align: center;
+	font-size: 32px;
+	line-height: 84px;
+	color: #fffa1f;
+	word-spacing: 30px;
+}
+.pure_bg1{
+	height: 60px;
+	background: #502cd5;
+}
+.pure_bg2{
+	height: 10px;
+	background: #e3e0ff;
+}
+
+
+.sec{
+	margin-top: 97px;
+}
+.book_box{
+	padding-top: 50px;
+	height: 430px;
+	margin-bottom: 117px;
+	border-radius: 5px;
+	position: relative;
+}
+.book_box h5{
+	width: 388px;
+	height: 80px;
+	
+	position: absolute;
+	top: -37px;
+	left: 306px;
+	text-align: center;
+	color: white;
+	font-size: 36px;
+	line-height: 70px;
+}
+.more{
+	width: 78px;
+	height: 26px;
+	border: 1px solid white;
+	border-radius: 13px;
+	text-align: center;
+	line-height: 26px;
+	color: white;
+	font-size: 14px;
+	margin-left: 890px;
+	display: block;
+}
+.book_list{
+	margin-top: 18px;
+	margin-left: 26px;
+}
+.book_list li{
+	float: left;
+	width: 220px;
+	height: 319px;
+	background: url(../images/li_bg.png) no-repeat;
+	margin-right: 23px;
+	padding-top: 21px;
+}
+.book_pic{
+	text-align: center;
+	height: 158px;
+}
+.book_name{
+	font-size: 16px;
+	line-height: 26px;
+	margin-top: 26px;
+	padding: 0 18px;
+	height: 82px;
+}
+.price_box strong{
+	font-size: 22px;
+	color: #ee5244;
+	float: left;
+	line-height: 30px;
+	margin-left: 20px;
+}
+.price_box span{
+	float: right;
+	font-size: 14px;
+	color: #666666;
+	text-decoration: line-through;
+	line-height: 36px;
+	margin-right: 27px;
+}
+
+.book_box1{
+	background: #3d23cd;
+}
+.book_box1 h5{
+	background: url(../images/tit1.png) no-repeat;
+}
+.book_box2{
+	background: #6700d1;
+}
+.book_box2 h5{
+	background: url(../images/tit2.png) no-repeat;
+}
+.book_box3{
+	background: #e81a50;
+}
+.book_box3 h5{
+	background: url(../images/tit3.png) no-repeat;
+}
+
+
+
+
+
+.footer{
+	background: #502cd5;
+	text-align: center;
+	font-size: 14px;
+	color: #FFFEFE;
+	line-height: 28px;
+	padding-top: 33px;
+	height: 117px;
+	margin-top: 81px;
+}
+
+

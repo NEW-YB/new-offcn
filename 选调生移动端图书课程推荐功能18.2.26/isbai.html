@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="gb2312">
+		<title>选调生移动端图书课程推荐</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta http-equiv="Cache-Control" content="no-cache"/>
+		<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport">
+		<meta name="MobileOptimized" content="320"/>
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="apple-touch-fullscreen" content="YES" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		<!--<script type="text/javascript" src="http://www.offcn.com/statics/js/sdc_offcn_wap.js"></script>-->
+
+	</head>
+	<body>
+		
+		<script>
+			function fs(){
+				var deviceWidth = document.documentElement.clientWidth;
+				if(deviceWidth > 750) deviceWidth = 750;
+				document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+			}
+			fs();
+			window.onresize=fs;
+		</script>
+		
+		<div class="wrapper">
+			<div class="bai_cont pt128">
+				<p class="title"><span class="ttl">&nbsp;</span><span class="ttc">根据你的情况进行选择</span><span class="ttr">&nbsp;</span></p>
+				<div class="bai_inp">
+					<div class="bk_province">选择报考省份</div>
+					<div class="bk_id bk_xiala">
+						<span>选择报考身份</span>
+						<ul>
+							<li>应届毕业生</li>
+							<li>大学生村官</li>
+							<li>“三支一扶”期满人员</li>
+							<li>其他服务基层项目人员</li>
+						</ul>
+					</div>
+					<div class="bk_study bk_xiala">
+						<span>是否愿意付费学习</span>
+						<ul>
+							<li>非常愿意</li>
+							<li>比较愿意</li>
+							<li>一般愿意</li>
+							<li>不太愿意</li>
+						</ul>
+					</div>
+					<input type="text" name="" id="" value="" placeholder="输入手机号码，学习方案将发送到你的手机上" />
+					<!--<input type="submit" class="bai_sub" name="" id="" value="立即查看" />-->
+					<a href="javascript:void(0)" class="bai_sub">立即查看</a>
+				</div>
+				<!--阴影-->
+				<div class="mask">&nbsp;</div>
+				<div class="province_fix">
+					<ul class="province_list">
+						<li>北京1</li>
+						<li>北京2</li>
+						<li>北京3</li>
+						<li>北京4</li>
+						<li>北京</li>
+						<li>北京</li>
+						<li>北京</li>
+						<li>北京</li>
+						<li>北京</li>
+						<li>北京</li>
+						<li>北京</li>
+						<li>北京</li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+		
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<!--幕后人员：【策划: 齐麟】【设计: 】【制作：杨勃】【2018-02-26】-->
+		<!--<div style="display: none;">
+			<script type="text/javascript" src="http://www.offcn.com/statics/js/bdbot.js"></script>
+		</div>-->
+	</body>
+</html>
